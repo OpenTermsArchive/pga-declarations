@@ -6,7 +6,11 @@
       "remove": [
         ".p05-chapter-navigation",
         "[style='display: none;']",
+<<<<<<< Updated upstream
         ".u02"
+=======
+        ".uo2"
+>>>>>>> Stashed changes
       ],
       "select": [
         ".twtr-container"
