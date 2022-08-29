@@ -5,10 +5,11 @@
       "fetch": "https://twitter.com/tos",
       "remove": [
         ".p05-chapter-navigation",
-        "[style='display: none;']"
+        "[style='display: none;']",
+        ".u02"
       ],
       "select": [
-        ".p22-chapters-container"
+        ".twtr-container"
       ]
     },
     "Privacy Policy": {
@@ -21,10 +22,7 @@
         ".p21-hidden-content"
       ],
       "select": [
-        ".p02-statement-masthead",
-        ".p03-scrolling-checklist",
-        ".p22-chapters-container",
-        ".cr01-section"
+        "main[id=twtr-main]"
       ]
     },
     "Developer Terms": {
