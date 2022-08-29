@@ -1,0 +1,26 @@
+{
+    "Terms of Service": {
+      "fetch": "https://www.facebook.com/legal/terms/plain_text_terms",
+      "select": [
+        ".ad2k81qe"
+      ],
+      "remove": [
+        ".mdeji52x"
+      ],
+      "filter": [
+        "cleanUrls"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2022-08-17T04:33:26+04:00"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.facebook.com/about/privacy",
+      "filter": [
+        "removeReturnToTopButtons",
+        "cleanUrls"
+      ],
+      "select": "._5tkp",
+      "validUntil": "2022-07-11T04:33:26+04:00"
+
+    }
+}
