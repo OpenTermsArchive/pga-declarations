@@ -1,5 +1,6 @@
 {
-    "Terms of Service": {
+  "Terms of Service": [
+    {
       "fetch": "https://www.facebook.com/legal/terms/plain_text_terms",
       "select": [
         ".ad2k81qe"
@@ -12,8 +13,10 @@
       ],
       "executeClientScripts": true,
       "validUntil": "2022-08-17T04:33:26+04:00"
-    },
-    "Privacy Policy": {
+    }
+  ],
+  "Privacy Policy": [
+    {
       "fetch": "https://www.facebook.com/about/privacy",
       "filter": [
         "removeReturnToTopButtons",
@@ -21,6 +24,6 @@
       ],
       "select": "._5tkp",
       "validUntil": "2022-07-11T04:33:26+04:00"
-
     }
+  ]
 }

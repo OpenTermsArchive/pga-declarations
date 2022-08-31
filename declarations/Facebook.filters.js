@@ -59,5 +59,3 @@ function removeQueryParam(document, queryParam) {
     }
   });
 }
-
-

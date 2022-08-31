@@ -16,16 +16,13 @@
     },
     "Privacy Policy": {
       "fetch": "https://mbasic.facebook.com/privacy/policy/printable/",
-      "filter": [
-        "removeEmptyAnchorsLinks",
-        "removeTrackingIDs",
-        "removeLocaleFromUrls"
-      ],
-      "select": [ 
-        "div[id=root]"
+      "select": [
+        "#root"
       ],
       "remove": [
-        "div[class=k]"
+        ".k",
+        ".l",
+        ".bd"
       ]
     },
     "Developer Terms": {
