@@ -3,10 +3,11 @@
   "documents": {
     "Terms of Service": {
       "fetch": "https://www.tiktok.com/legal/terms-of-use?lang=en",
-      "select": {
-        "startBefore": "#terms-eea",
-        "endBefore": "#terms-in"
-      }
+      "select": ".main-body",
+      "remove": [
+        ".language-selection",
+        "img"
+      ]
     },
     "Privacy Policy": {
       "fetch": "https://www.tiktok.com/legal/privacy-policy-eea?lang=en",
@@ -31,10 +32,11 @@
     },
     "In-App Purchases Policy": {
       "fetch": "https://www.tiktok.com/legal/virtual-items?lang=en",
-      "select": {
-        "startBefore": "#virtual-items-eu",
-        "endBefore": "#virtual-items-in"
-      }
+      "select": ".main-body",
+      "remove": [
+        ".language-selection",
+        "img"
+      ]
     },
     "Trackers Policy": {
       "fetch": "https://www.tiktok.com/legal/tiktok-website-cookies-policy?lang=en",
