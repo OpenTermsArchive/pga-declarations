@@ -4,11 +4,18 @@
     "Terms of Service": {
       "fetch": "https://twitter.com/tos",
       "remove": [
+        ".twtr-icon--base",
         ".p05-chapter-navigation",
-        "[style='display: none;']"
+        "[style='display: none;']",
+        ".twtr-overlay__icon",
+        ".p21-hidden-content",
+        ".ct01__background",
+        ".ct17__background",
+        ".b04__image",
+        ".twtr-hidden--lg"
       ],
       "select": [
-        ".p22-chapters-container"
+        "main[id=twtr-main]"
       ]
     },
     "Privacy Policy": {
@@ -18,13 +25,14 @@
         ".p05-chapter-navigation",
         "[style='display: none;']",
         ".twtr-overlay__icon",
-        ".p21-hidden-content"
+        ".p21-hidden-content",
+        ".ct01__background",
+        ".ct17__background",
+        ".b04__image",
+        ".twtr-hidden--lg"
       ],
       "select": [
-        ".p02-statement-masthead",
-        ".p03-scrolling-checklist",
-        ".p22-chapters-container",
-        ".cr01-section"
+        "main[id=twtr-main]"
       ]
     },
     "Developer Terms": {
