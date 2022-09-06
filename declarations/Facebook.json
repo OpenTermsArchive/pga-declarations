@@ -22,7 +22,8 @@
       "remove": [
         ".k",
         ".l",
-        ".bd"
+        ".bc",
+        "img[style=\"display:none\"]"
       ]
     },
     "Developer Terms": {
