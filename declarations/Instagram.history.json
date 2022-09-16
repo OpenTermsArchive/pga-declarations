@@ -1,0 +1,20 @@
+{
+  "Privacy Policy": [
+    {
+      "fetch": "https://privacycenter.instagram.com/policy",
+      "select": [
+        "div[role=\"main\"]"
+      ],
+      "remove": [
+        "div[aria-label=\"Copy Link\"]",
+        "[id='Related Articles']",
+        "fieldset"
+      ],
+      "filter": [
+        "removeTrackingIDs"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2021-11-07T16:00:00.000Z"
+    }
+  ]
+}
