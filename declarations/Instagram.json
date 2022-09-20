@@ -17,19 +17,16 @@
       "executeClientScripts": true
     },
     "Privacy Policy": {
-      "fetch": "https://privacycenter.instagram.com/policy",
+      "fetch": "https://mbasic.facebook.com/privacy/policy/printable/",
       "select": [
-        "div[role=\"main\"]"
+        "#root"
       ],
       "remove": [
-        "div[aria-label=\"Copy Link\"]",
-        "[id='Related Articles']",
-        "fieldset"
-      ],
-      "filter": [
-        "removeTrackingIDs"
-      ],
-      "executeClientScripts": true
+        ".k",
+        ".l",
+        ".bc",
+        "img[style=\"display:none\"]"
+      ]
     },
     "Community Guidelines": {
       "fetch": "https://help.instagram.com/477434105621119",
