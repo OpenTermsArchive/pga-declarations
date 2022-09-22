@@ -44,7 +44,7 @@
         "#banner-content-container-banner_1202100886"
       ],
       "filter": [
-        "removeLinks"
+        "removeHtmlLink"
       ]
     },
     "Community Guidelines": {
