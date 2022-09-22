@@ -12,7 +12,8 @@
         "fieldset"
       ],
       "filter": [
-        "cleanUrls"
+        "cleanUrls",
+        "removeLinks"
       ],
       "executeClientScripts": true
     },
@@ -26,6 +27,9 @@
         ".l",
         ".bc",
         "img[style=\"display:none\"]"
+      ],
+      "filter": [
+        "removeLinks"
       ]
     },
     "Community Guidelines": {
@@ -39,7 +43,8 @@
         "fieldset"
       ],
       "filter": [
-        "removeTrackingIDs"
+        "removeTrackingIDs",
+        "removeLinks"
       ],
       "executeClientScripts": true
     },
@@ -55,7 +60,8 @@
       ],
       "executeClientScripts": true,
       "filter": [
-        "removeTrackingIDs"
+        "removeTrackingIDs",
+        "removeLinks"
       ]
     },
     "Developer Terms": {

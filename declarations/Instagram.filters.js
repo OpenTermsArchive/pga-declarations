@@ -26,3 +26,8 @@ export function cleanUrls(document) {
     link.href = decodeURIComponent(link.href.replace(/&h=\S*/, '').replace(/(\S*)\?u=(\S*)/, '$2'));
   });
 }
+
+export function removeLinks(document) {
+  Array.from(document.querySelectorAll('[href]')).map(link =>
+    link.removeAttribute('href'));
+}
