@@ -6,18 +6,6 @@ export const replaceInfoImageWithEmoji = document => {
   });
 };
 
-export function removeTrackingIDs(document) {
-  document.querySelectorAll('a').forEach(el => {
-    const href = el.getAttribute('href');
-    const params = new URLSearchParams(href);
-
-    if (params.has('h')) {
-      params.set('h', 'removed');
-      el.setAttribute('href', params.toString());
-    }
-  });
-}
-
 export function cleanUrls(document) {
   Array.from(document.querySelectorAll('[href="#"]')).map(link => link.removeAttribute('href'));
   const links = document.querySelectorAll('[href*="https://l.instagram.com/?"],[href*="http://l.instagram.com/?"]');
@@ -27,7 +15,22 @@ export function cleanUrls(document) {
   });
 }
 
-export function removeLinks(document) {
-  Array.from(document.querySelectorAll('[href]')).map(link =>
-    link.removeAttribute('href'));
+export function removeTrackingIDs(document) {
+  removeQueryParam(document, 'h');
+}
+
+export function removeTrackingIDsE(document) {
+  removeQueryParam(document, 'e');
+}
+
+function removeQueryParam(document, queryParam) {
+  document.querySelectorAll('a').forEach(el => {
+    const href = el.getAttribute('href');
+    const params = new URLSearchParams(href);
+
+    if (params.has(queryParam)) {
+      params.delete(queryParam);
+      el.setAttribute('href', params.toString());
+    }
+  });
 }

@@ -13,7 +13,7 @@
       ],
       "filter": [
         "cleanUrls",
-        "removeLinks"
+        "removeTrackingIDsE"
       ],
       "executeClientScripts": true
     },
@@ -29,7 +29,7 @@
         "img[style=\"display:none\"]"
       ],
       "filter": [
-        "removeLinks"
+        "removeTrackingIDs"
       ]
     },
     "Community Guidelines": {
@@ -43,8 +43,7 @@
         "fieldset"
       ],
       "filter": [
-        "removeTrackingIDs",
-        "removeLinks"
+        "removeTrackingIDsE"
       ],
       "executeClientScripts": true
     },
@@ -60,8 +59,7 @@
       ],
       "executeClientScripts": true,
       "filter": [
-        "removeTrackingIDs",
-        "removeLinks"
+        "removeTrackingIDsE"
       ]
     },
     "Developer Terms": {
