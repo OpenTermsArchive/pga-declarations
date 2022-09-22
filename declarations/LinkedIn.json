@@ -44,7 +44,7 @@
         "#banner-content-container-banner_1202100886"
       ],
       "filter": [
-        "removeHtmlLink"
+        "removeDownloadedForUseLinkExtenstion"
       ]
     },
     "Community Guidelines": {
