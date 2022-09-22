@@ -25,6 +25,9 @@
         ".l",
         ".bc",
         "img[style=\"display:none\"]"
+      ],
+      "filter": [
+        "removeLinks"
       ]
     },
     "Developer Terms": {
@@ -65,6 +68,9 @@
       "remove": [
         ".rq0escxv .l9j0dhe7 .du4w35lb .j83agx80 .cbu4d94t .pfnyh3mw .d2edcug0 .pybr56ya"
       ],
+      "filter": [
+        "removeLinks"
+      ],
       "executeClientScripts": true
     },
     "Live Policy": {
@@ -74,6 +80,9 @@
       ],
       "remove": [
         ".rq0escxv.l9j0dhe7.du4w35lb.j83agx80.cbu4d94t.pfnyh3mw.d2edcug0.pybr56ya"
+      ],
+      "filter": [
+        "removeLinks"
       ],
       "executeClientScripts": true
     },
