@@ -3,16 +3,17 @@
     {
       "fetch": "https://www.facebook.com/legal/terms/plain_text_terms",
       "select": [
-        ".ad2k81qe"
+        "div[role=main]"
       ],
       "remove": [
-        ".mdeji52x"
+        ".mdeji52x",
+        ".bdao358l.om3e55n1.g4tp4svg.alzwoclg.cqf1kptm.jez8cy9q.gvxzyvdx.i85zmo3j.q6feio67.srn514ro"
       ],
       "filter": [
         "cleanUrls"
       ],
       "executeClientScripts": true,
-      "validUntil": "2022-08-17T04:33:26+04:00"
+      "validUntil": "2022-09-28T04:33:26+04:00"
     }
   ],
   "Privacy Policy": [
@@ -27,6 +28,9 @@
         ".bc",
         "img[style=\"display:none\"]"
       ],
+      "filter": [
+        "removeTrackingIDs"
+      ],
       "validUntil": "2022-09-22T04:33:26+04:00"
     }
   ],
@@ -38,6 +42,9 @@
       ],
       "remove": [
         ".rq0escxv .l9j0dhe7 .du4w35lb .j83agx80 .cbu4d94t .pfnyh3mw .d2edcug0 .pybr56ya"
+      ],
+      "filter": [
+        "removeTrackingIDs"
       ],
       "executeClientScripts": true,
       "validUntil": "2022-09-22T04:33:26+04:00"
@@ -52,8 +59,11 @@
       "remove": [
         ".rq0escxv.l9j0dhe7.du4w35lb.j83agx80.cbu4d94t.pfnyh3mw.d2edcug0.pybr56ya"
       ],
+      "filter": [
+        "removeTrackingIDs"
+      ],
       "executeClientScripts": true,
-      "validUntil": "2022-09-22T04:33:26+04:00"
+      "validUntil": "2022-09-28T04:33:26+04:00"
     }
   ]
 }

@@ -11,7 +11,8 @@
         ".bdao358l.om3e55n1.g4tp4svg.alzwoclg.cqf1kptm.jez8cy9q.gvxzyvdx.i85zmo3j.q6feio67.srn514ro"
       ],
       "filter": [
-        "cleanUrls"
+        "cleanUrls",
+        "removeContactImg"
       ],
       "executeClientScripts": true
     },
@@ -24,10 +25,13 @@
         ".k",
         ".l",
         ".bc",
+        ".bh",
         "img[style=\"display:none\"]"
       ],
       "filter": [
-        "removeTrackingIDs"
+        "removeTrackingIDs",
+        "cleanUrls",
+        "removeEmptyAnchorsLinks"
       ]
     },
     "Developer Terms": {
@@ -53,7 +57,8 @@
         "div[role=\"main\"] > div:first-child"
       ],
       "remove": [
-        ".tr9rh885"
+        ".tr9rh885",
+        ".bdao358l.om3e55n1.g4tp4svg.alzwoclg.cqf1kptm.jez8cy9q.gvxzyvdx.i85zmo3j.q6feio67.srn514ro"
       ],
       "filter": [
         "cleanUrls"
@@ -66,7 +71,7 @@
         "div[role=main]"
       ],
       "remove": [
-        ".rq0escxv .l9j0dhe7 .du4w35lb .j83agx80 .cbu4d94t .pfnyh3mw .d2edcug0 .pybr56ya"
+        ".bdao358l.om3e55n1.g4tp4svg.alzwoclg.cqf1kptm.jez8cy9q.gvxzyvdx.i85zmo3j.q6feio67.srn514ro"
       ],
       "filter": [
         "removeTrackingIDs"
@@ -79,7 +84,7 @@
         "div[role=main]"
       ],
       "remove": [
-        ".rq0escxv.l9j0dhe7.du4w35lb.j83agx80.cbu4d94t.pfnyh3mw.d2edcug0.pybr56ya"
+        ".bdao358l.om3e55n1.g4tp4svg.alzwoclg.cqf1kptm.jez8cy9q.gvxzyvdx.i85zmo3j.q6feio67.srn514ro"
       ],
       "filter": [
         "removeTrackingIDs"
