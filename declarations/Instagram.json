@@ -13,7 +13,8 @@
       ],
       "filter": [
         "cleanUrls",
-        "removeTrackingIDsE"
+        "removeTrackingIDsE",
+        "removeImg"
       ],
       "executeClientScripts": true
     },
@@ -68,7 +69,8 @@
         "#rebrandBodyID"
       ],
       "filter": [
-        "removeTrackingIDs"
+        "removeTrackingIDs",
+        "removeImg"
       ]
     }
   }
