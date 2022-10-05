@@ -8,11 +8,11 @@
       ],
       "remove": [
         ".mdeji52x",
-        ".bdao358l.om3e55n1.g4tp4svg.alzwoclg.cqf1kptm.jez8cy9q.gvxzyvdx.i85zmo3j.q6feio67.srn514ro"
+        ".bdao358l.om3e55n1.g4tp4svg.alzwoclg.cqf1kptm.jez8cy9q.gvxzyvdx.i85zmo3j.q6feio67.srn514ro",
+        "img[src*='https://scontent']"
       ],
       "filter": [
-        "cleanUrls",
-        "removeContactImg"
+        "cleanUrls"
       ],
       "executeClientScripts": true
     },

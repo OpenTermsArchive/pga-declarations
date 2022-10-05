@@ -59,7 +59,3 @@ function removeQueryParam(document, queryParam) {
     }
   });
 }
-
-export function removeContactImg(document) {
-  document.querySelectorAll('img[src*="https://scontent"]').forEach(element => element.remove());
-}
