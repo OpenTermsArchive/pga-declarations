@@ -9,12 +9,12 @@
       "remove": [
         "div[aria-label=\"Copy Link\"]",
         "[id='Related Articles']",
-        "fieldset"
+        "fieldset",
+        "img[src*='https://scontent']"
       ],
       "filter": [
         "cleanUrls",
-        "removeTrackingIDsE",
-        "removeImg"
+        "removeTrackingIDsE"
       ],
       "executeClientScripts": true
     },
@@ -68,9 +68,11 @@
       "select": [
         "#rebrandBodyID"
       ],
+      "remove": [
+        "img[src*='https://scontent']"
+      ],
       "filter": [
-        "removeTrackingIDs",
-        "removeImg"
+        "removeTrackingIDs"
       ]
     }
   }

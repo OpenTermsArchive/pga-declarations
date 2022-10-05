@@ -34,7 +34,3 @@ function removeQueryParam(document, queryParam) {
     }
   });
 }
-
-export function removeImg(document) {
-  document.querySelectorAll('img[src*="https://scontent"]').forEach(element => element.remove());
-}
