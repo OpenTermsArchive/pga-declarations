@@ -34,6 +34,22 @@
       "validUntil": "2022-09-22T04:33:26+04:00"
     }
   ],
+  "Commercial Terms": [
+    {
+      "fetch": "https://www.facebook.com/legal/commercial_terms",
+      "select": [
+        "div[role=\"main\"] > div:first-child"
+      ],
+      "remove": [
+        ".tr9rh885"
+      ],
+      "filter": [
+        "cleanUrls"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2022-09-28T04:33:26+04:00"
+    }
+  ],
   "Data Processor Agreement": [
     {
       "fetch": "https://www.facebook.com/legal/EU_data_transfer_addendum",
