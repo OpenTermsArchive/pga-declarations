@@ -2,7 +2,7 @@
   "name": "TikTok",
   "documents": {
     "Terms of Service": {
-      "fetch": "https://www.tiktok.com/legal/terms-of-service-eea?lang=en",
+      "fetch": "https://www.tiktok.com/legal/terms-of-service-eea?lang=en&selection=true",
       "select": "article",
       "remove": [
         ".language-selection",
@@ -32,7 +32,7 @@
       "select": "article"
     },
     "In-App Purchases Policy": {
-      "fetch": "https://www.tiktok.com/legal/virtual-items-eea?lang=en",
+      "fetch": "https://www.tiktok.com/legal/virtual-items-eea?lang=en&selection=true",
       "select": "article",
       "remove": [
         ".language-selection",
