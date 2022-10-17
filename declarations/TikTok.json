@@ -15,7 +15,7 @@
         ".shadow-3xl"
       ],
       "remove": [
-        "div:nth-child(2) > .relative > .absolute"
+        "img[src*=\"/_assets/icon_arrow_down\"]"
       ]
     },
     "Community Guidelines": {
