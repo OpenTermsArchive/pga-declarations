@@ -10,7 +10,8 @@
         }
       ],
       "filter": [
-        "cleanUrls"
+        "cleanUrls",
+        "replaceInfoImageWithEmoji"
       ],
       "executeClientScripts": true
     },

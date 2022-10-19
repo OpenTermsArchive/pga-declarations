@@ -1,3 +1,11 @@
+export const replaceInfoImageWithEmoji = document => {
+  const infoImages = document.querySelectorAll('img[src*="10574689_373883339436400_1359386031_n.png?"]');
+
+  infoImages.forEach(infoImage => {
+    infoImage.replaceWith('ℹ️');
+  });
+};
+
 export function removeHelpButtons(document) {
   const imgs = document.querySelectorAll('img[src*="https://scontent"]');
 
