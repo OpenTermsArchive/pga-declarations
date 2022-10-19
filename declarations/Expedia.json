@@ -6,9 +6,6 @@
       "select": [
         "#editorial-1"
       ],
-      "remove": [
-        ".itemHeading"
-      ],
       "executeClientScripts": true
     }
   }
