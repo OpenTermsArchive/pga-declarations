@@ -32,7 +32,7 @@
       "select": "article"
     },
     "In-App Purchases Policy": {
-      "fetch": "https://www.tiktok.com/legal/virtual-items-eea?lang=en&selection=true",
+      "fetch": "https://www.tiktok.com/legal/virtual-items?lang=en",
       "select": [
         "article"
       ],
