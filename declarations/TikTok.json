@@ -3,7 +3,9 @@
   "documents": {
     "Terms of Service": {
       "fetch": "https://www.tiktok.com/legal/terms-of-use?lang=en",
-      "select": "article",
+      "select": [
+        "article"
+      ],
       "remove": [
         ".language-selection",
         "img"
