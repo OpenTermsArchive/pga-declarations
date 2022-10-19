@@ -7,6 +7,15 @@
         "endBefore": "#terms-in"
       },
       "validUntil": "2022-07-11T04:33:26+04:00"
+    },
+    {
+      "fetch": "https://www.tiktok.com/legal/terms-of-use?lang=en",
+      "select": "article",
+      "remove": [
+        ".language-selection",
+        "img"
+      ],
+      "validUntil": "2022-09-05T08:26:58Z"
     }
   ],
   "In-App Purchases Policy": [
@@ -17,6 +26,15 @@
         "endBefore": "#virtual-items-in"
       },
       "validUntil": "2022-07-11T04:33:26+04:00"
+    },
+    {
+      "fetch": "https://www.tiktok.com/legal/virtual-items?lang=en",
+      "select": "article",
+      "remove": [
+        ".language-selection",
+        "img"
+      ],
+      "validUntil": "2022-09-05T12:18:34Z"
     }
   ],
   "Privacy Policy": [
