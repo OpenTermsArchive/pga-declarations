@@ -28,6 +28,20 @@
       ],
       "executeClientScripts": true,
       "validUntil": "2022-07-12T04:33:26+04:00"
+    },
+    {
+      "fetch": "https://www.facebook.com/legal/terms/plain_text_terms",
+      "select": [
+        {
+          "startBefore": "div[role=main]",
+          "endBefore": "[role=\"separator\"]:first-child"
+        }
+      ],
+      "filter": [
+        "cleanUrls"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "to-be-determined"
     }
   ],
   "Privacy Policy": [
