@@ -1,0 +1,12 @@
+{
+  "name": "Expedia",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.expedia.com/lp/lg-privacypolicy",
+      "select": [
+        "#editorial-1"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}
