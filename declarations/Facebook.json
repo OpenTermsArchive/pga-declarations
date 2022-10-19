@@ -10,7 +10,8 @@
         }
       ],
       "filter": [
-        "cleanUrls"
+        "cleanUrls",
+        "removeTrackingIDs"
       ],
       "executeClientScripts": true
     },
