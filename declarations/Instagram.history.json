@@ -68,6 +68,22 @@
       ],
       "executeClientScripts": true,
       "validUntil": "2022-09-22T04:33:26+04:00"
+    },
+    {
+      "fetch": "https://help.instagram.com/477434105621119",
+      "select": [
+        "div[role=\"main\"]"
+      ],
+      "remove": [
+        "div[aria-label=\"Copy Link\"]",
+        "[id='Related Articles']",
+        "fieldset"
+      ],
+      "filter": [
+        "removeTrackingIDsE"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2022-07-11T14:59:05Z"
     }
   ],
   "Law Enforcement Guidelines": [
