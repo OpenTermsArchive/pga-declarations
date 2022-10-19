@@ -33,7 +33,9 @@
     },
     "In-App Purchases Policy": {
       "fetch": "https://www.tiktok.com/legal/virtual-items?lang=en",
-      "select": "article",
+      "select": [
+        "article"
+      ],
       "remove": [
         ".language-selection",
         "img"
