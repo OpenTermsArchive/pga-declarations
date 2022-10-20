@@ -12,7 +12,10 @@
     "Privacy Policy": {
       "fetch": "https://www.tiktok.com/legal/privacy-policy-eea?lang=en",
       "select": [
-        "[data-testid=\"policy-card\"]"
+        {
+          "startBefore": "[data-testid=\"policy-card-title\"]",
+          "endBefore": "[data-testid=\"policy-card-post-content\"]"
+        }
       ],
       "remove": [
         "img[src*=\"/_assets/icon_arrow_down\"]"
@@ -41,7 +44,8 @@
     },
     "Trackers Policy": {
       "fetch": "https://www.tiktok.com/legal/tiktok-website-cookies-policy?lang=en",
-      "select": "article"
+      "select": "article",
+      "executeClientScripts": true
     }
   }
 }
