@@ -101,6 +101,62 @@
         ".b24__wrapper",
         ".b17"
       ]
+    },
+    "Community Guidelines": {
+      "combine": [
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/twitter-rules"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/glorifying-self-harm"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/hateful-conduct-policy"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/sexual-exploitation-policy"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/glorification-of-violence"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/violent-groups"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/platform-manipulation"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/regulated-goods-services"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/abusive-behavior"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/platform-manipulation"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/personal-information"
+        }
+      ],
+      "select": [
+        "#twtr-main"
+      ],
+      "remove": [
+        ".u11__breadcrumbs",
+        ".b24-share-tweet",
+        ".b01__headline.twtr-type--headline-md.inherit"
+      ]
+    },
+    "Deceased Users": {
+      "fetch": "https://help.twitter.com/en/rules-and-policies/contact-twitter-about-media-on-a-deceased-family-members-account",
+      "select": [
+        "#twtr-main"
+      ],
+      "remove": [
+        ".u11__breadcrumbs",
+        ".b24-share-tweet",
+        ".b01__headline.twtr-type--headline-md.inherit"
+      ]
     }
   }
 }
