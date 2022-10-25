@@ -139,23 +139,19 @@
         }
       ],
       "select": [
-        "#twtr-main"
-      ],
-      "remove": [
-        "[aria-label=\"Breadcrumbs\"]",
-        ".b24-share-tweet",
-        ".b01__headline.twtr-type--headline-md.inherit"
+        {
+          "startBefore": "h1",
+          "endAfter": "[class*=\"rich-text-v\"]"
+        }
       ]
     },
     "Deceased Users": {
       "fetch": "https://help.twitter.com/en/rules-and-policies/contact-twitter-about-media-on-a-deceased-family-members-account",
       "select": [
-        "#twtr-main"
-      ],
-      "remove": [
-        "[aria-label=\"Breadcrumbs\"]",
-        ".b24-share-tweet",
-        ".b01__headline.twtr-type--headline-md.inherit"
+        {
+          "startBefore": "h1",
+          "endAfter": "[class*=\"rich-text-v\"]"
+        }
       ]
     }
   }
