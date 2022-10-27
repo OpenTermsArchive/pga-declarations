@@ -48,14 +48,58 @@
       ]
     },
     "Community Guidelines": {
-      "fetch": "https://www.linkedin.com/legal/professional-community-policies",
+      "combine": [
+        {
+          "fetch": "https://www.linkedin.com/legal/professional-community-policies",
+          "select": [
+            "main"
+          ],
+          "remove": [
+            ".banner__image-container",
+            ".component-standaloneImage"
+          ]
+        },
+        {
+          "fetch": "https://www.linkedin.com/help/linkedin/answer/137369"
+        },
+        {
+          "fetch": "https://www.linkedin.com/help/linkedin/answer/137374"
+        },
+        {
+          "fetch": "https://www.linkedin.com/help/linkedin/answer/137376"
+        },
+        {
+          "fetch": "https://www.linkedin.com/help/linkedin/answer/137373"
+        },
+        {
+          "fetch": "https://www.linkedin.com/help/linkedin/answer/137375"
+        },
+        {
+          "fetch": "https://www.linkedin.com/help/linkedin/answer/137371"
+        },
+        {
+          "fetch": "https://www.linkedin.com/help/linkedin/answer/137377"
+        },
+        {
+          "fetch": "https://www.linkedin.com/help/linkedin/answer/137378"
+        },
+        {
+          "fetch": "https://www.linkedin.com/help/linkedin/answer/137370"
+        },
+        {
+          "fetch": "https://www.linkedin.com/help/linkedin/answer/137374"
+        },
+        {
+          "fetch": "https://www.linkedin.com/help/linkedin/answer/137372"
+        }
+      ],
       "select": [
-        "main"
+        ".hc-page__content"
       ],
       "remove": [
-        ".banner__image-container",
-        ".component-standaloneImage"
-      ]
+        "[data-test-id=\"helpfulness-module\"]"
+      ],
+      "executeClientScripts": true
     }
   }
 }
