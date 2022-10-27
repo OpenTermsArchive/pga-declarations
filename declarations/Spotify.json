@@ -9,6 +9,12 @@
     "Terms of Service": {
       "fetch": "https://www.spotify.com/us/legal/end-user-agreement/",
       "select": "#content-main"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www.spotify.com/us/legal/user-guidelines/",
+      "select": [
+        ".legal-body"
+      ]
     }
   }
 }
