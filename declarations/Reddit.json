@@ -20,6 +20,61 @@
       "fetch": "https://www.redditinc.com/policies/content-policy",
       "remove": ".filter-holder",
       "select": "#content"
+    },
+    "Community Guidelines": {
+      "combine": [
+        {
+          "fetch": "https://www.redditinc.com/policies/content-policy",
+          "select": [
+            "#content"
+          ],
+          "remove": [
+            ".filter-holder"
+          ]
+        },
+        {
+          "fetch": "https://www.reddithelp.com/hc/en-us/articles/360043071072"
+        },
+        {
+          "fetch": "https://www.reddithelp.com/hc/en-us/articles/360043513151"
+        },
+        {
+          "fetch": "https://www.reddithelp.com/hc/en-us/articles/360045715951"
+        },
+        {
+          "fetch": "https://www.reddithelp.com/hc/en-us/articles/360043504051"
+        },
+        {
+          "fetch": "https://www.reddithelp.com/hc/en-us/articles/360043066412"
+        },
+        {
+          "fetch": "https://www.reddithelp.com/hc/en-us/articles/360043066452"
+        },
+        {
+          "fetch": "https://www.reddithelp.com/hc/en-us/articles/360043513411"
+        },
+        {
+          "fetch": "https://www.reddithelp.com/hc/en-us/articles/360043075352"
+        },
+        {
+          "fetch": "https://www.reddithelp.com/hc/en-us/articles/360043075032"
+        },
+        {
+          "fetch": "https://www.reddithelp.com/hc/en-us/articles/360043513471"
+        },
+        {
+          "fetch": "https://www.reddithelp.com/hc/en-us/articles/360043512931"
+        }
+      ],
+      "select": [
+        "#main-content"
+      ],
+      "remove": [
+        ".article-votes",
+        ".article-more-questions",
+        ".article-relatives",
+        "footer"
+      ]
     }
   }
 }
