@@ -8,6 +8,12 @@
     "Privacy Policy": {
       "fetch": "https://policy.pinterest.com/en/privacy-policy",
       "select": "article"
+    },
+    "Community Guidelines": {
+      "fetch": "https://policy.pinterest.com/en/community-guidelines",
+      "select": [
+        "article"
+      ]
     }
   }
 }
