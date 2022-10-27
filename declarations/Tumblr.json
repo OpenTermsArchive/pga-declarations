@@ -9,6 +9,10 @@
     "Terms of Service": {
       "fetch": "https://www.tumblr.com/policy/en/terms-of-service",
       "select": "div#left_column"
+    },
+    "Community Guidelines": {
+      "fetch": "https://www.tumblr.com/policy/en/community",
+      "select": "div#left_column"
     }
   }
 }
