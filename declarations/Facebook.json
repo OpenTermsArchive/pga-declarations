@@ -99,16 +99,21 @@
       ]
     },
     "Community Guidelines": {
+      "select": [
+        "h1",
+        {
+          "startBefore": "#policy-details h4:first-child",
+          "endAfter": "#policy-details"
+        }
+      ],
       "combine": [
         {
           "fetch": "https://transparency.fb.com/policies/community-standards/",
           "select": [
-            "body > div > section"
-          ],
-          "remove": [
-            "._9nxl",
-            "._9ntv",
-            ".img"
+            {
+              "startBefore": "h1",
+              "endBefore": "body > div > section:last-of-type h6"
+            }
           ]
         },
         {
@@ -183,16 +188,6 @@
         {
           "fetch": "https://transparency.fb.com/policies/community-standards/additional-protection-minors/"
         }
-      ],
-      "select": [
-        "h1",
-        "[id=\"policy-details\"]"
-      ],
-      "remove": [
-        "._9q49",
-        "._9p7h",
-        "._9p78",
-        "button"
       ]
     }
   }
