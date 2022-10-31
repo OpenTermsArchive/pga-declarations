@@ -21,6 +21,12 @@
       "select": ".ytr-article__content"
     },
     "Community Guidelines": {
+      "select": [
+        ".article-container"
+      ],
+      "remove": [
+        ".scClientFeedbackInlineFeedbacklinkroot"
+      ],
       "combine": [
         {
           "fetch": "https://www.youtube.com/intl/ALL_en/howyoutubeworks/policies/community-guidelines/",
@@ -100,12 +106,6 @@
         {
           "fetch": "https://support.google.com/youtube/answer/11161123?hl=en"
         }
-      ],
-      "select": [
-        ".article-container"
-      ],
-      "remove": [
-        ".scClientFeedbackInlineFeedbacklinkroot"
       ]
     }
   }
