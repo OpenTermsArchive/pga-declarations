@@ -13,7 +13,7 @@
     "Community Guidelines": {
       "fetch": "https://www.spotify.com/us/platform-rules/plain/",
       "select": [
-        ".PlatformRules__Container-sc-1c3okz7-0"
+        "[class^=\"PlatformRules__Container\"]"
       ]
     }
   }
