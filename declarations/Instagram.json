@@ -33,34 +33,14 @@
         "removeTrackingIDs"
       ]
     },
-    "Law Enforcement Guidelines": {
-      "fetch": "https://help.instagram.com/494561080557017",
-      "select": [
-        "div[role=\"main\"]"
-      ],
-      "remove": [
-        "div[aria-label=\"Copy Link\"]",
-        "[id='Related Articles']",
-        "fieldset"
-      ],
-      "executeClientScripts": true,
-      "filter": [
-        "removeTrackingIDsE"
-      ]
-    },
-    "Developer Terms": {
-      "fetch": "https://developers.facebook.com/terms",
-      "select": [
-        "#rebrandBodyID"
-      ],
-      "remove": [
-        "img[src*='https://scontent']"
-      ],
-      "filter": [
-        "removeTrackingIDs"
-      ]
-    },
     "Community Guidelines": {
+      "select": [
+        "h1",
+        {
+          "startBefore": "#policy-details h4:first-child",
+          "endAfter": "#policy-details"
+        }
+      ],
       "combine": [
         {
           "fetch": "https://help.instagram.com/126382350847838?helpref=faq_content",
@@ -125,16 +105,33 @@
         {
           "fetch": "https://transparency.fb.com/policies/community-standards/violent-graphic-content/"
         }
-      ],
+      ]
+    },
+    "Law Enforcement Guidelines": {
+      "fetch": "https://help.instagram.com/494561080557017",
       "select": [
-        "h1",
-        "[id=\"policy-details\"]"
+        "div[role=\"main\"]"
       ],
       "remove": [
-        "._9q49",
-        "._9p7h",
-        "._9p78",
-        "button"
+        "div[aria-label=\"Copy Link\"]",
+        "[id='Related Articles']",
+        "fieldset"
+      ],
+      "executeClientScripts": true,
+      "filter": [
+        "removeTrackingIDsE"
+      ]
+    },
+    "Developer Terms": {
+      "fetch": "https://developers.facebook.com/terms",
+      "select": [
+        "#rebrandBodyID"
+      ],
+      "remove": [
+        "img[src*='https://scontent']"
+      ],
+      "filter": [
+        "removeTrackingIDs"
       ]
     }
   }
