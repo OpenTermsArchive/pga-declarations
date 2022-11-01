@@ -22,6 +22,15 @@
       "select": "#content"
     },
     "Community Guidelines": {
+      "select": [
+        "#main-content"
+      ],
+      "remove": [
+        ".article-votes",
+        ".article-more-questions",
+        ".article-relatives",
+        "footer"
+      ],
       "combine": [
         {
           "fetch": "https://www.redditinc.com/policies/content-policy",
@@ -65,15 +74,6 @@
         {
           "fetch": "https://www.reddithelp.com/hc/en-us/articles/360043512931"
         }
-      ],
-      "select": [
-        "#main-content"
-      ],
-      "remove": [
-        ".article-votes",
-        ".article-more-questions",
-        ".article-relatives",
-        "footer"
       ]
     }
   }
