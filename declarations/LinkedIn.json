@@ -52,7 +52,7 @@
         ".hc-page__content"
       ],
       "remove": [
-        "[data-test-id=\"helpfulness-module\"]"
+        ".helpfulness"
       ],
       "combine": [
         {
