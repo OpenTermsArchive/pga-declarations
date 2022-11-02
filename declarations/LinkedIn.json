@@ -48,6 +48,12 @@
       ]
     },
     "Community Guidelines": {
+      "select": [
+        ".hc-page__content"
+      ],
+      "remove": [
+        "[data-test-id=\"helpfulness-module\"]"
+      ],
       "combine": [
         {
           "fetch": "https://www.linkedin.com/legal/professional-community-policies",
@@ -92,12 +98,6 @@
         {
           "fetch": "https://www.linkedin.com/help/linkedin/answer/137372"
         }
-      ],
-      "select": [
-        ".hc-page__content"
-      ],
-      "remove": [
-        "[data-test-id=\"helpfulness-module\"]"
       ],
       "executeClientScripts": true
     }
