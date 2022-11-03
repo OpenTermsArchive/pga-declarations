@@ -15,12 +15,30 @@
       ],
       "executeClientScripts": true
     },
-    "Acceptable Use Policy": {
-      "fetch": "https://www.quora.com/about/acceptable_use",
+    "Community Guidelines": {
       "select": [
-        "#mainContent"
+        ".article-header",
+        ".article-body"
       ],
-      "executeClientScripts": true
+      "remove": [
+        ".article-author"
+      ],
+      "executeClientScripts": true,
+      "combine": [
+        {
+          "fetch": "https://www.quora.com/about/acceptable_use",
+          "select": [
+            "#mainContent"
+          ],
+          "executeClientScripts": true
+        },
+        {
+          "fetch": "https://help.quora.com/hc/en-us/articles/360000470706-Platform-Policies"
+        },
+        {
+          "fetch": "https://help.quora.com/hc/en-us/articles/360043961972"
+        }
+      ]
     }
   }
 }
