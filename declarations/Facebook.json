@@ -40,12 +40,14 @@
     },
     "Trackers Policy": {
       "fetch": "https://www.facebook.com/policies/cookies",
+      "select": [
+        "._5tkp"
+      ],
       "filter": [
         "removeImgFromCookiesPolicy",
         "removeReturnToTopButtons",
         "cleanUrls"
-      ],
-      "select": "._5tkp"
+      ]
     },
     "Commercial Terms": {
       "fetch": "https://www.facebook.com/legal/commercial_terms",
