@@ -14,7 +14,11 @@
       "fetch": "https://www.spotify.com/us/legal/user-guidelines/",
       "select": [
         ".legal-body"
-      ]
+        ]
+    "Community Guidelines": {
+      "fetch": "https://www.spotify.com/us/platform-rules/plain/",
+      "select": [
+        "[class^=\"PlatformRules__Container\"]"
     }
   }
 }

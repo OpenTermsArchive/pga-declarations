@@ -19,6 +19,94 @@
     "Copyright Claims Policy": {
       "fetch": "https://www.youtube.com/intl/en_be/howyoutubeworks/policies/copyright/",
       "select": ".ytr-article__content"
+    },
+    "Community Guidelines": {
+      "select": [
+        ".article-container"
+      ],
+      "remove": [
+        ".scClientFeedbackInlineFeedbacklinkroot"
+      ],
+      "combine": [
+        {
+          "fetch": "https://www.youtube.com/intl/ALL_en/howyoutubeworks/policies/community-guidelines/",
+          "select": [
+            ".ytr-hero__details",
+            ".ytr-article__content-wrapper"
+          ],
+          "remove": [
+            ".ytr-hero__eyebrow",
+            ".ytr-link > svg",
+            ".ytr-media"
+          ]
+        },
+        {
+          "fetch": "https://support.google.com/youtube/answer/3399767?hl=en&ref_topic=9282365"
+        },
+        {
+          "fetch": "https://support.google.com/youtube/answer/2801947?hl=en&ref_topic=9282365"
+        },
+        {
+          "fetch": "https://support.google.com/youtube/answer/9054257?hl=en&ref_topic=9282365"
+        },
+        {
+          "fetch": "https://support.google.com/youtube/answer/2801973?hl=en&ref_topic=9282365"
+        },
+        {
+          "fetch": "https://support.google.com/youtube/answer/9713446?hl=en&ref_topic=9282365"
+        },
+        {
+          "fetch": "https://support.google.com/youtube/answer/2801981?hl=en&ref_topic=9282365"
+        },
+        {
+          "fetch": "https://support.google.com/youtube/answer/2801999?hl=en&ref_topic=9282679"
+        },
+        {
+          "fetch": "https://support.google.com/youtube/answer/9229980?hl=en&ref_topic=9282679"
+        },
+        {
+          "fetch": "https://support.google.com/youtube/answer/2802002?hl=en&ref_topic=9282679"
+        },
+        {
+          "fetch": "https://support.google.com/youtube/answer/2802245?hl=en&ref_topic=9282679"
+        },
+        {
+          "fetch": "https://support.google.com/youtube/answer/10072685?hl=en&ref_topic=9282679"
+        },
+        {
+          "fetch": "https://support.google.com/youtube/answer/2802268?hl=en&ref_topic=9282436"
+        },
+        {
+          "fetch": "https://support.google.com/youtube/answer/2801964?hl=en&ref_topic=9282436"
+        },
+        {
+          "fetch": "https://support.google.com/youtube/answer/2801939?hl=en&ref_topic=9282436"
+        },
+        {
+          "fetch": "https://support.google.com/youtube/answer/9229472?hl=en&ref_topic=9282436"
+        },
+        {
+          "fetch": "https://support.google.com/youtube/answer/2802008?hl=en&ref_topic=9282436"
+        },
+        {
+          "fetch": "https://support.google.com/youtube/answer/7667605?hl=en"
+        },
+        {
+          "fetch": "https://support.google.com/youtube/answer/9229611?hl=en"
+        },
+        {
+          "fetch": "https://support.google.com/youtube/answer/10834785?hl=en"
+        },
+        {
+          "fetch": "https://support.google.com/youtube/answer/10835034?hl=en"
+        },
+        {
+          "fetch": "https://support.google.com/youtube/answer/9891785?hl=en"
+        },
+        {
+          "fetch": "https://support.google.com/youtube/answer/11161123?hl=en"
+        }
+      ]
     }
   }
 }

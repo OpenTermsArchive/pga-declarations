@@ -8,6 +8,16 @@
     "Privacy Policy": {
       "fetch": "https://www.twitch.tv/p/en/legal/privacy-notice/",
       "select": ".typeset"
+    },
+    "Community Guidelines": {
+      "fetch": "https://safety.twitch.tv/s/article/Community-Guidelines?language=en_US",
+      "select": [
+        ".tsc-subtopic"
+      ],
+      "remove": [
+        "[data-id=\"tscToc\"]"
+      ],
+      "executeClientScripts": true
     }
   }
 }
