@@ -103,18 +103,18 @@
       ]
     },
     "Community Guidelines": {
+      "select": [
+        {
+          "startBefore": "h1",
+          "endAfter": "[class*=\"rich-text-v\"]"
+        }
+      ],
       "combine": [
         {
           "fetch": "https://help.twitter.com/en/rules-and-policies/twitter-rules"
         },
         {
-          "fetch": "https://help.twitter.com/en/rules-and-policies/glorifying-self-harm"
-        },
-        {
-          "fetch": "https://help.twitter.com/en/rules-and-policies/hateful-conduct-policy"
-        },
-        {
-          "fetch": "https://help.twitter.com/en/rules-and-policies/sexual-exploitation-policy"
+          "fetch": "https://help.twitter.com/en/rules-and-policies/violent-threats-glorification"
         },
         {
           "fetch": "https://help.twitter.com/en/rules-and-policies/glorification-of-violence"
@@ -123,25 +123,61 @@
           "fetch": "https://help.twitter.com/en/rules-and-policies/violent-groups"
         },
         {
-          "fetch": "https://help.twitter.com/en/rules-and-policies/platform-manipulation"
-        },
-        {
-          "fetch": "https://help.twitter.com/en/rules-and-policies/regulated-goods-services"
+          "fetch": "https://help.twitter.com/en/rules-and-policies/sexual-exploitation-policy"
         },
         {
           "fetch": "https://help.twitter.com/en/rules-and-policies/abusive-behavior"
         },
         {
-          "fetch": "https://help.twitter.com/en/rules-and-policies/platform-manipulation"
+          "fetch": "https://help.twitter.com/en/rules-and-policies/hateful-conduct-policy"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/perpetrators-of-violent-attacks"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/glorifying-self-harm"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/media-policy"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/regulated-goods-services"
         },
         {
           "fetch": "https://help.twitter.com/en/rules-and-policies/personal-information"
-        }
-      ],
-      "select": [
+        },
         {
-          "startBefore": "h1",
-          "endAfter": "[class*=\"rich-text-v\"]"
+          "fetch": "https://help.twitter.com/en/rules-and-policies/intimate-media"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/platform-manipulation"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/election-integrity-policy"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/twitter-impersonation-and-deceptive-identities-policy"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/manipulated-media"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/twitter-trademark-policy"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/copyright-policy",
+          "select": [
+            {
+              "startBefore": "h1",
+              "endBefore": "[class*=\"share-tweet\"]"
+            }
+          ],
+          "remove": [
+            "[class*=\"twtr-type--headline-md\"]"
+          ]
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/enforcement-philosophy"
         }
       ]
     },
