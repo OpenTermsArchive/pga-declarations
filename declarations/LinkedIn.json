@@ -52,7 +52,9 @@
         ".hc-page__content"
       ],
       "remove": [
-        ".helpfulness"
+        ".helpfulness",
+        "[data-test-id*=\"article-page-subtext\"]",
+        ".answer-footer > p"
       ],
       "combine": [
         {
