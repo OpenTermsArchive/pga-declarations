@@ -114,5 +114,100 @@
       "executeClientScripts": true,
       "validUntil": "2022-09-28T04:33:26+04:00"
     }
+  ],
+  "Community Guidelines": [
+    {
+      "select": [
+        "h1",
+        {
+          "startBefore": "#policy-details h4:first-child",
+          "endAfter": "#policy-details"
+        }
+      ],
+      "combine": [
+        {
+          "fetch": "https://transparency.fb.com/policies/community-standards/",
+          "select": [
+            {
+              "startBefore": "h1",
+              "endBefore": "body > div > section:last-of-type h6"
+            }
+          ]
+        },
+        {
+          "fetch": "https://transparency.fb.com/policies/community-standards/violence-incitement/"
+        },
+        {
+          "fetch": "https://transparency.fb.com/policies/community-standards/dangerous-individuals-organizations/"
+        },
+        {
+          "fetch": "https://transparency.fb.com/policies/community-standards/coordinating-harm-publicizing-crime/"
+        },
+        {
+          "fetch": "https://transparency.fb.com/policies/community-standards/regulated-goods/"
+        },
+        {
+          "fetch": "https://transparency.fb.com/policies/community-standards/fraud-deception/"
+        },
+        {
+          "fetch": "https://transparency.fb.com/policies/community-standards/suicide-self-injury/"
+        },
+        {
+          "fetch": "https://transparency.fb.com/policies/community-standards/child-sexual-exploitation-abuse-nudity/"
+        },
+        {
+          "fetch": "https://transparency.fb.com/policies/community-standards/sexual-exploitation-adults/"
+        },
+        {
+          "fetch": "https://transparency.fb.com/policies/community-standards/bullying-harassment/"
+        },
+        {
+          "fetch": "https://transparency.fb.com/policies/community-standards/human-exploitation/"
+        },
+        {
+          "fetch": "https://transparency.fb.com/policies/community-standards/privacy-violations-image-privacy-rights/"
+        },
+        {
+          "fetch": "https://transparency.fb.com/policies/community-standards/hate-speech/"
+        },
+        {
+          "fetch": "https://transparency.fb.com/policies/community-standards/violent-graphic-content/"
+        },
+        {
+          "fetch": "https://transparency.fb.com/policies/community-standards/adult-nudity-sexual-activity/"
+        },
+        {
+          "fetch": "https://transparency.fb.com/policies/community-standards/sexual-solicitation/"
+        },
+        {
+          "fetch": "https://transparency.fb.com/policies/community-standards/account-integrity-and-authentic-identity/"
+        },
+        {
+          "fetch": "https://transparency.fb.com/policies/community-standards/spam/"
+        },
+        {
+          "fetch": "https://transparency.fb.com/policies/community-standards/cybersecurity/"
+        },
+        {
+          "fetch": "https://transparency.fb.com/policies/community-standards/inauthentic-behavior/"
+        },
+        {
+          "fetch": "https://transparency.fb.com/policies/community-standards/misinformation/"
+        },
+        {
+          "fetch": "https://transparency.fb.com/policies/community-standards/memorialization/"
+        },
+        {
+          "fetch": "https://transparency.fb.com/policies/community-standards/intellectual-property/"
+        },
+        {
+          "fetch": "https://transparency.fb.com/policies/community-standards/user-requests/"
+        },
+        {
+          "fetch": "https://transparency.fb.com/policies/community-standards/additional-protection-minors/"
+        }
+      ],
+      "validUntil": "2022-11-03T00:30:02Z"
+    }
   ]
 }

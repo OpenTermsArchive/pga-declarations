@@ -106,6 +106,9 @@
           "endAfter": "#policy-details"
         }
       ],
+      "filter": [
+        "removeTrackingIDs"
+      ],
       "combine": [
         {
           "fetch": "https://transparency.fb.com/policies/community-standards/",
@@ -114,6 +117,9 @@
               "startBefore": "h1",
               "endBefore": "body > div > section:last-of-type h6"
             }
+          ],
+          "filter": [
+            "removeTrackingIDs"
           ]
         },
         {
