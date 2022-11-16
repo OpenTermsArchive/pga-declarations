@@ -6,8 +6,8 @@
       "fetch": "https://www.spotify.com/us/legal/privacy-policy/",
       "select": [
         {
-          "endBefore": "footer",
-          "startBefore": "#spotify-privacy-policy"
+          "startBefore": "#spotify-privacy-policy",
+          "endBefore": "footer"
         }
       ]
     },
