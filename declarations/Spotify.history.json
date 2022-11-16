@@ -5,5 +5,21 @@
       "select": "#content-main",
       "validUntil": "2022-11-07T18:33:34Z"
     }
+  ],
+  "Terms of Service": [
+    {
+      "fetch": "https://www.spotify.com/us/legal/end-user-agreement/",
+      "select": "#content-main",
+      "validUntil": "2022-11-07T18:33:34Z"
+    }
+  ],
+  "Acceptable Use Policy": [
+    {
+      "fetch": "https://www.spotify.com/us/legal/user-guidelines/",
+      "select": [
+        ".legal-body"
+      ],
+      "validUntil": "2022-11-07T18:33:35Z"
+    }
   ]
 }

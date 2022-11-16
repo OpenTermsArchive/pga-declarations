@@ -13,12 +13,20 @@
     },
     "Terms of Service": {
       "fetch": "https://www.spotify.com/us/legal/end-user-agreement/",
-      "select": "#content-main"
+      "select": [
+        {
+          "startBefore": "#spotify-terms-of-use",
+          "endBefore": "footer"
+        }
+      ]
     },
     "Acceptable Use Policy": {
       "fetch": "https://www.spotify.com/us/legal/user-guidelines/",
       "select": [
-        ".legal-body"
+        {
+          "startBefore": "#spotify-user-guidelines",
+          "endBefore": "footer"
+        }
       ]
     },
     "Community Guidelines": {
