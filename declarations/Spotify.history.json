@@ -1,0 +1,9 @@
+{
+  "Terms of Service": [
+    {
+      "fetch": "https://www.spotify.com/us/legal/end-user-agreement/",
+      "select": "#content-main",
+      "validUntil": "2022-11-07T18:33:34Z"
+    }
+  ]
+}
