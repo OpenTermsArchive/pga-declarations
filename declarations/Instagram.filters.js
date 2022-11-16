@@ -15,12 +15,28 @@ export function cleanUrls(document) {
   });
 }
 
+export function removeRefParam(document) {
+  removeQueryParam(document, 'ref');
+}
+
+export function removeHelprefQueryParam(document) {
+  removeQueryParam(document, 'helpref');
+}
+
 export function removeTrackingIDs(document) {
   removeQueryParam(document, 'h');
 }
 
 export function removeTrackingIDsE(document) {
   removeQueryParam(document, 'e');
+}
+
+export function removeLocaleQueryParam(document) {
+  removeQueryParam(document, 'locale2');
+}
+
+export function removeRevisionQueryParam(document) {
+  removeQueryParam(document, 'revision');
 }
 
 function removeQueryParam(document, queryParam) {
