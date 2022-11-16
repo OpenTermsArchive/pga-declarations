@@ -1,0 +1,9 @@
+{
+  "Privacy Policy": [
+    {
+      "fetch": "https://www.spotify.com/us/legal/privacy-policy/",
+      "select": "#content-main",
+      "validUntil": "2022-11-07T18:33:34Z"
+    }
+  ]
+}
