@@ -118,6 +118,9 @@
               "endBefore": "body > div > section:last-of-type h6"
             }
           ],
+          "remove": [
+            ".img"
+          ],
           "filter": [
             "removeTrackingIDs"
           ]
