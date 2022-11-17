@@ -1,0 +1,10 @@
+{
+  "Quality Guidelines": [
+    {
+      "fetch": "https://www.redditinc.com/policies/content-policy",
+      "remove": ".filter-holder",
+      "select": "#content",
+      "validUntil": "2022-11-17T06:33:28Z"
+    }
+  ]
+}
