@@ -1,0 +1,10 @@
+{
+  "Terms of Service": [
+    {
+      "fetch": "https://www.redditinc.com/policies/user-agreement",
+      "remove": ".filter-holder",
+      "select": "#content",
+      "validUntil": "2022-11-17T06:33:26Z"
+    }
+  ]
+}
