@@ -48,6 +48,22 @@ export function removeEmptyAnchorsLinks(document) {
     link.removeAttribute('href'));
 }
 
+export function removeRefParam(document) {
+  removeQueryParam(document, 'ref');
+}
+
+export function removeHelprefQueryParam(document) {
+  removeQueryParam(document, 'helpref');
+}
+
+export function removeTrackingIDsE(document) {
+  removeQueryParam(document, 'e');
+}
+
+export function removeRevisionQueryParam(document) {
+  removeQueryParam(document, 'revision');
+}
+
 export function removeTrackingIDs(document) {
   removeQueryParam(document, 'h');
 }

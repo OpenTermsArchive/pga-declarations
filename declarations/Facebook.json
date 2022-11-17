@@ -106,8 +106,14 @@
           "endAfter": "#policy-details"
         }
       ],
+      "remove": "img[src*='https://scontent']",
       "filter": [
-        "removeTrackingIDs"
+        "removeRefParam",
+        "removeHelprefQueryParam",
+        "removeTrackingID",
+        "removeLocaleQueryParam",
+        "removeRevisionQueryParam",
+        "removeTrackingIDsE"
       ],
       "combine": [
         {
@@ -119,10 +125,15 @@
             }
           ],
           "remove": [
-            ".img"
+            "img[src*='https://scontent']"
           ],
           "filter": [
-            "removeTrackingIDs"
+            "removeRefParam",
+            "removeHelprefQueryParam",
+            "removeTrackingID",
+            "removeLocaleQueryParam",
+            "removeRevisionQueryParam",
+            "removeTrackingIDsE"
           ]
         },
         {
