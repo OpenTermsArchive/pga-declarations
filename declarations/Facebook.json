@@ -106,15 +106,7 @@
           "endAfter": "#policy-details"
         }
       ],
-      "remove": "img[src*='https://scontent']",
-      "filter": [
-        "removeRefParam",
-        "removeHelprefQueryParam",
-        "removeTrackingID",
-        "removeLocaleQueryParam",
-        "removeRevisionQueryParam",
-        "removeTrackingIDsE"
-      ],
+      "remove": ".img",
       "combine": [
         {
           "fetch": "https://transparency.fb.com/policies/community-standards/",
@@ -125,15 +117,7 @@
             }
           ],
           "remove": [
-            "img[src*='https://scontent']"
-          ],
-          "filter": [
-            "removeRefParam",
-            "removeHelprefQueryParam",
-            "removeTrackingID",
-            "removeLocaleQueryParam",
-            "removeRevisionQueryParam",
-            "removeTrackingIDsE"
+            ".img"
           ]
         },
         {
