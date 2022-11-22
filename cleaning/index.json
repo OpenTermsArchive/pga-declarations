@@ -18,8 +18,12 @@
       "Terms of Service": {
         "done": true
       }
+    },
+    "WhatsApp": {
+      "Terms of Service": {
+        "done": true
+      }
     }
   },
-  "documentTypes": {
-  }
+  "documentTypes": {}
 }
