@@ -1,0 +1,9 @@
+{
+  "Terms of Service": [
+    {
+      "fetch": "https://terms.line.me/line_terms/?lang=en",
+      "select": ".MdTerms01",
+      "validUntil": "2022-07-11T14:59:24.000Z"
+    }
+  ]
+}

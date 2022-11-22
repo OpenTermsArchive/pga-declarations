@@ -1,0 +1,15 @@
+{
+  "documents": {
+    "LINE": {
+      "Terms of Service": {
+        "skipCommit": [],
+        "done": true
+      },
+      "Privacy Policy": {
+        "done": true
+      }
+    }
+  },
+  "documentTypes": {
+  }
+}
