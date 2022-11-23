@@ -2,7 +2,6 @@
   "documents": {
     "LINE": {
       "Terms of Service": {
-        "skipCommit": [],
         "done": true
       },
       "Privacy Policy": {
@@ -52,6 +51,11 @@
     },
     "Reddit": {
       "Terms of Service": {
+        "done": true
+      }
+    },
+    "Telegram": {
+      "Privacy Policy": {
         "done": true
       }
     }
