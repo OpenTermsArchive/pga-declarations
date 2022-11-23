@@ -11,6 +11,13 @@
     "Facebook": {
       "Terms of Service": {
         "done": true
+      },
+      "Privacy Policy": {
+        "skipCommit": [
+          "ddb181a8a0eddf20a40898552892eac93326eee5",
+          "f9ed30c4d4e71ec7ed74bb9d2484455b192eeb09"
+        ],
+        "done": true
       }
     },
     "Quora": {

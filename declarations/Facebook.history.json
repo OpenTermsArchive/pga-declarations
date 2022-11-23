@@ -3,6 +3,22 @@
     {
       "fetch": "https://mbasic.facebook.com/privacy/policy/printable/",
       "select": [
+        {
+          "startBefore": "h2",
+          "endBefore": "#pageFooter"
+        }
+      ],
+      "remove": [
+        "a[href=\"#\"][role=\"button\"]"
+      ],
+      "filter": [
+        "removeTrackingIDs"
+      ],
+      "validUntil": "2022-09-07T12:52:52.000Z"
+    },
+    {
+      "fetch": "https://mbasic.facebook.com/privacy/policy/printable/",
+      "select": [
         "#root"
       ],
       "remove": [
@@ -11,7 +27,10 @@
         ".bc",
         "img[style=\"display:none\"]"
       ],
-      "validUntil": "2022-09-22T04:33:26+04:00"
+      "filter": [
+        "removeTrackingIDs"
+      ],
+      "validUntil": "2022-09-14T18:30:01.000Z"
     }
   ],
   "Data Processor Agreement": [

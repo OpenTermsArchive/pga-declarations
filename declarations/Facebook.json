@@ -23,7 +23,7 @@
       "remove": [
         ".k",
         ".l",
-        ".bc",
+        ".bh",
         "img[style=\"display:none\"]"
       ],
       "filter": [
