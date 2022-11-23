@@ -16,7 +16,7 @@
         "cleanUrls",
         "removeRefParam",
         "removeHelprefQueryParam",
-        "removeTrackingID",
+        "removeTrackingIDs",
         "removeLocaleQueryParam",
         "removeRevisionQueryParam",
         "removeTrackingIDsE"
