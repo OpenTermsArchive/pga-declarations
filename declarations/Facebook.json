@@ -106,7 +106,7 @@
           "endAfter": "#policy-details"
         }
       ],
-      "remove": ".img",
+      "remove": "137145103_308994903869841_4708570808613729754_n.jpg",
       "combine": [
         {
           "fetch": "https://transparency.fb.com/policies/community-standards/",
@@ -117,7 +117,7 @@
             }
           ],
           "remove": [
-            ".img"
+            "137145103_308994903869841_4708570808613729754_n.jpg"
           ]
         },
         {
