@@ -106,9 +106,7 @@
           "endAfter": "#policy-details"
         }
       ],
-      "filter": [
-        "removeTrackingIDs"
-      ],
+      "remove": "4708570808613729754_n.jpg",
       "combine": [
         {
           "fetch": "https://transparency.fb.com/policies/community-standards/",
@@ -118,8 +116,8 @@
               "endBefore": "body > div > section:last-of-type h6"
             }
           ],
-          "filter": [
-            "removeTrackingIDs"
+          "remove": [
+            "4708570808613729754_n.jpg"
           ]
         },
         {
