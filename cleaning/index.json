@@ -1,76 +1,98 @@
-{
-  "documents": {
-    "LINE": {
-      "Terms of Service": {
-        "done": true
-      },
-      "Privacy Policy": {
-        "done": true
-      }
+"documents": {
+  "LINE": {
+    "Terms of Service": {
+      "done": true
     },
-    "Facebook": {
-      "Privacy Policy": {
-        "skipCommit": [
-          "ddb181a8a0eddf20a40898552892eac93326eee5",
-          "f9ed30c4d4e71ec7ed74bb9d2484455b192eeb09"
-        ],
-        "done": true
-      }
-    },
-    "Quora": {
-      "Terms of Service": {
-        "done": true
-      }
-    },
-    "WhatsApp": {
-      "Terms of Service": {
-        "done": true
-      },
-      "Privacy Policy": {
-        "done": true
-      }
-    },
-    "Parler": {
-      "Privacy Policy": {
-        "done": true
-      },
-      "Terms of Service": {
-        "done": true
-      }
-    },
-    "Snapchat": {
-      "Terms of Service": {
-        "done": true
-      }
-    },
-    "Pinterest": {
-      "Terms of Service": {
-        "done": true
-      }
-    },
-    "Twitch": {
-      "Terms of Service": {
-        "done": true
-      }
-    },
-    "Reddit": {
-      "Terms of Service": {
-        "done": true
-      },
-      "Privacy Policy": {
-        "done": true
-      }
-    },
-    "Telegram": {
-      "Privacy Policy": {
-        "done": true
-      }
-    },
-    "YouTube": {
-      "Privacy Policy": {
-        "done": true
-      }
+    "Privacy Policy": {
+      "done": true
     }
   },
-  "documentTypes": {}
+  "Facebook": {
+    "Terms of Service": {
+      "done": true
+    },
+    "Privacy Policy": {
+      "skipCommit": [
+        "ddb181a8a0eddf20a40898552892eac93326eee5",
+        "f9ed30c4d4e71ec7ed74bb9d2484455b192eeb09"
+      ],
+      "done": true
+    },
+    "Developer Terms": {
+      "done": true
+    },
+    "Trackers Policy": {
+      "skipCommit": [
+        "1d988a914ec4050e764e4f895c4fa9e7c7cb9463",
+        "5757891a58708b32842738d3453c1841a654c868",
+        "1caf56de2c543f8f7934c3b0b8652136a928b86a"
+      ],
+      "skipSelector": [
+        "[href*='static.xx.fbcdn.net']"
+      ],
+      "done": true
+    },
+    "Commercial Terms": {
+      "done": true
+    },
+    "Data Processor Agreement": {
+      "done": true
+    }
+  },
+  "Quora": {
+    "Terms of Service": {
+      "done": true
+    }
+  },
+  "WhatsApp": {
+    "Terms of Service": {
+      "done": true
+    },
+    "Privacy Policy": {
+      "done": true
+    }
+  },
+  "Parler": {
+    "Privacy Policy": {
+      "done": true
+    },
+    "Terms of Service": {
+      "done": true
+    }
+  },
+  "Snapchat": {
+    "Terms of Service": {
+      "done": true
+    }
+  },
+  "Pinterest": {
+    "Terms of Service": {
+      "done": true
+    }
+  },
+  "Twitch": {
+    "Terms of Service": {
+      "done": true
+    }
+  },
+  "Reddit": {
+    "Terms of Service": {
+      "done": true
+    },
+    "Privacy Policy": {
+      "done": true
+    }
+  },
+  "Telegram": {
+    "Privacy Policy": {
+      "done": true
+    }
+  },
+  "YouTube": {
+    "Privacy Policy": {
+      "done": true
+    }
+  }
+},
+"documentTypes": {}
 }
