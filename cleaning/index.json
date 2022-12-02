@@ -37,6 +37,12 @@
     },
     "Data Processor Agreement": {
       "done": true
+    },
+    "Live Policy": {
+      "skipCommit": [
+        "9735b3f8ca082e0ba16e41752ce53e19bccf34ee"
+      ],
+      "done": true
     }
   },
   "Quora": {
