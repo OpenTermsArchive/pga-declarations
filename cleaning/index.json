@@ -119,6 +119,9 @@
   "Telegram": {
     "Privacy Policy": {
       "done": true
+    },
+    "Terms of Service": {
+      "done": true
     }
   },
   "YouTube": {
@@ -131,10 +134,10 @@
       "done": true
     }
   },
-  "Terms of Service": {
-    "done": true
+    "Terms of Service": {
+      "done": true
+    }
   }
-}
 },
 "documentTypes": {}
 }
