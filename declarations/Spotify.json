@@ -6,10 +6,11 @@
       "fetch": "https://www.spotify.com/us/legal/privacy-policy/",
       "select": [
         {
-          "startBefore": "#spotify-privacy-policy",
+          "startBefore": "h1",
           "endBefore": "footer"
         }
-      ]
+      ],
+      "remove": "[href='#spotify-privacy-policy']"
     },
     "Terms of Service": {
       "fetch": "https://www.spotify.com/us/legal/end-user-agreement/",

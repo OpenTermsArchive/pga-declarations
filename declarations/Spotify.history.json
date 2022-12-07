@@ -3,13 +3,15 @@
     {
       "fetch": "https://www.spotify.com/us/legal/privacy-policy/",
       "select": "#content-main",
-      "validUntil": "2022-11-07T18:33:34Z"
+      "remove": "[href='#spotify-privacy-policy']",
+      "validUntil": "2022-11-07T12:33:47.000Z"
     }
   ],
   "Terms of Service": [
     {
       "fetch": "https://www.spotify.com/us/legal/end-user-agreement/",
       "select": "#content-main",
+      "remove": "[href='#spotify-privacy-policy']",
       "validUntil": "2022-11-07T18:33:34Z"
     }
   ],

@@ -150,9 +150,13 @@
   "Tumblr": {
     "Privacy Policy": {
       "done": true
+    },
+    "Terms of Service": {
+      "done": true
     }
   },
-    "Terms of Service": {
+  "Spotify": {
+    "Privacy Policy": {
       "done": true
     }
   }
