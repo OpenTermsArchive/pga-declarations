@@ -13,6 +13,9 @@
       "select": [
         "#mainContent"
       ],
+      "remove": [
+        "img[class=\"q-image qu-display--block\"]"
+      ],
       "executeClientScripts": true
     },
     "Community Guidelines": {
