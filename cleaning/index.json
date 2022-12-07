@@ -189,6 +189,14 @@
     "Acceptable Use Policy": {
       "done": true
     }
+  },
+  "LinkedIn": {
+    "Privacy Policy": {
+      "skipSelector": [
+        "[href*='?trk=microsites-frontend_legal_privacy-policy&lang=en']"
+      ],
+      "done": true
+    }
   }
 },
 "documentTypes": {}

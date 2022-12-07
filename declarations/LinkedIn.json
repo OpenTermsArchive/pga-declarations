@@ -10,6 +10,9 @@
         ".callout > svg",
         ".expandable-section__header",
         ".banner__image-container "
+      ],
+      "filter": [
+        "removeTrackingIDs"
       ]
     },
     "Trackers Policy": {
