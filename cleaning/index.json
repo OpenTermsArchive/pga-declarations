@@ -100,6 +100,12 @@
   "Twitch": {
     "Terms of Service": {
       "done": true
+    },
+    "Privacy Policy": {
+      "skipCommit": [
+        "8119f06a7a2d94b82a8a78802427be348b2f3d91"
+      ],
+      "done": true
     }
   },
   "Reddit": {
