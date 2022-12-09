@@ -41,7 +41,8 @@
         "#twtr-main"
       ],
       "remove": [
-        ".u07__close:nth-child(2)"
+        ".u07__close:nth-child(2)",
+        ".u07__notification"
       ]
     },
     "Copyright Claims Policy": {
