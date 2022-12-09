@@ -175,6 +175,12 @@
     },
     "Terms of Service": {
       "done": true
+    },
+    "Community Guidelines": {
+      "skipCommit": [
+        "88f8dcd944e3a622ddb65183dca04df45fb41871"
+      ],
+      "done": true
     }
   },
   "Spotify": {
