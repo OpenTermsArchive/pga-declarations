@@ -201,6 +201,16 @@
   "TikTok": {
     "Terms of Service": {
       "done": true
+    },
+    "Privacy Policy": {
+      "skipCommit": [
+        "6192953b781cc2dd7a2101bfe3b90779a74f49ff",
+        "b57067accf1bd9fa01d917479d4814595f3fb663"
+      ],
+      "skipSelector": [
+        "[lang=de-DE]"
+      ],
+      "done": true
     }
   }
 },
