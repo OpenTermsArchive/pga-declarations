@@ -58,7 +58,9 @@
         ".inherit",
         ".twtr-type--roman-100r",
         ".u11__breadcrumbs-list:nth-child(2)",
-        ".IconButton"
+        ".IconButton",
+        ".b04-image"
+
       ]
     },
     "Law Enforcement Guidelines": {
