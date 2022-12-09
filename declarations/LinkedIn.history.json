@@ -1,16 +1,4 @@
 {
-  "Brand Guidelines": [
-    {
-      "fetch": "https://brand.linkedin.com/policies",
-      "select": [
-        "#content"
-      ],
-      "remove": [
-        "#banner-content-container-banner_1202100886"
-      ],
-      "validUntil": "2022-08-24T04:33:26+04:00"
-    }
-  ],
   "Community Guidelines": [
     {
       "fetch": "https://www.linkedin.com/legal/professional-community-policies",
