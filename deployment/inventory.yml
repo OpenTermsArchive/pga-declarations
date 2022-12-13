@@ -1,0 +1,5 @@
+all:
+  hosts:
+    134.102.58.70:
+      ansible_user: pga
+      ed25519_fingerprint: AAAAC3NzaC1lZDI1NTE5AAAAIDmKHW4LMOEIxnBHkdNzwvSrzjmfhQkx5n2lFtJdraOy      
