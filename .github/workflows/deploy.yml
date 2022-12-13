@@ -1,7 +1,7 @@
 name: Deploy
 on:
   workflow_run:
-    workflows: ["Validate declarations"]
+    workflows: ["Test"]
     types: [completed]
     branches:
       - "ci-test"
