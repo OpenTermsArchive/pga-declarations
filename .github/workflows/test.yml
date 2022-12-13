@@ -21,7 +21,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          fetch-depth: 0 # fetch all history for all branches and tags
+          fetch-depth: 0  # fetch all history in order to identify modified declarations
       - uses: actions/setup-node@v3
         with:
           node-version: 16
