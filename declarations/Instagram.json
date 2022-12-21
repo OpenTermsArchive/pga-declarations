@@ -11,7 +11,7 @@
         "[id='Related Articles']",
         "fieldset",
         "img[src*='https://scontent']",
-        "img[src*='static.xx.fbcdn.net']"
+        "[href*='https%3A%2F%2F']"
       ],
       "filter": [
         "removeLinks"
@@ -115,12 +115,15 @@
       "remove": [
         "div[aria-label=\"Copy Link\"]",
         "[id='Related Articles']",
-        "fieldset"
+        "fieldset",
+        "[href*='https://privacycenter.instagram.com/policy/']",
+        "[href*='https://help.instagram.com/519522125107875?helpref=faq_content']"
       ],
-      "executeClientScripts": true,
       "filter": [
-        "removeTrackingIDsE"
-      ]
+        "cleanUrls",
+        "removeHelprefQueryParam"
+      ],
+      "executeClientScripts": true
     },
     "Developer Terms": {
       "fetch": "https://developers.facebook.com/terms",

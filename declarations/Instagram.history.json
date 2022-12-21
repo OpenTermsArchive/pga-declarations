@@ -1,62 +1,12 @@
 {
-  "Terms of Service": [
-    {
-      "fetch": "https://help.instagram.com/581066165581870",
-      "select": [
-        "div[role=\"main\"]"
-      ],
-      "remove": [
-        "div[aria-label=\"Copy Link\"]",
-        "[id='Related Articles']",
-        "fieldset"
-      ],
-      "filter": [
-        "cleanUrls"
-      ],
-      "executeClientScripts": true,
-      "validUntil": "2022-09-22T04:33:26+04:00"
-    },
-    {
-      "fetch": "https://help.instagram.com/581066165581870",
-      "select": [
-        "div[role=\"main\"]"
-      ],
-      "remove": [
-        "div[aria-label=\"Copy Link\"]",
-        "[id='Related Articles']",
-        "fieldset"
-      ],
-      "filter": [
-        "cleanUrls",
-        "removeTrackingIDsE"
-      ],
-      "executeClientScripts": true,
-      "validUntil": "2022-09-23T04:33:26+04:00"
-    },
-    {
-      "fetch": "https://help.instagram.com/581066165581870",
-      "select": [
-        "div[role=\"main\"]"
-      ],
-      "remove": [
-        "div[aria-label=\"Copy Link\"]",
-        "[id='Related Articles']",
-        "fieldset",
-        "img[src*='https://scontent']"
-      ],
-      "filter": [
-        "cleanUrls",
-        "removeTrackingIDsE"
-      ],
-      "executeClientScripts": true,
-      "validUntil": "2022-07-11T14:58:37Z"
-    }
-  ],
   "Privacy Policy": [
     {
       "fetch": "https://privacycenter.instagram.com/policy",
       "select": [
-        "div[role=\"main\"]"
+        {
+          "startAfter": "#ssrb_top_nav_end",
+          "endBefore": "#ssrb_root_end"
+        }
       ],
       "remove": [
         "div[aria-label=\"Copy Link\"]",
@@ -102,24 +52,6 @@
       ],
       "executeClientScripts": true,
       "validUntil": "2022-07-11T14:59:05Z"
-    }
-  ],
-  "Law Enforcement Guidelines": [
-    {
-      "fetch": "https://help.instagram.com/494561080557017",
-      "select": [
-        "div[role=\"main\"]"
-      ],
-      "remove": [
-        "div[aria-label=\"Copy Link\"]",
-        "[id='Related Articles']",
-        "fieldset"
-      ],
-      "executeClientScripts": true,
-      "filter": [
-        "removeTrackingIDs"
-      ],
-      "validUntil": "2022-09-22T04:33:26+04:00"
     }
   ],
   "Developer Terms": [
