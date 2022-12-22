@@ -134,7 +134,7 @@
         "img[src*='https://scontent']"
       ],
       "filter": [
-        "removeTrackingIDs"
+        "removeLinks"
       ]
     }
   }

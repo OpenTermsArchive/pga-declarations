@@ -53,17 +53,5 @@
       "executeClientScripts": true,
       "validUntil": "2022-07-11T14:59:05Z"
     }
-  ],
-  "Developer Terms": [
-    {
-      "fetch": "https://developers.facebook.com/terms",
-      "select": [
-        "#rebrandBodyID"
-      ],
-      "filter": [
-        "removeTrackingIDs"
-      ],
-      "validUntil": "2022-09-23T04:33:26+04:00"
-    }
   ]
 }
