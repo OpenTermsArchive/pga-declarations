@@ -286,6 +286,18 @@
     "Community Guidelines": {
       "done": true
     }
+  },
+  "Instagram": {
+    "Privacy Policy": {
+      "skipCommit": [
+        "3d797614098acc86206dd903852cfdb0133f0466",
+        "146e92ec99d8235948754c1e660c189b4cc813b6"
+      ],
+      "done": true
+    },
+    "Terms of Service": {
+      "done": true
+    }
   }
 },
 "documentTypes": {}

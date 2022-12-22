@@ -11,7 +11,7 @@
         "[id='Related Articles']",
         "fieldset",
         "img[src*='https://scontent']",
-        "[href*='https%3A%2F%2F']"
+        "img[src*='static.xx.fbcdn.net']"
       ],
       "filter": [
         "removeLinks"
