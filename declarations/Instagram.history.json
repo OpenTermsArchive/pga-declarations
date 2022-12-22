@@ -27,31 +27,16 @@
         "div[role=\"main\"]"
       ],
       "remove": [
-        "div[aria-label=\"Copy Link\"]",
+        "div[aria-label=\"Copy link\"]",
         "[id='Related Articles']",
-        "fieldset"
+        "fieldset",
+        "nav[role=\"navigation\"]"
       ],
       "filter": [
-        "removeTrackingIDs"
+        "removeLinks"
       ],
       "executeClientScripts": true,
-      "validUntil": "2022-09-22T04:33:26+04:00"
-    },
-    {
-      "fetch": "https://help.instagram.com/477434105621119",
-      "select": [
-        "div[role=\"main\"]"
-      ],
-      "remove": [
-        "div[aria-label=\"Copy Link\"]",
-        "[id='Related Articles']",
-        "fieldset"
-      ],
-      "filter": [
-        "removeTrackingIDsE"
-      ],
-      "executeClientScripts": true,
-      "validUntil": "2022-07-11T14:59:05Z"
+      "validUntil": "2022-11-02T07:17:44Z"
     }
   ]
 }
