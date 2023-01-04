@@ -10,16 +10,11 @@
         "div[aria-label=\"Copy Link\"]",
         "[id='Related Articles']",
         "fieldset",
-        "img[src*='https://scontent']"
+        "img[src*='https://scontent']",
+        "img[src*='static.xx.fbcdn.net']"
       ],
       "filter": [
-        "cleanUrls",
-        "removeRefParam",
-        "removeHelprefQueryParam",
-        "removeTrackingIDs",
-        "removeLocaleQueryParam",
-        "removeRevisionQueryParam",
-        "removeTrackingIDsE"
+        "removeLinks"
       ],
       "executeClientScripts": true
     },
