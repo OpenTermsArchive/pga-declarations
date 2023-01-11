@@ -29,5 +29,12 @@
       ],
       "validUntil": "2022-09-25T06:33:05Z"
     }
+  ],
+  "Copyright Claims Policy": [
+    {
+      "fetch": "https://www.tiktok.com/legal/copyright-policy?lang=en",
+      "select": "article",
+      "validUntil": "2022-12-22T00:34:34Z"
+    }
   ]
 }
