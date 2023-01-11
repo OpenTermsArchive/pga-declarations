@@ -29,7 +29,10 @@
     },
     "Copyright Claims Policy": {
       "fetch": "https://www.tiktok.com/legal/copyright-policy?lang=en",
-      "select": "article"
+      "select": [
+        "article"
+      ],
+      "executeClientScripts": true
     },
     "In-App Purchases Policy": {
       "fetch": "https://www.tiktok.com/legal/virtual-items?lang=en",
