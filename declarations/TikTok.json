@@ -37,11 +37,13 @@
     },
     "In-App Purchases Policy": {
       "fetch": "https://www.tiktok.com/legal/virtual-items?lang=en",
-      "select": "article",
+      "select": [
+        "[id=\"policy-card\"]"
+      ],
       "remove": [
-        ".language-selection",
-        "img"
-      ]
+        "[data-testid=\"language-selection-header\"]"
+      ],
+      "executeClientScripts": true
     },
     "Trackers Policy": {
       "fetch": "https://www.tiktok.com/legal/tiktok-website-cookies-policy?lang=en",
