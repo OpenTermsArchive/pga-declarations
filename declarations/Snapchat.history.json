@@ -1,0 +1,10 @@
+{
+  "Community Guidelines": [
+    {
+      "fetch": "https://www.snap.com/en-GB/community-guidelines",
+      "executeClientScripts": true,
+      "select": ".TermContainer-sc-1eyc2w4",
+      "validUntil": "2022-12-08T00:34:09Z"
+    }
+  ]
+}
