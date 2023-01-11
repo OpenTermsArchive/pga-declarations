@@ -25,7 +25,10 @@
     },
     "Law Enforcement Guidelines": {
       "fetch": "https://www.tiktok.com/legal/law-enforcement?lang=en",
-      "select": "article"
+      "select": [
+        ".content"
+      ],
+      "executeClientScripts": true
     },
     "Copyright Claims Policy": {
       "fetch": "https://www.tiktok.com/legal/copyright-policy?lang=en",
