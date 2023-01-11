@@ -26,6 +26,15 @@
         "endBefore": "#virtual-items-in"
       },
       "validUntil": "2022-07-11T04:33:26+04:00"
+    },
+    {
+      "fetch": "https://www.tiktok.com/legal/virtual-items?lang=en",
+      "select": "article",
+      "remove": [
+        ".language-selection",
+        "img"
+      ],
+      "validUntil": "2022-12-22T00:34:37Z"
     }
   ],
   "Privacy Policy": [
