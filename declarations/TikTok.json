@@ -30,7 +30,7 @@
     "Copyright Claims Policy": {
       "fetch": "https://www.tiktok.com/legal/copyright-policy?lang=en",
       "select": [
-        "article"
+        ".content"
       ],
       "executeClientScripts": true
     },
