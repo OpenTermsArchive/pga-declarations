@@ -9,14 +9,16 @@
       "storage": {
         "git": {
           "snapshotIdentiferTemplate": "https://github.com/OpenTermsArchive/pga-snapshots/commit/%SNAPSHOT_ID",
-          "repository": "git@github.com:OpenTermsArchive/pga-versions.git"
+          "repository": "git@github.com:OpenTermsArchive/pga-versions.git",
+          "path": "./data/versions"
         }
       }
     },
     "snapshots": {
       "storage": {
         "git": {
-          "repository": "git@github.com:OpenTermsArchive/pga-snapshots.git"
+          "repository": "git@github.com:OpenTermsArchive/pga-snapshots.git",
+          "path": "./data/snapshots"
         }
       }
     }
