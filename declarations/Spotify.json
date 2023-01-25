@@ -32,7 +32,7 @@
     "Community Guidelines": {
       "fetch": "https://www.spotify.com/us/platform-rules/plain/",
       "select": [
-        "[class^=\"PlatformRules__Container\"]"
+        "div[role=main]"
       ]
     }
   }
