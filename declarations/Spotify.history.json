@@ -21,5 +21,14 @@
       ],
       "validUntil": "2022-11-07T18:33:35Z"
     }
+  ],
+  "Community Guidelines": [
+    {
+      "fetch": "https://www.spotify.com/us/platform-rules/plain/",
+      "select": [
+        "[class^=\"PlatformRules__Container\"]"
+      ],
+      "validUntil": "2023-01-19T18:33:51Z"
+    }
   ]
 }
