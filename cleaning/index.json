@@ -124,11 +124,16 @@
       },
       "Privacy Policy": {
         "skipCommit": [
-          "8119f06a7a2d94b82a8a78802427be348b2f3d91"
+          "8119f06a7a2d94b82a8a78802427be348b2f3d91",
+          "efb2f40292f4e85b4cfd6cfd165b418c838e8956",
+          "055d1c62976840adac3e64ed8375af6b1fa195de",
+          "5e1eb904988fc4c8465563b6e2942cb26fb04bfa",
+          "a177b71d0a0163b91441ba9061961b3402c471bf",
+          "1edde629ba8d74d34112a6c5acfb9be5ca1690db",
+          "dd695b20b1430e07bea71c83b97c5ae3364fa891",
+          "024a3039d8ebc5ad0344af0edf720f00c65bc80a"
         ],
-        "skipSelector": [
-          ".mobile-content"
-        ]
+        "done": "2023-02-22T10:35:32.596Z"
       },
       "Community Guidelines": {
         "done": true
