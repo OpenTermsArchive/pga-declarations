@@ -15,9 +15,11 @@
       "Privacy Policy": {
         "skipCommit": [
           "ddb181a8a0eddf20a40898552892eac93326eee5",
-          "f9ed30c4d4e71ec7ed74bb9d2484455b192eeb09"
-        ],
-        "done": true
+          "f9ed30c4d4e71ec7ed74bb9d2484455b192eeb09",
+          "759fba3e7a57dafd9ec8c93293db7d183cbae668",
+          "97d50a893a149066643ecfa0a4d270f954890554",
+          "a710e4c5c4ca09e719997bf3c21338a7cd72bcf1"
+        ]
       },
       "Developer Terms": {
         "done": true
@@ -233,7 +235,9 @@
         "done": true
       },
       "Community Guidelines": {
-        "done": true
+        "skipCommit": [
+          "6beba75749e1808efefeffef4c82cbb310a2a11b"
+        ]
       },
       "Brand Guidelines": {
         "done": true
@@ -244,14 +248,28 @@
         "done": true
       },
       "Privacy Policy": {
-        "skipCommit": [
-          "6192953b781cc2dd7a2101bfe3b90779a74f49ff",
-          "b57067accf1bd9fa01d917479d4814595f3fb663"
-        ],
         "skipSelector": [
           "[lang=de-DE]"
         ],
-        "done": true
+        "skipContent": {
+          "Datenschutzerklärung": "article"
+        },
+        "skipCommit": [
+          "55c2f648c1dae6e82cea7866614afb28a3dc2918",
+          "7ed851aab59f3ef81e0cccd2f9e3c707dc59fa22",
+          "811d182cf199b8469d42a153ecd01f0bb17ce478",
+          "ad173d87a5185d94291f58ff45d73e80433542e4",
+          "1e0589a77876ece998fc8bcdd3357ca7a02df6f8",
+          "9ee437e84f8e84ff4bb08ff949279e2e5a8d7bae",
+          "60f6521e55fd8659009038fc9e35b4ed70630c98",
+          "830fa6948d831b7fa539683d684f95344c5a6300",
+          "0d8739c9301a530ada0b4023c4a784a4c9b4cf70",
+          "be6dc811b38dcb7609c04398c9878606e34846f2",
+          "0188648a85b360080188da84c7c9a0c8efb6e4eb",
+          "d1e9c8d5c4e190ea338bc1119ebe5979c923b9d2",
+          "a05575abd3d930a295bf5a98094c7213ac0560a4"
+        ],
+        "done": "2023-02-22T09:52:25.822Z"
       },
       "Law Enforcement Guidelines": {
         "done": true
@@ -303,8 +321,7 @@
         "skipCommit": [
           "3d797614098acc86206dd903852cfdb0133f0466",
           "146e92ec99d8235948754c1e660c189b4cc813b6"
-        ],
-        "done": true
+        ]
       },
       "Terms of Service": {
         "done": true

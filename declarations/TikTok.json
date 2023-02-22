@@ -14,7 +14,8 @@
       ],
       "remove": [
         "img[src*=\"/_assets/icon_arrow_down\"]"
-      ]
+      ],
+      "executeClientScripts": true
     },
     "Community Guidelines": {
       "fetch": "https://www.tiktok.com/community-guidelines?lang=en",
