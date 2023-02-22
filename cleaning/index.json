@@ -328,8 +328,12 @@
       "Privacy Policy": {
         "skipCommit": [
           "3d797614098acc86206dd903852cfdb0133f0466",
-          "146e92ec99d8235948754c1e660c189b4cc813b6"
-        ]
+          "146e92ec99d8235948754c1e660c189b4cc813b6",
+          "db67e02fc8c88900f8be6d476e5512c0c0f1b3d0",
+          "ea3d86022452657956fcf5a4a1997f8f244b6ed0",
+          "7372be3eb2bad325e834f72280089c5f9e126fc2"
+        ],
+        "done": "2023-02-22T11:06:31.738Z"
       },
       "Terms of Service": {
         "done": true
