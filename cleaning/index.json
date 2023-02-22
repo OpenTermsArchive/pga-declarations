@@ -98,7 +98,12 @@
         ],
         "done": "2023-02-22T08:06:35.967Z"
       },
-      "Community Guidelines": {}
+      "Community Guidelines": {
+        "skipSelector": [
+          ".TermContainer-sc-1iiqds3"
+        ],
+        "done": "2023-02-22T08:11:12.355Z"
+      }
     },
     "Pinterest": {
       "Terms of Service": {
