@@ -30,7 +30,11 @@
       "filter": [
         "removeTrackingIDs"
       ],
-      "validUntil": "2022-09-14T18:30:01.000Z"
+      "validUntil": {
+        "Facebook": {
+          "Privacy Policy": "2022-09-07T12:52:52.000Z"
+        }
+      }
     }
   ],
   "Community Guidelines": [
