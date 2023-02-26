@@ -189,6 +189,32 @@
           "endAfter": "[class*=\"rich-text-v\"]"
         }
       ]
+    },
+    "Community Guidelines - Crisis Misinformation Policy": {
+        "fetch": "https://help.twitter.com/en/rules-and-policies/crisis-misinformation",
+        "select": [
+          "h1", 
+          ".b02-rich-text-v2", 
+          "b02-v2"
+        ]
+         },
+    "Community Guidelines - Coordinated Harmful Activity": {
+        "fetch": "https://help.twitter.com/en/rules-and-policies/coordinated-harmful-activity",
+        "select": [
+         {
+          "startBefore": "h1",
+          "endAfter": "[class*=\"rich-text-v\"]"
+        }
+      ]
+    },
+    "Community Guidelines - Parody, Commentary, And Fan Account Policy": {
+        "fetch": "https://help.twitter.com/en/rules-and-policies/parody-account-policy",
+        "select": [
+         {
+          "startBefore": "h1",
+          "endAfter": "[class*=\"rich-text-v\"]"
+        }
+      ]
     }
   }
 }
