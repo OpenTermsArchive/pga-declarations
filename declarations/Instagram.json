@@ -43,7 +43,7 @@
       ],
       "combine": [
         {
-          "fetch": "https://help.instagram.com/126382350847838?helpref=faq_content",
+          "fetch": "https://help.instagram.com/477434105621119",
           "select": [
             "div[role=\"main\"]"
           ],
