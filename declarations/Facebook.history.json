@@ -308,5 +308,17 @@
       ],
       "validUntil": "2022-10-28T18:30:09Z"
     }
+  ],
+  "Trackers Policy": [
+    {
+      "fetch": "https://www.facebook.com/policies/cookies",
+      "filter": [
+        "removeImgFromCookiesPolicy",
+        "removeReturnToTopButtons",
+        "cleanUrls"
+      ],
+      "select": "._5tkp",
+      "validUntil": "2022-12-06T00:30:24Z"
+    }
   ]
 }
