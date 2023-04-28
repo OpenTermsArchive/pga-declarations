@@ -26,12 +26,11 @@ function removeQueryParam(document, queryParam) {
 }
 
 export function removeLinks(document) {
-  const elements = document.querySelectorAll("a");
+  const elements = document.querySelectorAll('a');
 
   elements.forEach(element => {
-    if (element.hasAttribute("href")) {
-      element.removeAttribute("href");
+    if (element.hasAttribute('href')) {
+      element.removeAttribute('href');
     }
   });
 }
-
