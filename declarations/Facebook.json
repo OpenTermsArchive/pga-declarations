@@ -53,7 +53,7 @@
       "select": [
         "div[role=main]"
       ],
-      "remove":[
+      "remove": [
         {
           "startBefore": "[role=\"separator\"]:first-child",
           "endAfter": "[role=\"contentinfo\"]"
