@@ -41,7 +41,6 @@
     "Trackers Policy": {
       "fetch": "https://www.facebook.com/policies/cookies",
       "filter": [
-        "removeImgFromCookiesPolicy",
         "removeReturnToTopButtons",
         "cleanUrls"
       ],
