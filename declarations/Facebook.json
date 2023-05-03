@@ -45,7 +45,7 @@
         "removeReturnToTopButtons",
         "cleanUrls"
       ],
-      "select": "._5tkp",
+      "select": ".xg6iff7",
       "remove": "[href*='static.xx.fbcdn.net']"
     },
     "Commercial Terms": {
