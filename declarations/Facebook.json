@@ -45,7 +45,8 @@
         "cleanUrls"
       ],
       "select": ".xg6iff7",
-      "remove": "[href*='static.xx.fbcdn.net']"
+      "remove": "[href*='static.xx.fbcdn.net']",
+      "executeClientScripts": true
     },
     "Commercial Terms": {
       "fetch": "https://www.facebook.com/legal/commercial_terms",
