@@ -68,5 +68,14 @@
       "executeClientScripts": true,
       "validUntil": "2022-09-22T09:53:54.000Z"
     }
+  ],
+  "Developer Terms": [
+    {
+      "fetch": "https://legal.linkedin.com/api-terms-of-use",
+      "select": [
+        "#content"
+      ],
+      "validUntil": "2023-04-12T18:32:17Z"
+    }
   ]
 }
