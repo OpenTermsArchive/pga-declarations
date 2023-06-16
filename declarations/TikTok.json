@@ -50,7 +50,8 @@
       "fetch": "https://www.tiktok.com/legal/tiktok-website-cookies-policy?lang=en",
       "select": [
         ".content"
-      ]
+      ],
+      "executeClientScripts": true
     }
   }
 }
