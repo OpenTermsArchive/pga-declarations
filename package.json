@@ -3,7 +3,8 @@
   "license": "EUPL-1.2",
   "scripts": {
     "lint": "ota lint",
-    "test": "ota validate",
+    "lint:fix": "ota lint -- --fix",
+    "test": "ota lint && ota validate",
     "test:schema": "npm run test -- --schema-only",
     "test:modified": "npm run test -- --modified",
     "start": "ota track",
