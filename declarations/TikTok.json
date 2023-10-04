@@ -19,8 +19,7 @@
     },
     "Community Guidelines": {
       "fetch": "https://www.tiktok.com/community-guidelines?lang=en",
-      "select": ".base-layout-container",
-      "remove": ".syl-image-wrapper"
+      "select": ".wp-post-last-updated"
     },
     "Law Enforcement Guidelines": {
       "fetch": "https://www.tiktok.com/legal/law-enforcement?lang=en",
