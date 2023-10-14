@@ -53,10 +53,11 @@
     },
     "Community Guidelines": {
       "select": [
-        ".hc-page__content"
+        ".article-details-page"
       ],
       "remove": [
         ".helpfulness",
+        ".helpfulness-rating",
         "[data-test-id*=\"article-page-subtext\"]",
         ".answer-footer > p"
       ],
