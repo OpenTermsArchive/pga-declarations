@@ -27,9 +27,12 @@
       ]
     },
     "Terms of Service": {
-      "fetch": "https://www.linkedin.com/legal/l/service-terms",
+      "fetch": "https://www.linkedin.com/legal/user-agreement",
       "select": [
         "main"
+      ],
+      "remove": [
+        ".banner__image-container"
       ]
     },
     "Developer Terms": {
