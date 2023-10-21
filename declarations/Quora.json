@@ -33,12 +33,6 @@
       "executeClientScripts": true,
       "combine": [
         {
-          "fetch": "https://www.quora.com/about/acceptable_use",
-          "select": [
-            "#mainContent"
-          ]
-        },
-        {
           "fetch": "https://help.quora.com/hc/en-us/articles/360000470706-Platform-Policies"
         },
         {
