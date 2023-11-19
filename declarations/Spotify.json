@@ -31,9 +31,12 @@
       ]
     },
     "Community Guidelines": {
-      "fetch": "https://www.spotify.com/us/platform-rules/plain/",
+      "fetch": "https://support.spotify.com/us/article/platform-rules/",
       "select": [
-        "div[role=main]"
+        {
+          "startBefore": "h1",
+          "endBefore": "button"
+        }
       ]
     }
   }
