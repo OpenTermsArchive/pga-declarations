@@ -62,7 +62,8 @@
         ".helpfulness",
         ".helpfulness-rating",
         "[data-test-id*=\"article-page-subtext\"]",
-        ".answer-footer > p"
+        ".answer-footer > p",
+        "[data-test-selector*=\"relativeTime-container\"]"
       ],
       "combine": [
         {
