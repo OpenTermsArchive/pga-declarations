@@ -44,5 +44,8 @@
   "dataset": {
     "title": "pga",
     "versionsRepositoryURL": "https://github.com/OpenTermsArchive/pga-versions"
+  },
+  "api": {
+    "port": 3000
   }
 }
