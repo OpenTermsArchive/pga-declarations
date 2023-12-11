@@ -32,9 +32,13 @@
       "updateTemplateId": 41
     }
   },
-  "tracker": {
+  "reporter": {
     "githubIssues": {
-      "repository": "OpenTermsArchive/pga-declarations"
+      "repositories": {
+        "declarations": "OpenTermsArchive/pga-declarations",
+        "versions": "OpenTermsArchive/pga-versions",
+        "snapshots": "OpenTermsArchive/pga-snapshots"
+      }
     }
   },
   "dataset": {
