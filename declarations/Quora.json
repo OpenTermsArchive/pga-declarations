@@ -6,6 +6,9 @@
       "select": [
         "#root"
       ],
+      "remove": [
+        ".q-flex"
+      ],
       "executeClientScripts": true
     },
     "Privacy Policy": {
@@ -14,7 +17,8 @@
         "#root"
       ],
       "remove": [
-        "img[class=\"q-image qu-display--block\"]"
+        "img[class=\"q-image qu-display--block\"]",
+        ".q-flex"
       ],
       "executeClientScripts": true
     },
