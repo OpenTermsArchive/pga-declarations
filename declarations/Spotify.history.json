@@ -31,6 +31,16 @@
         "[class^=\"PlatformRules__Container\"]"
       ],
       "validUntil": "2023-01-19T18:33:51Z"
+    },
+    {
+      "fetch": "https://support.spotify.com/us/article/platform-rules/",
+      "select": [
+        {
+          "startBefore": "h1",
+          "endBefore": "button"
+        }
+      ],
+      "validUntil": "2023-11-23T12:35:11Z"
     }
   ]
 }
