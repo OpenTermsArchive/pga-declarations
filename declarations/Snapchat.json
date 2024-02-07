@@ -3,7 +3,9 @@
   "documents": {
     "Terms of Service": {
       "fetch": "https://www.snap.com/en-GB/terms",
-      "select": "#terms-row",
+      "select": [
+        "[class^=\"TermContainer-\"]"
+      ],
       "executeClientScripts": true
     },
     "Privacy Policy": {
