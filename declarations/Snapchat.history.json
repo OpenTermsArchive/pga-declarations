@@ -14,5 +14,13 @@
       "select": ".TermContainer-sc-1eyc2w4",
       "validUntil": "2022-11-23T10:01:53.000Z"
     }
+  ],
+  "Terms of Service": [
+    {
+      "fetch": "https://www.snap.com/en-GB/terms",
+      "select": "#terms-row",
+      "executeClientScripts": true,
+      "validUntil": "to-be-determined"
+    }
   ]
 }
