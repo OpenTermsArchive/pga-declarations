@@ -33,10 +33,7 @@
     "Community Guidelines": {
       "fetch": "https://support.spotify.com/us/article/platform-rules/",
       "select": [
-        {
-          "startBefore": "h1",
-          "endBefore": "button"
-        }
+        ".hqQKIF"
       ]
     }
   }
