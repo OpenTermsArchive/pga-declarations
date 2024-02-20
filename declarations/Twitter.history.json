@@ -55,9 +55,6 @@
    "Copyright Claims Policy": [
   {
      "fetch": "https://help.twitter.com/en/rules-and-policies/copyright-policy",
-     "filter": [
-       "removeScripts"
-     ],
      "select": [
        ".ct01__wrapper"
      ],
