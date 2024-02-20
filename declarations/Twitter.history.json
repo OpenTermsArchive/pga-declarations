@@ -58,7 +58,7 @@
       "select": [
         ".ct01__wrapper"
       ],
-     "remove": [
+      "remove": [
         ".b24__wrapper",
         ".inherit",
         ".twtr-type--roman-100r",
@@ -195,7 +195,7 @@
       ],
       "validUntil": "2024-02-13T15:39:36.779Z"
     }
- ],
+  ],
   "Deceased Users": [
     {
       "fetch": "https://help.twitter.com/en/rules-and-policies/contact-twitter-about-media-on-a-deceased-family-members-account",
