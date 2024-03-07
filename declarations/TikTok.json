@@ -91,7 +91,7 @@
     "Trackers Policy": {
       "fetch": "https://www.tiktok.com/legal/page/global/tiktok-website-cookies-policy/en",
       "select": [
-        "[data-testid=\"policy-card\"]"
+        "[id=policy-card]"
       ]
     }
   }
