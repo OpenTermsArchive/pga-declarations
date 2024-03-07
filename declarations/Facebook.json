@@ -65,7 +65,6 @@
       "executeClientScripts": true
     },
     "Data Processor Agreement": {
-      "fetch": "https://www.facebook.com/legal/EU_data_transfer_addendum",
       "select": [
         {
           "startBefore": "div[role=main]",
@@ -75,7 +74,18 @@
       "filter": [
         "removeTrackingIDs"
       ],
-      "executeClientScripts": true
+      "executeClientScripts": true,
+      "combine": [
+        {
+          "fetch": "https://www.facebook.com/legal/EU_data_transfer_addendum"
+        },
+        {
+          "fetch": "https://www.facebook.com/legal/Workplace_GDPR_Addendum"
+        },
+        {
+          "fetch": "https://www.facebook.com/legal/terms/dataprocessing"
+        }
+      ]
     },
     "Live Policy": {
       "fetch": "https://en-gb.facebook.com/policies/live",
