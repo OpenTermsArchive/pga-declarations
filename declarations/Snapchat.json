@@ -3,7 +3,12 @@
   "documents": {
     "Terms of Service": {
       "fetch": "https://www.snap.com/en-GB/terms",
-      "select": "#terms-row",
+      "select": "body",
+      "remove": [
+        "header",
+        "footer",
+        ".cookie-landing-screen"
+      ],
       "executeClientScripts": true
     },
     "Privacy Policy": {
