@@ -122,6 +122,9 @@
           "fetch": "https://help.twitter.com/en/rules-and-policies/sexual-exploitation-policy"
         },
         {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/abusive-behavior"
+        },
+        {
           "fetch": "https://help.twitter.com/en/rules-and-policies/hateful-conduct-policy"
         },
         {
