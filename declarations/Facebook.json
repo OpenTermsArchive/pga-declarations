@@ -91,15 +91,16 @@
       "executeClientScripts": true
     },
     "Law Enforcement Guidelines": {
-      "fetch": "https://www.facebook.com/safety/groups/law/guidelines",
+      "fetch": "https://about.meta.com/actions/safety/audiences/law/guidelines",
       "filter": [
         "cleanUrls"
       ],
       "select": [
-        "._4xy4 > div"
+        "[id=safetyCenterContentContainer]"
       ],
       "remove": [
-        ".img"
+        ".heroImage",
+        "[class~=_aiba]"
       ]
     },
     "Community Guidelines": {
