@@ -32,11 +32,12 @@
     },
     "Community Guidelines": {
       "fetch": "https://support.spotify.com/us/article/platform-rules/",
-      "select": [
-        {
-          "startBefore": "h1",
-          "endBefore": "button"
-        }
+      "select": "[role=main]",
+      "remove": [
+        "[data-encore-id=type]",
+        "button",
+        "[data-encore-id=buttonSecondary]",
+        "[data-encore-id=textLink]"
       ]
     }
   }
