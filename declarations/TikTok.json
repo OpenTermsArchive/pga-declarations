@@ -92,8 +92,7 @@
       "fetch": "https://www.tiktok.com/legal/page/global/tiktok-website-cookies-policy/en",
       "select": [
         "[id=policy-card]"
-      ],
-      "executeClientScripts": true
+      ]
     }
   }
 }
