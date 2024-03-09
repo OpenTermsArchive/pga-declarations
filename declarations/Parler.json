@@ -2,10 +2,10 @@
   "name": "Parler",
   "documents": {
     "Privacy Policy": {
-      "fetch": "https://parler.com/documents/privacypolicy.pdf"
+      "fetch": "https://parler.com/privacy-policy/"
     },
     "Terms of Service": {
-      "fetch": "https://parler.com/documents/termsofservice.pdf"
+      "fetch": "https://parler.com/terms-of-service/"
     },
     "Community Guidelines": {
       "fetch": "https://parler.com/documents/guidelines.pdf"
