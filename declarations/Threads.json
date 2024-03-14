@@ -17,7 +17,7 @@
           "startBefore": "[class*=bh]",
           "endBefore": "[class*=bp]"
         }
-      ] 
+      ]
     }
   }
 }
