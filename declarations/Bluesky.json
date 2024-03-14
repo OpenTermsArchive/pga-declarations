@@ -1,0 +1,20 @@
+{
+  "name": "Bluesky",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://bsky.social/about/support/tos",
+      "select": "main",
+      "remove": "[class*=flex]"
+    },
+    "Privacy Policy": {
+      "fetch": "https://bsky.social/about/support/privacy-policy",
+      "select": "main",
+      "remove": "[class*=flex]"
+    },
+    "Community Guidelines": {
+      "fetch": "https://bsky.social/about/support/community-guidelines",
+      "select": "main",
+      "remove": "[class*=flex]"
+    }
+  }
+}
