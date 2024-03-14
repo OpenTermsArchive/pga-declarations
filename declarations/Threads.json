@@ -1,0 +1,23 @@
+{
+  "name": "Threads",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://help.instagram.com/769983657850450?helpref=faq_content&cms_id=769983657850450",
+      "select": [
+        {
+          "startBefore": "[class*=bh]",
+          "endBefore": "[class*=bp]"
+        }
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://help.instagram.com/515230437301944?cms_id=515230437301944",
+      "select": [
+        {
+          "startBefore": "[class*=bh]",
+          "endBefore": "[class*=bp]"
+        }
+      ]
+    }
+  }
+}
