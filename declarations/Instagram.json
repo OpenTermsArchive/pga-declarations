@@ -19,15 +19,12 @@
       "executeClientScripts": true
     },
     "Privacy Policy": {
-      "fetch": "https://mbasic.facebook.com/privacy/policy/printable/",
+      "fetch": "https://help.instagram.com/155833707900388",
       "select": [
-        "#root"
+        "[class*=bh]"
       ],
       "remove": [
-        ".k",
-        ".l",
-        ".bc",
-        "img[style=\"display:none\"]"
+        ".u"
       ],
       "filter": [
         "removeTrackingIDs"
