@@ -7,7 +7,19 @@
     },
     "Privacy Policy": {
       "fetch": "https://terms.line.me/line_rules/?lang=en",
-      "select": ".details"
+      "select": [
+        "h1",
+        "[class*=body-container]"
+      ]
+    },
+    "Community Guidelines": {
+      "fetch": "https://linecorp.com/en/safety/contributionStandard",
+      "select": [
+        "[class*=LyDetailContents]"
+      ],
+      "remove": [
+        "[class*=FnReadMoreBtn]"
+      ]
     }
   }
 }
