@@ -39,6 +39,15 @@
         "[data-encore-id=buttonSecondary]",
         "[data-encore-id=textLink]"
       ]
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.spotify.com/us/legal/cookies-policy/?_ga=2.256460875.1965153890.1707895974-688248205.1707895974",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        "[class*=subnav-main]"
+      ]
     }
   }
 }
