@@ -185,6 +185,15 @@
           "endAfter": "[class*=\"rich-text-v\"]"
         }
       ]
+    },
+    "Data Controller Agreement": {
+      "fetch": "https://help.twitter.com/en/rules-and-policies/data-processing-legal-bases",
+      "select": [
+        {
+          "startBefore": "h1",
+          "endBefore": "[class*=b24-share-tweet]"
+        }
+      ]
     }
   }
 }
