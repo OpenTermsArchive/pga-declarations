@@ -13,12 +13,61 @@
       "executeClientScripts": true
     },
     "Community Guidelines": {
-      "fetch": "https://safety.twitch.tv/s/article/Community-Guidelines?language=en_US",
-      "select": [
-        ".tsc-subtopic"
-      ],
-      "remove": [
-        "[data-id=\"tscToc\"]"
+      "combine": [
+        {
+          "fetch": "https://safety.twitch.tv/s/article/Community-Guidelines?language=en_US",
+          "select": [
+            ".tsc-subtopic"
+          ],
+          "remove": [
+            "[data-id=\"tscToc\"]"
+          ]
+        },
+        {
+          "fetch": "https://help.twitch.tv/s/article/about-account-suspensions-dmca-suspensions-and-chat-bans?language=en_US",
+          "select": [
+            "[id*=article]"
+          ]
+        },
+        {
+          "fetch": "https://safety.twitch.tv/s/article/Prohibited-Games?language=en_US",
+          "select": [
+            ".tsc-subtopic"
+          ]
+        },
+        {
+          "fetch": "https://safety.twitch.tv/s/article/Content-Classification-Guidelines?language=en_US",
+          "select": [
+            ".tsc-subtopic"
+          ],
+          "remove": [
+            "[class*=tsc-subtopic-toc]"
+          ]
+        },
+        {
+          "fetch": "https://safety.twitch.tv/s/article/Emote-Policy?language=en_US",
+          "select": [
+            ".tsc-subtopic"
+          ],
+          "remove": [
+            "[class*=tsc-subtopic-toc]"
+          ]
+        },
+        {
+          "fetch": "https://safety.twitch.tv/s/article/Tags-Guidelines?language=en_US",
+          "select": [
+            ".tsc-subtopic"
+          ]
+        },
+        {
+          "fetch": "https://safety.twitch.tv/s/article/Usernames?language=en_US",
+          "select": [
+            ".tsc-subtopic"
+          ],
+          "remove": [
+            "[class*=tsc-subtopic-toc]"
+          ]
+        }
       ],
       "executeClientScripts": true
     },
