@@ -110,7 +110,8 @@
       ],
       "remove": [
         ".heroImage",
-        "[class~=_aiba]"
+        "[class~=_aiba]",
+        "img"
       ]
     },
     "Community Guidelines": {
