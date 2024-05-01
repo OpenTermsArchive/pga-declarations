@@ -64,7 +64,8 @@
           "fetch": "https://www.facebook.com/legal/EU_data_transfer_addendum"
         },
         {
-          "fetch": "https://www.facebook.com/legal/terms/UK_Data_Transfer_Addendum"
+          "fetch": "https://www.facebook.com/legal/terms/UK_Data_Transfer_Addendum",
+          "remove": "[role*=link]"
         }
       ]
     },
