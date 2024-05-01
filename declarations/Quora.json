@@ -41,6 +41,30 @@
         },
         {
           "fetch": "https://help.quora.com/hc/en-us/articles/360043961972"
+        },
+        {
+          "fetch": "https://help.quora.com/hc/en-us/articles/9456583756180-Questions-and-Answers-Policies"
+        },
+        {
+          "fetch": "https://help.quora.com/hc/en-us/articles/360000470306-What-is-Quora-s-policy-on-adding-images-and-videos"
+        },
+        {
+          "fetch": "https://help.quora.com/hc/en-us/articles/360057638052-What-is-Quora-s-policy-on-credentials"
+        },
+        {
+          "fetch": "https://help.quora.com/hc/en-us/articles/360015467632-What-is-Quora-s-policy-for-posting-reviews-of-businesses-products-or-services"
+        },
+        {
+          "fetch": "https://help.quora.com/hc/en-us/articles/360055133711-What-is-Quora-s-policy-on-disclosing-affiliations-in-answers"
+        },
+        {
+          "fetch": "https://help.quora.com/hc/en-us/articles/360000470206-What-is-Quora-s-policy-on-plagiarism-and-attribution"
+        },
+        {
+          "fetch": "https://help.quora.com/hc/en-us/articles/4405052142868-What-is-considered-Adult-content-on-Quora"
+        },
+        {
+          "fetch": "https://help.quora.com/hc/en-us/articles/360052494012-How-does-Quora-intend-to-enforce-the-Not-for-Reproduction-feature"
         }
       ]
     }
