@@ -211,28 +211,30 @@
       "validUntil": "2022-10-28T18:30:09Z"
     }
   ],
-  "Data Processor Agreement": {
-    "select": [
-      {
-        "startBefore": "div[role=main]",
-        "endBefore": "[role=\"separator\"]:first-child"
-      }
-    ],
-    "filter": [
-      "removeTrackingIDs"
-    ],
-    "executeClientScripts": true,
-    "combine": [
-      {
-        "fetch": "https://www.facebook.com/legal/EU_data_transfer_addendum"
-      },
-      {
-        "fetch": "https://www.facebook.com/legal/Workplace_GDPR_Addendum"
-      },
-      {
-        "fetch": "https://www.facebook.com/legal/terms/dataprocessing"
-      }
-    ],
-    "validUntil": "2024-02-28T23:59:59+0100"    
-  }
+  "Data Processor Agreement": [
+    {
+      "select": [
+        {
+          "startBefore": "div[role=main]",
+          "endBefore": "[role=\"separator\"]:first-child"
+        }
+      ],
+      "filter": [
+        "removeTrackingIDs"
+      ],
+      "executeClientScripts": true,
+      "combine": [
+        {
+          "fetch": "https://www.facebook.com/legal/EU_data_transfer_addendum"
+        },
+        {
+          "fetch": "https://www.facebook.com/legal/Workplace_GDPR_Addendum"
+        },
+        {
+          "fetch": "https://www.facebook.com/legal/terms/dataprocessing"
+        }
+      ],
+      "validUntil": "2024-02-28T23:59:59+0100"    
+    }  
+  ]
 }
