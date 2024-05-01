@@ -48,7 +48,7 @@
       "remove": "[href*='static.xx.fbcdn.net']",
       "executeClientScripts": true
     },
-    "Data Processing Terms": {
+    "User Consent Policy": {
       "select": [
         {
           "startBefore": "div[role=main]",
