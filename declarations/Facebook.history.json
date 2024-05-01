@@ -219,9 +219,6 @@
           "endBefore": "[role=\"separator\"]:first-child"
         }
       ],
-      "filter": [
-        "removeTrackingIDs"
-      ],
       "executeClientScripts": true,
       "combine": [
         {
