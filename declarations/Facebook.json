@@ -48,6 +48,27 @@
       "remove": "[href*='static.xx.fbcdn.net']",
       "executeClientScripts": true
     },
+    "User Consent Policy": {
+      "select": [
+        {
+          "startBefore": "div[role=main]",
+          "endBefore": "[role=\"separator\"]:first-child"
+        }
+      ],
+      "executeClientScripts": true,
+      "combine": [
+        {
+          "fetch": "https://www.facebook.com/legal/terms/dataprocessing"
+        },
+        {
+          "fetch": "https://www.facebook.com/legal/EU_data_transfer_addendum"
+        },
+        {
+          "fetch": "https://www.facebook.com/legal/terms/UK_Data_Transfer_Addendum",
+          "remove": "[role*=link]"
+        }
+      ]
+    },
     "Commercial Terms": {
       "fetch": "https://www.facebook.com/legal/commercial_terms",
       "select": [
@@ -63,29 +84,6 @@
         "cleanUrls"
       ],
       "executeClientScripts": true
-    },
-    "Data Processor Agreement": {
-      "select": [
-        {
-          "startBefore": "div[role=main]",
-          "endBefore": "[role=\"separator\"]:first-child"
-        }
-      ],
-      "filter": [
-        "removeTrackingIDs"
-      ],
-      "executeClientScripts": true,
-      "combine": [
-        {
-          "fetch": "https://www.facebook.com/legal/EU_data_transfer_addendum"
-        },
-        {
-          "fetch": "https://www.facebook.com/legal/Workplace_GDPR_Addendum"
-        },
-        {
-          "fetch": "https://www.facebook.com/legal/terms/dataprocessing"
-        }
-      ]
     },
     "Live Policy": {
       "fetch": "https://en-gb.facebook.com/policies/live",

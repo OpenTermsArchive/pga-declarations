@@ -161,6 +161,45 @@
           "fetch": "https://help.twitter.com/en/rules-and-policies/x-trademark-policy"
         },
         {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/x-username-squatting"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/copypasta-duplicate-content"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/financial-scam"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/financial-scam"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/abusive-profile"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/automated-claims-policy"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/counterfeit-goods-policy"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/public-interest"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/x-limits"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/x-reach-limited"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/enforcement-options"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/x-moments-guidelines-and-principles"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/fair-use-policy"
+        },
+        {
           "fetch": "https://help.twitter.com/en/rules-and-policies/copyright-policy",
           "select": [
             {
