@@ -1,51 +1,49 @@
 {
-  "name": "pga",
-  "services": {
-    "repository": "https://github.com/OpenTermsArchive/pga-declarations.git",
-    "declarationsPath": "./declarations"
-  },
-  "recorder": {
-    "versions": {
-      "storage": {
-        "git": {
-          "snapshotIdentiferTemplate": "https://github.com/OpenTermsArchive/pga-snapshots/commit/%SNAPSHOT_ID",
-          "repository": "git@github.com:OpenTermsArchive/pga-versions.git",
-          "path": "./data/versions"
+  "@opentermsarchive/engine": {
+    "recorder": {
+      "versions": {
+        "storage": {
+          "git": {
+            "snapshotIdentiferTemplate": "https://github.com/OpenTermsArchive/pga-snapshots/commit/%SNAPSHOT_ID",
+            "repository": "git@github.com:OpenTermsArchive/pga-versions.git",
+            "path": "./data/versions"
+          }
+        }
+      },
+      "snapshots": {
+        "storage": {
+          "git": {
+            "repository": "git@github.com:OpenTermsArchive/pga-snapshots.git",
+            "path": "./data/snapshots"
+          }
         }
       }
     },
-    "snapshots": {
-      "storage": {
-        "git": {
-          "repository": "git@github.com:OpenTermsArchive/pga-snapshots.git",
-          "path": "./data/snapshots"
+    "fetcher": {
+      "language": "en"
+    },
+    "notifier": {
+      "sendInBlue": {
+        "updatesListId": 0,
+        "updateTemplateId": 0
+      }
+    },
+    "reporter": {
+      "githubIssues": {
+        "repositories": {
+          "declarations": "OpenTermsArchive/pga-declarations",
+          "versions": "OpenTermsArchive/pga-versions",
+          "snapshots": "OpenTermsArchive/pga-snapshots"
         }
       }
+    },
+    "dataset": {
+      "title": "pga",
+      "versionsRepositoryURL": "https://github.com/OpenTermsArchive/pga-versions"
+    },
+    "collection-api": {
+      "port": 3000,
+      "basePath": "/collection-api"
     }
-  },
-  "fetcher": {
-    "language": "en"
-  },
-  "notifier": {
-    "sendInBlue": {
-      "updatesListId": 855,
-      "updateTemplateId": 41
-    }
-  },
-  "reporter": {
-    "githubIssues": {
-      "repositories": {
-        "declarations": "OpenTermsArchive/pga-declarations",
-        "versions": "OpenTermsArchive/pga-versions",
-        "snapshots": "OpenTermsArchive/pga-snapshots"
-      }
-    }
-  },
-  "dataset": {
-    "title": "pga",
-    "versionsRepositoryURL": "https://github.com/OpenTermsArchive/pga-versions"
-  },
-  "api": {
-    "port": 3000
   }
 }
