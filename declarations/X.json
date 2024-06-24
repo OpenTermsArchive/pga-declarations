@@ -2,7 +2,7 @@
   "name": "X",
   "documents": {
     "Terms of Service": {
-      "fetch": "https://twitter.com/tos",
+      "fetch": "https://x.com/tos",
       "remove": [
         ".twtr-icon--base",
         ".p05-chapter-navigation",
@@ -19,7 +19,7 @@
       ]
     },
     "Privacy Policy": {
-      "fetch": "https://twitter.com/en/privacy",
+      "fetch": "https://x.com/en/privacy",
       "remove": [
         ".twtr-icon--base",
         ".p05-chapter-navigation",
@@ -36,7 +36,7 @@
       ]
     },
     "Developer Terms": {
-      "fetch": "https://developer.twitter.com/en/developer-terms/agreement",
+      "fetch": "https://developer.x.com/en/developer-terms/agreement",
       "select": [
         "#twtr-main"
       ],
@@ -46,7 +46,7 @@
       ]
     },
     "Copyright Claims Policy": {
-      "fetch": "https://help.twitter.com/en/rules-and-policies/copyright-policy",
+      "fetch": "https://help.x.com/en/rules-and-policies/copyright-policy",
       "select": [
         ".ct01__wrapper"
       ],
@@ -63,7 +63,7 @@
       ]
     },
     "Law Enforcement Guidelines": {
-      "fetch": "https://help.twitter.com/en/rules-and-policies/twitter-law-enforcement-support",
+      "fetch": "https://help.x.com/en/rules-and-policies/twitter-law-enforcement-support",
       "select": [
         ".aem-Grid"
       ],
@@ -82,7 +82,7 @@
       ]
     },
     "Trackers Policy": {
-      "fetch": "https://help.twitter.com/en/rules-and-policies/twitter-cookies",
+      "fetch": "https://help.x.com/en/rules-and-policies/twitter-cookies",
       "select": [
         ".aem-Grid"
       ],
@@ -98,7 +98,7 @@
       ]
     },
     "Data Processor Agreement": {
-      "fetch": "https://help.twitter.com/en/rules-and-policies/data-processing-legal-bases",
+      "fetch": "https://help.x.com/en/rules-and-policies/data-processing-legal-bases",
       "select": [
         ".aem-Grid"
       ],
@@ -125,97 +125,97 @@
       ],
       "combine": [
         {
-          "fetch": "https://help.twitter.com/en/rules-and-policies/x-rules"
+          "fetch": "https://help.x.com/en/rules-and-policies/x-rules"
         },
         {
-          "fetch": "https://help.twitter.com/en/rules-and-policies/violent-speech"
+          "fetch": "https://help.x.com/en/rules-and-policies/violent-speech"
         },
         {
           "fetch": "https://help.x.com/en/rules-and-policies/violent-entities"
         },
         {
-          "fetch": "https://help.twitter.com/en/rules-and-policies/sexual-exploitation-policy"
+          "fetch": "https://help.x.com/en/rules-and-policies/sexual-exploitation-policy"
         },
         {
-          "fetch": "https://help.twitter.com/en/rules-and-policies/abusive-behavior"
+          "fetch": "https://help.x.com/en/rules-and-policies/abusive-behavior"
         },
         {
-          "fetch": "https://help.twitter.com/en/rules-and-policies/hateful-conduct-policy"
+          "fetch": "https://help.x.com/en/rules-and-policies/hateful-conduct-policy"
         },
         {
-          "fetch": "https://help.twitter.com/en/rules-and-policies/perpetrators-of-violent-attacks"
+          "fetch": "https://help.x.com/en/rules-and-policies/perpetrators-of-violent-attacks"
         },
         {
-          "fetch": "https://help.twitter.com/en/rules-and-policies/glorifying-self-harm"
+          "fetch": "https://help.x.com/en/rules-and-policies/glorifying-self-harm"
         },
         {
-          "fetch": "https://help.twitter.com/en/rules-and-policies/media-policy"
+          "fetch": "https://help.x.com/en/rules-and-policies/media-policy"
         },
         {
-          "fetch": "https://help.twitter.com/en/rules-and-policies/regulated-goods-services"
+          "fetch": "https://help.x.com/en/rules-and-policies/regulated-goods-services"
         },
         {
-          "fetch": "https://help.twitter.com/en/rules-and-policies/personal-information"
+          "fetch": "https://help.x.com/en/rules-and-policies/personal-information"
         },
         {
-          "fetch": "https://help.twitter.com/en/rules-and-policies/intimate-media"
+          "fetch": "https://help.x.com/en/rules-and-policies/intimate-media"
         },
         {
-          "fetch": "https://help.twitter.com/en/rules-and-policies/platform-manipulation"
+          "fetch": "https://help.x.com/en/rules-and-policies/platform-manipulation"
         },
         {
-          "fetch": "https://help.twitter.com/en/rules-and-policies/election-integrity-policy"
+          "fetch": "https://help.x.com/en/rules-and-policies/election-integrity-policy"
         },
         {
-          "fetch": "https://help.twitter.com/en/rules-and-policies/twitter-impersonation-and-deceptive-identities-policy"
+          "fetch": "https://help.x.com/en/rules-and-policies/twitter-impersonation-and-deceptive-identities-policy"
         },
         {
-          "fetch": "https://help.twitter.com/en/rules-and-policies/manipulated-media"
+          "fetch": "https://help.x.com/en/rules-and-policies/manipulated-media"
         },
         {
-          "fetch": "https://help.twitter.com/en/rules-and-policies/x-trademark-policy"
+          "fetch": "https://help.x.com/en/rules-and-policies/x-trademark-policy"
         },
         {
-          "fetch": "https://help.twitter.com/en/rules-and-policies/x-username-squatting"
+          "fetch": "https://help.x.com/en/rules-and-policies/x-username-squatting"
         },
         {
-          "fetch": "https://help.twitter.com/en/rules-and-policies/copypasta-duplicate-content"
+          "fetch": "https://help.x.com/en/rules-and-policies/copypasta-duplicate-content"
         },
         {
-          "fetch": "https://help.twitter.com/en/rules-and-policies/financial-scam"
+          "fetch": "https://help.x.com/en/rules-and-policies/financial-scam"
         },
         {
-          "fetch": "https://help.twitter.com/en/rules-and-policies/financial-scam"
+          "fetch": "https://help.x.com/en/rules-and-policies/financial-scam"
         },
         {
-          "fetch": "https://help.twitter.com/en/rules-and-policies/abusive-profile"
+          "fetch": "https://help.x.com/en/rules-and-policies/abusive-profile"
         },
         {
-          "fetch": "https://help.twitter.com/en/rules-and-policies/automated-claims-policy"
+          "fetch": "https://help.x.com/en/rules-and-policies/automated-claims-policy"
         },
         {
-          "fetch": "https://help.twitter.com/en/rules-and-policies/counterfeit-goods-policy"
+          "fetch": "https://help.x.com/en/rules-and-policies/counterfeit-goods-policy"
         },
         {
-          "fetch": "https://help.twitter.com/en/rules-and-policies/public-interest"
+          "fetch": "https://help.x.com/en/rules-and-policies/public-interest"
         },
         {
-          "fetch": "https://help.twitter.com/en/rules-and-policies/x-limits"
+          "fetch": "https://help.x.com/en/rules-and-policies/x-limits"
         },
         {
-          "fetch": "https://help.twitter.com/en/rules-and-policies/x-reach-limited"
+          "fetch": "https://help.x.com/en/rules-and-policies/x-reach-limited"
         },
         {
-          "fetch": "https://help.twitter.com/en/rules-and-policies/enforcement-options"
+          "fetch": "https://help.x.com/en/rules-and-policies/enforcement-options"
         },
         {
-          "fetch": "https://help.twitter.com/en/rules-and-policies/x-moments-guidelines-and-principles"
+          "fetch": "https://help.x.com/en/rules-and-policies/x-moments-guidelines-and-principles"
         },
         {
-          "fetch": "https://help.twitter.com/en/rules-and-policies/fair-use-policy"
+          "fetch": "https://help.x.com/en/rules-and-policies/fair-use-policy"
         },
         {
-          "fetch": "https://help.twitter.com/en/rules-and-policies/copyright-policy",
+          "fetch": "https://help.x.com/en/rules-and-policies/copyright-policy",
           "select": [
             {
               "startBefore": "h1",
@@ -227,12 +227,12 @@
           ]
         },
         {
-          "fetch": "https://help.twitter.com/en/rules-and-policies/enforcement-philosophy"
+          "fetch": "https://help.x.com/en/rules-and-policies/enforcement-philosophy"
         }
       ]
     },
     "Deceased Users": {
-      "fetch": "https://help.twitter.com/en/rules-and-policies/contact-twitter-about-media-on-a-deceased-family-members-account",
+      "fetch": "https://help.x.com/en/rules-and-policies/contact-twitter-about-media-on-a-deceased-family-members-account",
       "select": [
         {
           "startBefore": "h1",
@@ -244,7 +244,7 @@
       ]
     },
     "Data Controller Agreement": {
-      "fetch": "https://help.twitter.com/en/rules-and-policies/data-processing-legal-bases",
+      "fetch": "https://help.x.com/en/rules-and-policies/data-processing-legal-bases",
       "select": [
         {
           "startBefore": "h1",
