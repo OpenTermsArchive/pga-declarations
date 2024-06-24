@@ -128,13 +128,19 @@
           "fetch": "https://help.x.com/en/rules-and-policies/x-rules"
         },
         {
-          "fetch": "https://help.x.com/en/rules-and-policies/violent-speech"
+          "fetch": "https://help.x.com/en/rules-and-policies/violent-content",
+          "select": [
+            "main"
+          ]
         },
         {
           "fetch": "https://help.x.com/en/rules-and-policies/violent-entities"
         },
         {
-          "fetch": "https://help.x.com/en/rules-and-policies/sexual-exploitation-policy"
+          "fetch": "https://help.x.com/en/rules-and-policies/child-safety",
+          "select": [
+            "main"
+          ]
         },
         {
           "fetch": "https://help.x.com/en/rules-and-policies/abusive-behavior"
@@ -149,7 +155,10 @@
           "fetch": "https://help.x.com/en/rules-and-policies/glorifying-self-harm"
         },
         {
-          "fetch": "https://help.x.com/en/rules-and-policies/media-policy"
+          "fetch": "https://help.x.com/en/rules-and-policies/adult-content",
+          "select": [
+            "main"
+          ]
         },
         {
           "fetch": "https://help.x.com/en/rules-and-policies/regulated-goods-services"
