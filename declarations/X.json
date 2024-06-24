@@ -57,6 +57,9 @@
         ".u11__breadcrumbs-list:nth-child(2)",
         ".IconButton",
         ".b04-image"
+      ],
+      "filter": [
+        "useXHelpCenterBaseURL"
       ]
     },
     "Law Enforcement Guidelines": {
@@ -73,6 +76,9 @@
         ".u11__mobile-header",
         ".twtr-component--first > .b02-v2 > ul",
         ".twtr-component--first b"
+      ],
+      "filter": [
+        "useXHelpCenterBaseURL"
       ]
     },
     "Trackers Policy": {
@@ -86,6 +92,9 @@
         ".twtr-type--headline-md",
         ".b24__wrapper",
         ".b17"
+      ],
+      "filter": [
+        "useXHelpCenterBaseURL"
       ]
     },
     "Data Processor Agreement": {
@@ -99,6 +108,9 @@
         ".twtr-type--headline-md",
         ".b24__wrapper",
         ".b17"
+      ],
+      "filter": [
+        "useXHelpCenterBaseURL"
       ]
     },
     "Community Guidelines": {
@@ -107,6 +119,9 @@
           "startBefore": "h1",
           "endAfter": "[class*=\"rich-text-v\"]"
         }
+      ],
+      "filter": [
+        "useXHelpCenterBaseURL"
       ],
       "combine": [
         {
@@ -223,6 +238,9 @@
           "startBefore": "h1",
           "endAfter": "[class*=\"rich-text-v\"]"
         }
+      ],
+      "filter": [
+        "useXHelpCenterBaseURL"
       ]
     },
     "Data Controller Agreement": {
@@ -232,6 +250,9 @@
           "startBefore": "h1",
           "endBefore": "[class*=b24-share-tweet]"
         }
+      ],
+      "filter": [
+        "useXHelpCenterBaseURL"
       ]
     }
   }
