@@ -133,6 +133,19 @@
       "filter": [
         "removeLinks"
       ]
+    },
+    "Trackers Policy": {
+      "fetch": "https://mbasic.facebook.com/privacy/policies/cookies/printable/",
+      "select": [
+        "[id='root']"
+      ],
+      "remove": [
+        "img[src*='https://scontent']",
+        "img[src*='static.xx.fbcdn.net']"
+      ],
+      "filter": [
+        "removeLinks"
+      ]
     }
   }
 }
