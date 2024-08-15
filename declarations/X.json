@@ -60,7 +60,8 @@
       ],
       "filter": [
         "useXHelpCenterBaseURL"
-      ]
+      ],
+      "executeClientScripts": true
     },
     "Law Enforcement Guidelines": {
       "fetch": "https://help.x.com/en/rules-and-policies/twitter-law-enforcement-support",
@@ -79,7 +80,8 @@
       ],
       "filter": [
         "useXHelpCenterBaseURL"
-      ]
+      ],
+      "executeClientScripts": true
     },
     "Trackers Policy": {
       "fetch": "https://help.x.com/en/rules-and-policies/twitter-cookies",
@@ -95,7 +97,8 @@
       ],
       "filter": [
         "useXHelpCenterBaseURL"
-      ]
+      ],
+      "executeClientScripts": true
     },
     "Data Processor Agreement": {
       "fetch": "https://help.x.com/en/rules-and-policies/data-processing-legal-bases",
@@ -111,7 +114,8 @@
       ],
       "filter": [
         "useXHelpCenterBaseURL"
-      ]
+      ],
+      "executeClientScripts": true
     },
     "Community Guidelines": {
       "select": [
@@ -238,7 +242,8 @@
         {
           "fetch": "https://help.x.com/en/rules-and-policies/enforcement-philosophy"
         }
-      ]
+      ],
+      "executeClientScripts": true
     },
     "Deceased Users": {
       "fetch": "https://help.x.com/en/rules-and-policies/contact-twitter-about-media-on-a-deceased-family-members-account",
@@ -250,7 +255,8 @@
       ],
       "filter": [
         "useXHelpCenterBaseURL"
-      ]
+      ],
+      "executeClientScripts": true
     },
     "Data Controller Agreement": {
       "fetch": "https://help.x.com/en/rules-and-policies/data-processing-legal-bases",
@@ -262,7 +268,8 @@
       ],
       "filter": [
         "useXHelpCenterBaseURL"
-      ]
+      ],
+      "executeClientScripts": true
     }
   }
 }
