@@ -3,16 +3,23 @@
   "documents": {
     "Terms of Service": {
       "fetch": "https://policy.pinterest.com/en/terms-of-service",
-      "select": "article"
+      "select": "main",
+      "remove": [
+        ".chakra-link"
+      ]
     },
     "Privacy Policy": {
       "fetch": "https://policy.pinterest.com/en/privacy-policy",
-      "select": "article"
+      "select": "main",
+      "remove": [
+        ".chakra-link"
+      ]
     },
     "Community Guidelines": {
       "fetch": "https://policy.pinterest.com/en/community-guidelines",
-      "select": [
-        "article"
+      "select": "main",
+      "remove": [
+        ".chakra-link"
       ]
     }
   }
