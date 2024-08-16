@@ -18,15 +18,6 @@
       ]
     },
     "Community Guidelines": {
-      "select": [
-        "#main-content"
-      ],
-      "remove": [
-        ".article-votes",
-        ".article-more-questions",
-        ".article-relatives",
-        "footer"
-      ],
       "combine": [
         {
           "fetch": "https://www.redditinc.com/policies/content-policy",
@@ -38,39 +29,106 @@
           ]
         },
         {
-          "fetch": "https://www.reddithelp.com/hc/en-us/articles/360043071072"
+          "fetch": "https://www.reddithelp.com/hc/en-us/articles/360043071072",
+          "select": "#main-content",
+          "remove": [
+            ".filter-holder",
+            ".sidenav-container",
+            ".btn"
+          ]
         },
         {
-          "fetch": "https://www.reddithelp.com/hc/en-us/articles/360043513151"
+          "fetch": "https://www.reddithelp.com/hc/en-us/articles/360043513151",
+          "select": "#main-content",
+          "remove": [
+            ".filter-holder",
+            ".sidenav-container",
+            ".btn"
+          ]
         },
         {
-          "fetch": "https://www.reddithelp.com/hc/en-us/articles/360045715951"
+          "fetch": "https://www.reddithelp.com/hc/en-us/articles/360045715951",
+          "select": "#main-content",
+          "remove": [
+            ".filter-holder",
+            ".sidenav-container",
+            ".btn"
+          ]
         },
         {
-          "fetch": "https://www.reddithelp.com/hc/en-us/articles/360043504051"
+          "fetch": "https://www.reddithelp.com/hc/en-us/articles/360043504051",
+          "select": "#main-content",
+          "remove": [
+            ".filter-holder",
+            ".sidenav-container",
+            ".btn"
+          ]
         },
         {
-          "fetch": "https://www.reddithelp.com/hc/en-us/articles/360043066412"
+          "fetch": "https://www.reddithelp.com/hc/en-us/articles/360043066412",
+          "select": "#main-content",
+          "remove": [
+            ".filter-holder",
+            ".sidenav-container",
+            ".btn"
+          ]
         },
         {
-          "fetch": "https://www.reddithelp.com/hc/en-us/articles/360043066452"
+          "fetch": "https://www.reddithelp.com/hc/en-us/articles/360043066452",
+          "select": "#main-content",
+          "remove": [
+            ".filter-holder",
+            ".sidenav-container",
+            ".btn"
+          ]
         },
         {
-          "fetch": "https://www.reddithelp.com/hc/en-us/articles/360043513411"
+          "fetch": "https://www.reddithelp.com/hc/en-us/articles/360043513411",
+          "select": "#main-content",
+          "remove": [
+            ".filter-holder",
+            ".sidenav-container",
+            ".btn"
+          ]
         },
         {
-          "fetch": "https://www.reddithelp.com/hc/en-us/articles/360043075352"
+          "fetch": "https://www.reddithelp.com/hc/en-us/articles/360043075352",
+          "select": "#main-content",
+          "remove": [
+            ".filter-holder",
+            ".sidenav-container",
+            ".btn"
+          ]
         },
         {
-          "fetch": "https://www.reddithelp.com/hc/en-us/articles/360043075032"
+          "fetch": "https://www.reddithelp.com/hc/en-us/articles/360043075032",
+          "select": "#main-content",
+          "remove": [
+            ".filter-holder",
+            ".sidenav-container",
+            ".btn"
+          ]
         },
         {
-          "fetch": "https://www.reddithelp.com/hc/en-us/articles/360043513471"
+          "fetch": "https://www.reddithelp.com/hc/en-us/articles/360043513471",
+          "select": "#main-content",
+          "remove": [
+            ".filter-holder",
+            ".sidenav-container",
+            ".btn"
+          ]
         },
         {
-          "fetch": "https://www.reddithelp.com/hc/en-us/articles/360043512931"
+          "fetch": "https://www.reddithelp.com/hc/en-us/articles/360043512931",
+          "select": "#main-content",
+          "remove": [
+            ".filter-holder",
+            ".sidenav-container",
+            ".btn"
+          ]
         }
-      ]
+      ],
+      "executeClientScripts": true
     }
   }
 }
