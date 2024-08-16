@@ -8,8 +8,6 @@
       ],
       "remove": [
         "[id*=Related]",
-        "[class*=xrgej4m]",
-        "[class*=x4k7w5x]",
         "[role*=navigation]"
       ],
       "executeClientScripts": true
@@ -21,8 +19,6 @@
       ],
       "remove": [
         "[id*=Related]",
-        "[class*=xrgej4m]",
-        "[class*=x4k7w5x]",
         "[role*=navigation]"
       ],
       "executeClientScripts": true
