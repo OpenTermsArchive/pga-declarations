@@ -19,16 +19,14 @@
       "executeClientScripts": true
     },
     "Privacy Policy": {
-      "fetch": "https://help.instagram.com/155833707900388",
+      "fetch": "https://privacycenter.instagram.com/policy",
       "select": [
-        "[class*=bh]"
-      ],
-      "remove": [
-        ".u"
+        ".xg6iff7"
       ],
       "filter": [
         "removeTrackingIDs"
-      ]
+      ],
+      "executeClientScripts": true
     },
     "Community Guidelines": {
       "select": [
