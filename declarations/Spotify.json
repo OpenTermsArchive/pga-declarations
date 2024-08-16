@@ -31,8 +31,8 @@
       ]
     },
     "Community Guidelines": {
-      "fetch": "https://support.spotify.com/us/article/platform-rules/",
-      "select": "[role=main]",
+      "fetch": "https://www.spotify.com/de-en/safetyandprivacy/platform-rules",
+      "select": "[class*=hcgKtJ]",
       "remove": [
         "[data-encore-id=type]",
         "button",
