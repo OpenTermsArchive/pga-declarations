@@ -26,7 +26,7 @@
         {
           "fetch": "https://help.twitch.tv/s/article/about-account-suspensions-dmca-suspensions-and-chat-bans?language=en_US",
           "select": [
-            "[id*=article]"
+            "#article"
           ]
         },
         {
