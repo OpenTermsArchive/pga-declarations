@@ -26,12 +26,10 @@
         ".bh",
         "img[style=\"display:none\"]",
         "img",
-        ".bk",
-        "[role*=link]"
+        ".bk"
       ],
       "filter": [
-        "removeTrackingIDs",
-        "cleanUrls"
+        "removeTrackingIDs"
       ]
     },
     "Developer Terms": {
