@@ -24,10 +24,14 @@
         ".k",
         ".l",
         ".bh",
-        "img[style=\"display:none\"]"
+        "img[style=\"display:none\"]",
+        "img",
+        ".bk",
+        "[role*=link]"
       ],
       "filter": [
-        "removeTrackingIDs"
+        "removeTrackingIDs",
+        "cleanUrls"
       ]
     },
     "Developer Terms": {
