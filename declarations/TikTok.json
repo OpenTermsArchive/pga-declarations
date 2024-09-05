@@ -25,12 +25,11 @@
       "executeClientScripts": true
     },
     "Community Guidelines": {
-      "select": "main",
+      "select": "[id=community-guidelines]",
       "remove": [
         "nav",
         ".wp-post-last-updated",
-        ".adapt-mode",
-        "h2"
+        ".adapt-mode"
       ],
       "combine": [
         {
