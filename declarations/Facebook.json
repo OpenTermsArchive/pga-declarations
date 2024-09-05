@@ -30,7 +30,8 @@
       ],
       "filter": [
         "removeTrackingIDs"
-      ]
+      ],
+      "executeClientScripts": true
     },
     "Developer Terms": {
       "fetch": "https://developers.facebook.com/policy",
