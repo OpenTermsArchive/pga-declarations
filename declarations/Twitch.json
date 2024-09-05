@@ -17,7 +17,7 @@
         {
           "fetch": "https://safety.twitch.tv/s/article/Community-Guidelines?language=en_US",
           "select": [
-            ".tsc-subtopic-content"
+            ".tsc-subtopic"
           ],
           "remove": [
             "[data-id=\"tscToc\"]"
