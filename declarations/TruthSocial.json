@@ -16,10 +16,8 @@
       ]
     },
     "Privacy Policy": {
-      "fetch": "https://help.truthsocial.com/legal/gdpr/",
+      "fetch": "https://help.truthsocial.com/legal/privacy-policy",
       "select": [
-        "[class*=text-4xl]",
-        "[class*=text-xl]",
         "main"
       ]
     }
