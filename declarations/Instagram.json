@@ -33,7 +33,7 @@
         {
           "fetch": "https://help.instagram.com/477434105621119",
           "select": [
-            "[id=help-center-faq-page-container]"
+            "[role=main]"
           ],
           "remove": [
             "div[aria-label=\"Copy link\"]",
