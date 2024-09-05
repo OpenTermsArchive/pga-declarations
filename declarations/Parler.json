@@ -3,22 +3,19 @@
   "documents": {
     "Privacy Policy": {
       "fetch": "https://parler.com/privacy-policy/",
-      "select": ".e-con-inner",
-      "remove": [
-        "[data-widget_type='image.default']",
-        "[data-widget_type='button.default']"
-      ]
+      "select": "[role=main]"
     },
     "Terms of Service": {
       "fetch": "https://parler.com/terms-of-service/",
-      "select": ".e-con-inner",
-      "remove": [
-        "[data-widget_type='image.default']",
-        "[data-widget_type='button.default']"
-      ]
+      "select": "[role=main]"
     },
     "Community Guidelines": {
-      "fetch": "https://parler.com/documents/guidelines.pdf"
+      "fetch": "https://parler.com/community-guidelines/",
+      "select": "[role=main]"
+    },
+    "Trackers Policy": {
+      "fetch": "https://parler.com/cookie-policies/",
+      "select": "[role=main]"
     }
   }
 }
