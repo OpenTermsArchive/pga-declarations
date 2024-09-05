@@ -109,8 +109,7 @@
         {
           "fetch": "https://www.linkedin.com/help/linkedin/answer/137372"
         }
-      ],
-      "executeClientScripts": true
+      ]
     }
   }
 }
