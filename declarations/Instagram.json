@@ -103,7 +103,21 @@
           ]
         },
         {
-          "fetch": "https://transparency.fb.com/policies/community-standards/account-integrity-and-authentic-identity/",
+          "fetch": "https://transparency.fb.com/policies/community-standards/account-integrity/",
+          "select": [
+            "h1",
+            "[id=policy-details]"
+          ],
+          "remove": [
+            "h3",
+            "h6",
+            "[class~=_9p78]",
+            "[class~=_9q49]",
+            "button"
+          ]
+        },
+        {
+          "fetch": "https://transparency.fb.com/policies/community-standards/authentic-identity-representation/",
           "select": [
             "h1",
             "[id=policy-details]"
