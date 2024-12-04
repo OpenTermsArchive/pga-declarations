@@ -2,20 +2,20 @@
   "name": "Parler",
   "documents": {
     "Privacy Policy": {
-      "fetch": "https://parler.com/privacy-policy/",
-      "select": "[role=main]"
+      "fetch": "https://parler.com/privacy-policy",
+      "select": "main"
     },
     "Terms of Service": {
-      "fetch": "https://parler.com/terms-of-service/",
-      "select": "[role=main]"
+      "fetch": "https://parler.com/terms-of-service",
+      "select": "main"
     },
     "Community Guidelines": {
       "fetch": "https://parler.com/community-guidelines/",
-      "select": "[role=main]"
+      "select": "main"
     },
     "Trackers Policy": {
-      "fetch": "https://parler.com/cookie-policies/",
-      "select": "[role=main]"
+      "fetch": "https://www.parler.com/cookie-policy",
+      "select": "main"
     }
   }
 }
