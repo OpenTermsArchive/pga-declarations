@@ -38,7 +38,11 @@
             "[class~=_9nrf]"
           ],
           "filter": [
-            "removeTrackingIDsE"
+            "removeTrackingIDsE",
+            "cleanUrls"
+          ],
+          "remove": [
+            "[class~=img]"
           ]
         },
         {
