@@ -31,15 +31,17 @@
     "Community Guidelines": {
       "combine": [
         {
-          "fetch": "https://help.instagram.com/477434105621119",
+          "fetch": "https://transparency.meta.com/policies/community-standards/",
           "select": [
-            "[role=main]"
+            "h1",
+            "[id=policy-details]"
           ],
           "remove": [
-            "div[aria-label=\"Copy link\"]",
-            "[id='Related Articles']",
-            "fieldset",
-            "[role=navigation]"
+            "h3",
+            "h6",
+            "[class~=_9p78]",
+            "[class~=_9q49]",
+            "button"
           ],
           "filter": [
             "removeTrackingIDsE"
