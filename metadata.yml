@@ -2,9 +2,9 @@ id: pga
 name: Platform Governance Archive
 tagline: Major global social media services
 description: |
-  The **Plateform Governance Archive** (PGA) collection tracks the terms of major global social media services.
+  The **Platform Governance Archive** (PGA) collection tracks the terms of major global social media services.
   
-  These data are maintained and analysed by the [Platform Governance Archive](https://www.platformgovernancearchive.org/) at the Universität Bremen's [Center for Media Communication and Information Research (ZeMKI)](https://www.uni-bremen.de/zemki).
+  This data is maintained and analysed by the [Platform Governance Archive](https://www.platformgovernancearchive.org/) at the Universität Bremen's [Center for Media Communication and Information Research (ZeMKI)](https://www.uni-bremen.de/zemki).
   
   This initiative offers researchers, journalists and citizens the tools to analyze how platforms structure and regulate communication and interaction in our societies.
   
@@ -50,7 +50,7 @@ i18n:
   fr: 
     tagline: Médias sociaux mondiaux majeurs
     description: | 
-      La collection **Plateform Governance Archive** (PGA) suit les conditions d'utilisation des principaux services de médias sociaux.
+      La collection **Platform Governance Archive** (PGA) suit les conditions d'utilisation des principaux services de médias sociaux.
       
       Ces données sont maintenues et analysées par la [Platform Governance Archive](https://www.platformgovernancearchive.org/) du [Center for Media Communication and Information Research (ZeMKI)](https://www.uni-bremen.de/zemki) de l'Université de Brême.
       
