@@ -41,6 +41,9 @@
       "title": "pga",
       "versionsRepositoryURL": "https://github.com/OpenTermsArchive/pga-versions"
     },
+    "logger": {
+      "timestampPrefix": false
+    },
     "collection-api": {
       "port": 3000,
       "basePath": "/collection-api"
