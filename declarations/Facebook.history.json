@@ -233,5 +233,22 @@
       ],
       "validUntil": "2024-02-28T23:59:59+0100"
     }
+  ],
+  "Terms of Service": [
+    {
+      "fetch": "https://www.facebook.com/legal/terms/plain_text_terms",
+      "select": [
+        {
+          "startBefore": "div[role=main]",
+          "endBefore": "[role=\"separator\"]:first-child"
+        }
+      ],
+      "filter": [
+        "cleanUrls",
+        "replaceInfoImageWithEmoji"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "to-be-determined"
+    }
   ]
 }
