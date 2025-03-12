@@ -1,6 +1,6 @@
 {
   "name": "Threads",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://help.instagram.com/769983657850450",
       "select": [

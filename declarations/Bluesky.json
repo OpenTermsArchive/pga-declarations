@@ -1,6 +1,6 @@
 {
   "name": "Bluesky",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://bsky.social/about/support/tos",
       "select": "main",

@@ -1,6 +1,6 @@
 {
   "name": "X",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://x.com/tos",
       "remove": [

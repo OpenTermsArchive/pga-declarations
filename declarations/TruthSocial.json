@@ -1,6 +1,6 @@
 {
   "name": "Truth Social",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://help.truthsocial.com/legal/terms-of-service/",
       "select": [
