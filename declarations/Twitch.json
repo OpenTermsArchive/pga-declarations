@@ -83,6 +83,7 @@
       "select": [
         ".pl-5.pr-5.xl\\:pr-0"
       ],
+      "executeClientScripts": true
     }
   }
 }
