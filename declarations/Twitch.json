@@ -80,9 +80,11 @@
     },
     "Trackers Policy": {
       "fetch": "https://www.twitch.tv/p/en/legal/cookie-notice/",
-      "select": [
-        ".pl-5.pr-5.xl\\:pr-0"
+      "select": "#main-content",
+      "remove": [
+        ".xl\\:sticky"
       ],
+      "executeClientScripts": true
     }
   }
 }
