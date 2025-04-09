@@ -3,7 +3,9 @@
   "terms": {
     "Terms of Service": {
       "fetch": "https://www.twitch.tv/p/en/legal/terms-of-service/",
-      "select": "#main-content",
+      "select": [
+        "#main-content"
+      ],
       "remove": [
         ".highlight-container"
       ],
