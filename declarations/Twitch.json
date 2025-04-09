@@ -12,7 +12,10 @@
     "Privacy Policy": {
       "fetch": "https://www.twitch.tv/p/en/legal/privacy-notice/",
       "select": [
-        ".typeset"
+        ".pl-5.pr-5.xl\\:pr-0"
+      ],
+      "remove": [
+        ".li"
       ],
       "executeClientScripts": true
     },
