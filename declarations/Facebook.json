@@ -132,18 +132,21 @@
         {
           "fetch": "https://transparency.fb.com/policies/community-standards/",
           "select": [
-            {
-              "startBefore": "h1",
-              "endBefore": "body > div > section:last-of-type h6"
-            }
+            "._li"
           ],
           "remove": [
+            "#u_0_1_fk",
+            "#u_0_3_Da", 
+            "[class~=_9nrb_9nrd]",
             "[href*='137151366_203760844736656_1882032595123025998_n.jpg']",
             "[href*='137145103_308994903869841_4708570808613729754_n.jpg']",
             "[href*='137256059_2800543870233431_455035967167740410_n.jpg']",
             "[href*='136893606_849918935579882_213472362566516880_n.jpg']",
             "img[src*='https://scontent']",
-            "img[src*='static.xx.fbcdn.net']"
+            "img[src*='static.xx.fbcdn.net']",
+            "iframe[src*='https://www.facebook.com/cms/video/?id=850337606335586']",
+            "a",
+            ".img"
           ]
         },
         {
