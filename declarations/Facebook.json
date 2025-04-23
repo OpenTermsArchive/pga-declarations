@@ -34,10 +34,13 @@
         ".bh",
         "img[style=\"display:none\"]",
         "img",
-        ".bk"
+        ".bk",
+        ".bl"
       ],
       "filter": [
-        "removeTrackingIDs"
+        "removeTrackingIDs",
+        "cleanUrls",
+        "removeHelpButtons"
       ],
       "executeClientScripts": true
     },
