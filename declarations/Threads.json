@@ -10,7 +10,8 @@
         "#Related",
         "[class*=xrgej4m]",
         "[class*=x4k7w5x]",
-        "[role*=navigation]"
+        "[role*=navigation]",
+        "img"
       ],
       "executeClientScripts": true
     },
@@ -23,7 +24,8 @@
         "#Related",
         "[class*=xrgej4m]",
         "[class*=x4k7w5x]",
-        "[role*=navigation]"
+        "[role*=navigation]",
+        "img"
       ],
       "executeClientScripts": true
     }
