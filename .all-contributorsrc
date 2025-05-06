@@ -64,9 +64,19 @@
         "code",
         "infra"
       ]
+    },
+    {
+      "login": "zenobioarn",
+      "name": "Zenobio de Almeida",
+      "avatar_url": "https://avatars.githubusercontent.com/u/189729038?v=4",
+      "profile": "https://github.com/zenobioarn",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "repoType": "github",
   "commitConvention": "none",
-  "contributorsPerLine": 7
+  "contributorsPerLine": 7,
+  "commitType": "docs"
 }
