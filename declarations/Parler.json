@@ -3,19 +3,23 @@
   "terms": {
     "Privacy Policy": {
       "fetch": "https://parler.com/privacy-policy",
-      "select": "main"
+      "select": "main",
+      "remove":"footer"
     },
     "Terms of Service": {
       "fetch": "https://parler.com/terms-of-service",
-      "select": "main"
+      "select": "main",
+      "remove":"footer"
     },
     "Community Guidelines": {
       "fetch": "https://parler.com/community-guidelines/",
-      "select": "main"
+      "select": "main",
+      "remove": "footer"
     },
     "Trackers Policy": {
       "fetch": "https://www.parler.com/cookie-policy",
-      "select": "main"
+      "select": "main",
+      "remove": "footer"
     }
   }
 }
