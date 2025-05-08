@@ -4,12 +4,12 @@
     "Privacy Policy": {
       "fetch": "https://parler.com/privacy-policy",
       "select": "main",
-      "remove":"footer"
+      "remove": "footer"
     },
     "Terms of Service": {
       "fetch": "https://parler.com/terms-of-service",
       "select": "main",
-      "remove":"footer"
+      "remove": "footer"
     },
     "Community Guidelines": {
       "fetch": "https://parler.com/community-guidelines/",
