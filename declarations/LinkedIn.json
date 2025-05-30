@@ -2,7 +2,7 @@
   "name": "LinkedIn",
   "terms": {
     "Privacy Policy": {
-      "fetch": "https://www.linkedin.com/legal/privacy-policy",
+      "fetch": "https://www.linkedin.com/legal/privacy/eu",
       "select": [
         "#component-container"
       ],
