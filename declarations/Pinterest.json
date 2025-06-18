@@ -2,21 +2,21 @@
   "name": "Pinterest",
   "terms": {
     "Terms of Service": {
-      "fetch": "https://policy.pinterest.com/en/terms-of-service",
+      "fetch": "https://policy.pinterest.com/en-gb/terms-of-service",
       "select": "main",
       "remove": [
         ".chakra-link"
       ]
     },
     "Privacy Policy": {
-      "fetch": "https://policy.pinterest.com/en/privacy-policy",
+      "fetch": "https://policy.pinterest.com/en-gb/privacy-policy",
       "select": "main",
       "remove": [
         ".chakra-link"
       ]
     },
     "Community Guidelines": {
-      "fetch": "https://policy.pinterest.com/en/community-guidelines",
+      "fetch": "https://policy.pinterest.com/en-gb/community-guidelines",
       "select": "main",
       "remove": [
         ".chakra-link"
