@@ -31,13 +31,13 @@
         "[class*='html-h3']",
         "[class*='html-p']",
         "[class*='html-div']",
-        "[class*='xryxfnj']",     
-        "[class*='xji0vk5']",    
-        "[class*='xplvlek']",     
-        "[class*='x1lliihq']",    
-        ".xieb3on",               
-        ".x6s0dn4",               
-        ".x5yr21d"                
+        "[class*='xryxfnj']",
+        "[class*='xji0vk5']",
+        "[class*='xplvlek']",
+        "[class*='x1lliihq']",
+        ".xieb3on",
+        ".x6s0dn4",
+        ".x5yr21d"
       ],
       "filter": [
         "removeTrackingIDs"
