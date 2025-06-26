@@ -119,10 +119,7 @@
     },
     "Community Guidelines": {
       "select": [
-        {
-          "startBefore": "h1",
-          "endAfter": "[class*=\"rich-text-v\"]"
-        }
+        "main"
       ],
       "filter": [
         "useXHelpCenterBaseURL"
@@ -165,7 +162,7 @@
           ]
         },
         {
-          "fetch": "https://help.x.com/en/rules-and-policies/regulated-goods-services"
+          "fetch": "https://help.x.com/en/rules-and-policies/shopping-policies"
         },
         {
           "fetch": "https://help.x.com/en/rules-and-policies/personal-information"
