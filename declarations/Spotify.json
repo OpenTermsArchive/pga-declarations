@@ -37,7 +37,8 @@
         "[data-encore-id=type]",
         "button",
         "[data-encore-id=buttonSecondary]",
-        "[data-encore-id=textLink]"
+        "[data-encore-id=textLink]",
+        "img"
       ]
     },
     "Trackers Policy": {
