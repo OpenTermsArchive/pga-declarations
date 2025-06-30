@@ -3,7 +3,7 @@
   "terms": {
     "Terms of Service": {
       "fetch": "https://www.snap.com/en-GB/terms",
-      "select": "body",
+      "select": "main",
       "remove": [
         "header",
         "footer",
