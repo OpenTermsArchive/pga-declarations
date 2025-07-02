@@ -32,7 +32,7 @@
        "footer",
        ".ad-banner",
        "[data-role=sidebar]"
-          ],
+      ],
       "filter": [
         "removeTrackingIDs"
       ],
