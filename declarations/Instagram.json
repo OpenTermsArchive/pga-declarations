@@ -21,17 +21,17 @@
     "Privacy Policy": {
       "fetch": "https://privacycenter.instagram.com/policy",
       "select": [
-       "body"
+        "body"
       ],
       "remove": [
-       "img",
-       "[class~=video]",
-       "[aria-controls]",
-       "nav",
-       "header",
-       "footer",
-       ".ad-banner",
-       "[data-role=sidebar]"
+        "img",
+        "[class~=video]",
+        "[aria-controls]",
+        "nav",
+        "header",
+        "footer",
+        ".ad-banner",
+        "[data-role=sidebar]"
       ],
       "filter": [
         "removeTrackingIDs"
