@@ -16,7 +16,8 @@
         "#content-wrapper"
       ],
       "remove": [
-        "[href='#top-of-page']"
+        "[href='#top-of-page']",
+        "img"
       ]
     },
     "Trackers Policy": {
