@@ -2,7 +2,7 @@
   "name": "WhatsApp",
   "terms": {
     "Terms of Service": {
-      "fetch": "https://www.whatsapp.com/legal/updates/terms-of-service-eea?lang=en",
+      "fetch": "https://www.whatsapp.com/legal/terms-of-service-eea?lang=en",
       "select": [
         "#content-wrapper"
       ],
@@ -11,12 +11,13 @@
       ]
     },
     "Privacy Policy": {
-      "fetch": "https://www.whatsapp.com/legal/updates/privacy-policy-eea?lang=en",
+      "fetch": "https://www.whatsapp.com/legal/privacy-policy-eea?lang=en",
       "select": [
         "#content-wrapper"
       ],
       "remove": [
-        "[href='#top-of-page']"
+        "[href='#top-of-page']",
+        "img"
       ]
     },
     "Trackers Policy": {
