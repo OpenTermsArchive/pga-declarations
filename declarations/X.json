@@ -240,7 +240,7 @@
       "executeClientScripts": true
     },
     "Deceased Users": {
-      "fetch": "https://help.x.com/en/rules-and-policies/contact-twitter-about-media-on-a-deceased-family-members-account",
+      "fetch": "https://help.x.com/en/rules-and-policies/contact-x-about-a-deceased-family-members-account",
       "select": [
         {
           "startBefore": "h1",
