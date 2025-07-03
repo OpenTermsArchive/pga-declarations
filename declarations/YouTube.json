@@ -18,7 +18,16 @@
     },
     "Copyright Claims Policy": {
       "fetch": "https://www.youtube.com/intl/en_be/howyoutubeworks/policies/copyright/",
-      "select": ".ytr-article__content"
+      "select": ".yt-main.copyright",
+      "remove": [
+        ".ytr-hero__eyebrow",
+        ".ytr-link > svg",
+        ".ytr-media",
+        "section.hero-section .lb-grid__cell--span-12",
+        "img",
+        "svg",
+        ".mobile-only"
+      ]
     },
     "Community Guidelines": {
       "select": [
