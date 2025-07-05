@@ -34,7 +34,8 @@
           "remove": [
             ".filter-holder",
             ".sidenav-container",
-            ".btn"
+            ".btn",
+            "[data-prevnext]"
           ]
         },
         {
@@ -43,7 +44,8 @@
           "remove": [
             ".filter-holder",
             ".sidenav-container",
-            ".btn"
+            ".btn",
+            "[data-prevnext]"
           ]
         },
         {
@@ -52,7 +54,8 @@
           "remove": [
             ".filter-holder",
             ".sidenav-container",
-            ".btn"
+            ".btn",
+            "[data-prevnext]"
           ]
         },
         {
@@ -61,7 +64,8 @@
           "remove": [
             ".filter-holder",
             ".sidenav-container",
-            ".btn"
+            ".btn",
+            "[data-prevnext]"
           ]
         },
         {
@@ -70,7 +74,8 @@
           "remove": [
             ".filter-holder",
             ".sidenav-container",
-            ".btn"
+            ".btn",
+            "[data-prevnext]"
           ]
         },
         {
@@ -79,7 +84,8 @@
           "remove": [
             ".filter-holder",
             ".sidenav-container",
-            ".btn"
+            ".btn",
+            "[data-prevnext]"
           ]
         },
         {
@@ -88,7 +94,8 @@
           "remove": [
             ".filter-holder",
             ".sidenav-container",
-            ".btn"
+            ".btn",
+            "[data-prevnext]"
           ]
         },
         {
@@ -97,7 +104,8 @@
           "remove": [
             ".filter-holder",
             ".sidenav-container",
-            ".btn"
+            ".btn",
+            "[data-prevnext]"
           ]
         },
         {
@@ -106,7 +114,8 @@
           "remove": [
             ".filter-holder",
             ".sidenav-container",
-            ".btn"
+            ".btn",
+            "[data-prevnext]"
           ]
         },
         {
@@ -115,7 +124,8 @@
           "remove": [
             ".filter-holder",
             ".sidenav-container",
-            ".btn"
+            ".btn",
+            "[data-prevnext]"
           ]
         },
         {
@@ -124,7 +134,8 @@
           "remove": [
             ".filter-holder",
             ".sidenav-container",
-            ".btn"
+            ".btn",
+            "[data-prevnext]"
           ]
         }
       ],
