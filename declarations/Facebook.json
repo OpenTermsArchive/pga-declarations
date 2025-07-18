@@ -35,7 +35,8 @@
         "img[style=\"display:none\"]",
         "img",
         ".bk",
-        ".bl"
+        ".bl",
+        ".bj"
       ],
       "filter": [
         "removeTrackingIDs",
