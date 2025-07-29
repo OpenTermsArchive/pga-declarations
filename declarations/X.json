@@ -121,6 +121,9 @@
       "select": [
         "main"
       ],
+      "remove": [
+        "[class^=u11__]"
+      ],
       "filter": [
         "useXHelpCenterBaseURL"
       ],
