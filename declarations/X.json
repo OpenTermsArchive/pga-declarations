@@ -121,7 +121,7 @@
       "select": [
         "main"
       ],
-    "remove": [
+      "remove": [
         "[class^=u11__]"
       ],
       "filter": [
@@ -130,7 +130,6 @@
       "combine": [
         {
           "fetch": "https://help.x.com/en/rules-and-policies/x-rules"
-
         },
         {
           "fetch": "https://help.x.com/en/rules-and-policies/violent-content",
