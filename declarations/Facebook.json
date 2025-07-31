@@ -132,6 +132,7 @@
         "h1",
         "#policy-details"
       ],
+      
       "combine": [
         {
           "fetch": "https://transparency.fb.com/policies/community-standards/",
@@ -159,7 +160,8 @@
             "h3",
             "h6",
             "[class~=_9p78]",
-            "[class~=_9q49]"
+            "[class~=_9q49]",
+            "button._97fe"
           ]
         },
         {
@@ -168,7 +170,8 @@
             "h3",
             "h6",
             "[class~=_9p78]",
-            "[class~=_9q49]"
+            "[class~=_9q49]",
+            "button._97fe"
           ]
         },
         {
@@ -177,7 +180,8 @@
             "h3",
             "h6",
             "[class~=_9p78]",
-            "[class~=_9q49]"
+            "[class~=_9q49]",
+            "button._97fe"
           ]
         },
         {
@@ -186,7 +190,8 @@
             "h3",
             "h6",
             "[class~=_9p78]",
-            "[class~=_9q49]"
+            "[class~=_9q49]",
+            "button._97fe"
           ]
         },
         {
@@ -195,7 +200,8 @@
             "h3",
             "h6",
             "[class~=_9p78]",
-            "[class~=_9q49]"
+            "[class~=_9q49]",
+            "button._97fe"
           ]
         },
         {
@@ -204,7 +210,8 @@
             "h3",
             "h6",
             "[class~=_9p78]",
-            "[class~=_9q49]"
+            "[class~=_9q49]",
+            "button._97fe"
           ]
         },
         {
@@ -213,7 +220,8 @@
             "h3",
             "h6",
             "[class~=_9p78]",
-            "[class~=_9q49]"
+            "[class~=_9q49]",
+            "button._97fe"
           ]
         },
         {
@@ -222,7 +230,8 @@
             "h3",
             "h6",
             "[class~=_9p78]",
-            "[class~=_9q49]"
+            "[class~=_9q49]",
+            "button._97fe"
           ]
         },
         {
@@ -231,7 +240,8 @@
             "h3",
             "h6",
             "[class~=_9p78]",
-            "[class~=_9q49]"
+            "[class~=_9q49]",
+            "button._97fe"
           ]
         },
         {
@@ -240,7 +250,8 @@
             "h3",
             "h6",
             "[class~=_9p78]",
-            "[class~=_9q49]"
+            "[class~=_9q49]",
+            "button._97fe"
           ]
         },
         {
@@ -249,7 +260,8 @@
             "h3",
             "h6",
             "[class~=_9p78]",
-            "[class~=_9q49]"
+            "[class~=_9q49]",
+            "button._97fe"
           ]
         },
         {
@@ -258,7 +270,8 @@
             "h3",
             "h6",
             "[class~=_9p78]",
-            "[class~=_9q49]"
+            "[class~=_9q49]",
+            "button._97fe"
           ]
         },
         {
@@ -267,7 +280,8 @@
             "h3",
             "h6",
             "[class~=_9p78]",
-            "[class~=_9q49]"
+            "[class~=_9q49]",
+            "button._97fe"
           ]
         },
         {
@@ -276,7 +290,8 @@
             "h3",
             "h6",
             "[class~=_9p78]",
-            "[class~=_9q49]"
+            "[class~=_9q49]",
+            "button._97fe"
           ]
         },
         {
@@ -285,7 +300,8 @@
             "h3",
             "h6",
             "[class~=_9p78]",
-            "[class~=_9q49]"
+            "[class~=_9q49]",
+            "button._97fe"
           ]
         },
         {
@@ -294,7 +310,8 @@
             "h3",
             "h6",
             "[class~=_9p78]",
-            "[class~=_9q49]"
+            "[class~=_9q49]",
+            "button._97fe"
           ]
         },
         {
@@ -303,7 +320,8 @@
             "h3",
             "h6",
             "[class~=_9p78]",
-            "[class~=_9q49]"
+            "[class~=_9q49]",
+            "button._97fe"
           ]
         },
         {
@@ -312,7 +330,8 @@
             "h3",
             "h6",
             "[class~=_9p78]",
-            "[class~=_9q49]"
+            "[class~=_9q49]",
+            "button._97fe"
           ]
         },
         {
@@ -321,7 +340,8 @@
             "h3",
             "h6",
             "[class~=_9p78]",
-            "[class~=_9q49]"
+            "[class~=_9q49]",
+            "button._97fe"
           ]
         },
         {
@@ -330,7 +350,8 @@
             "h3",
             "h6",
             "[class~=_9p78]",
-            "[class~=_9q49]"
+            "[class~=_9q49]",
+            "button._97fe"
           ]
         },
         {
@@ -339,7 +360,8 @@
             "h3",
             "h6",
             "[class~=_9p78]",
-            "[class~=_9q49]"
+            "[class~=_9q49]",
+            "button._97fe"
           ]
         },
         {
@@ -348,7 +370,8 @@
             "h3",
             "h6",
             "[class~=_9p78]",
-            "[class~=_9q49]"
+            "[class~=_9q49]",
+            "button._97fe"
           ]
         },
         {
@@ -357,7 +380,8 @@
             "h3",
             "h6",
             "[class~=_9p78]",
-            "[class~=_9q49]"
+            "[class~=_9q49]",
+            "button._97fe"
           ]
         },
         {
@@ -366,7 +390,8 @@
             "h3",
             "h6",
             "[class~=_9p78]",
-            "[class~=_9q49]"
+            "[class~=_9q49]",
+            "button._97fe"
           ]
         },
         {
@@ -375,7 +400,8 @@
             "h3",
             "h6",
             "[class~=_9p78]",
-            "[class~=_9q49]"
+            "[class~=_9q49]",
+            "button._97fe"
           ]
         }
       ]
