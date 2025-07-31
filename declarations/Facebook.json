@@ -132,7 +132,6 @@
         "h1",
         "#policy-details"
       ],
-      
       "combine": [
         {
           "fetch": "https://transparency.fb.com/policies/community-standards/",
