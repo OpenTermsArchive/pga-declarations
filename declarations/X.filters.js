@@ -5,10 +5,4 @@ export function useXHelpCenterBaseURL(document) {
   document.querySelectorAll(`a[href^="${TwitterHelpCenterBaseURL}"]`).forEach(link => {
     link.href = link.href.replace(TwitterHelpCenterBaseURL, XHelpCenterBaseURL);
   });
-
-  document.querySelectorAll('a[rel*="nofollow"]').forEach(link => {
-    const textNode = document.createTextNode(link.textContent);
-
-    link.parentNode.replaceChild(textNode, link);
-  });
 }
