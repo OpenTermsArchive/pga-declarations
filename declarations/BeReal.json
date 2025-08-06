@@ -19,7 +19,8 @@
         "main"
       ],
       "remove": [
-        "[class~=hero-pages]"
+        "[class~=ol]",
+        "[class~=li"
       ]
     }
   }
