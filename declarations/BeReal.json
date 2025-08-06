@@ -11,19 +11,12 @@
             "fetch": "https://bereal.com/privacy-2/",
             "select": [
                 "main#content"
-            ],
-            "filter": [
-                "removeTrackingIDs"
             ]
         },
         "Community Guidelines": {
             "fetch": "https://help.bereal.com/hc/en-us/articles/10268394348317-Community-Standards",
             "select": [
                 "div[role=\"main\"]"
-            ],
-            "filter": [
-                "removeTrackingIDsE",
-                "cleanUrls"
             ],
             "remove": [
                 "[class~=hero-pages]"
