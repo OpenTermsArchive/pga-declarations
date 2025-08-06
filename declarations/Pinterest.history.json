@@ -1,21 +1,26 @@
 {
-  "Terms of Service": {
+  "Terms of Service": [
+    {
       "fetch": "https://policy.pinterest.com/en/terms-of-service",
       "select": "main",
       "remove": [
         ".chakra-link"
       ],
       "validUntil": "2025-06-16T12:00:00Z"
-    },
-  "Privacy Policy": {
+    }
+  ],
+  "Privacy Policy": [
+    {
       "fetch": "https://policy.pinterest.com/en/privacy-policy",
       "select": "main",
       "remove": [
         ".chakra-link"
       ],
       "validUntil": "2025-06-16T12:00:00Z"
-    },
-  "Community Guidelines": {
+    }
+  ],
+  "Community Guidelines": [
+    {
       "fetch": "https://policy.pinterest.com/en/community-guidelines",
       "select": "main",
       "remove": [
@@ -23,4 +28,5 @@
       ],
       "validUntil": "2025-06-16T12:00:00Z"
     }
-  }
+  ]
+}
