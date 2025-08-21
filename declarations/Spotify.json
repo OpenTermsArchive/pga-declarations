@@ -32,7 +32,12 @@
     },
     "Community Guidelines": {
       "fetch": "https://www.spotify.com/de-en/safetyandprivacy/platform-rules",
-      "select": "#__next",
+      "select": [
+        {
+          "startBefore": "#start-of-content",
+          "endBefore": "footer"
+        }
+      ],
       "remove": [
         "[data-encore-id=type]",
         "button",
