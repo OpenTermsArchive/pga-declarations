@@ -16,11 +16,12 @@
     "Community Guidelines": {
       "fetch": "https://help.bereal.com/hc/en-us/articles/10268394348317-Community-Standards",
       "select": [
-        "main"
+        "h1",
+        ".article-body"
       ],
       "remove": [
         "[class~=ol]",
-        "[class~=li"
+        "[class~=li]"
       ]
     }
   }
