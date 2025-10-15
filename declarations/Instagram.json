@@ -327,13 +327,13 @@
     "Content Monetisation Policy": {
       "fetch": "https://www.facebook.com/business/help/2635536099905516",
       "select": [
-          "#FB4BResponsiveMainContent"
+        "#FB4BResponsiveMainContent"
       ],
       "remove": [
         "img[alt='Permalink']",
         "img[alt='Share']"
       ],
-      "filter":[
+      "filter": [
         "removeLinks"
       ]
     }
