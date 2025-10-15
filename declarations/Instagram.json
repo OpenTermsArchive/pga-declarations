@@ -323,6 +323,19 @@
       "filter": [
         "removeLinks"
       ]
+    },
+    "Content Monetisation Policy": {
+      "fetch": "https://www.facebook.com/business/help/2635536099905516",
+      "select": [
+        "div[role=\"main\"]"
+      ],
+      "remove": [
+        "img[alt='Permalink']",
+        "img[alt='Share']"
+      ],
+      "filter": [
+        "removeLinks"
+      ]
     }
   }
 }
