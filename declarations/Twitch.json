@@ -85,6 +85,14 @@
         ".xl\\:sticky"
       ],
       "executeClientScripts": true
+    },
+    "Content Monetisation Policy": {
+      "fetch": "https://legal.twitch.com/en/legal/monetized-streamer-agreement",
+      "select": "#main-content",
+      "remove": [
+        "#main-content .xl\\:sticky"
+      ],
+      "executeClientScripts": true
     }
   }
 }
