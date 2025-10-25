@@ -116,6 +116,14 @@
           "fetch": "https://support.google.com/youtube/answer/11161123?hl=en"
         }
       ]
+    },
+    "Content Monetisation Policy": {
+      "fetch": "https://support.google.com/youtube/answer/1311392?hl=en-GB&sjid=5533023248149146668-EU",
+      "select": ".main-content",
+      "remove": [
+        "#article-survey-container",
+        ".need-more-help-container"
+      ]
     }
   }
 }
