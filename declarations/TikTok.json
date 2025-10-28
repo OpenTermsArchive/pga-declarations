@@ -110,7 +110,7 @@
           ],
           "remove": [
             "img"
-          ] 
+          ]
         },
         {
           "fetch": "https://www.tiktok.com/legal/page/global/tiktok-creator-fund-terms/en",
@@ -130,7 +130,8 @@
             "img"
           ]
         }
-      ]
+      ],
+      "executeClientScripts": true
     }
   }
 }
