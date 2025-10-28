@@ -99,6 +99,39 @@
       "select": [
         "[id=policy-card]"
       ]
+    },
+    "Content Monetisation Policy": {
+      "combine": [
+        {
+          "fetch": "https://www.tiktok.com/creator-academy/en/article/creator-code-of-conduct",
+          "select": [
+            "#html-content",
+            "span"
+          ],
+          "remove": [
+            "img"
+          ]
+        },
+        {
+          "fetch": "https://www.tiktok.com/legal/page/global/tiktok-creator-fund-terms/en",
+          "select": [
+            "[id=policy-card]"
+          ],
+          "remove": [
+            "img"
+          ]
+        },
+        {
+          "fetch": "https://www.tiktok.com/legal/page/global/creator-rewards-program-us/en",
+          "select": [
+            "[id=policy-card]"
+          ],
+          "remove": [
+            "img"
+          ]
+        }
+      ],
+      "executeClientScripts": true
     }
   }
 }
