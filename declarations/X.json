@@ -269,6 +269,30 @@
         "useXHelpCenterBaseURL"
       ],
       "executeClientScripts": true
+    },
+    "Content Monetisation Policy": {
+      "combine": [
+        {
+          "fetch": "https://help.x.com/en/rules-and-policies/content-monetization-standards",
+          "select": [
+            "[id=twtr-main]"
+          ],
+          "remove": [
+            "img"
+          ]
+        },
+        {
+          "fetch": "https://legal.x.com/en/creator-revenue-sharing-terms",
+          "select": [
+            "h1",
+            "p"
+          ],
+          "remove": [
+            "img"
+          ]
+        }
+      ],
+      "executeClientScripts": true
     }
   }
 }
