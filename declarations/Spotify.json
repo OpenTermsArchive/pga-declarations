@@ -99,7 +99,7 @@
       ]
     },
     "Content Monetisation Policy": {
-      "fetch": "https://help.x.com/en/rules-and-policies/content-monetization-standards",
+      "fetch": "https://support.spotify.com/us/creators/article/spotify-partner-program-monetization-policies/",
       "select": [
         "main"
       ],
