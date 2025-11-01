@@ -97,6 +97,16 @@
       "remove": [
         "[class*=subnav-main]"
       ]
-    }
+    },
+    "Content Monetisation Policy": {
+      "fetch": "https://help.x.com/en/rules-and-policies/content-monetization-standards",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        "[class*=subnav-main]"
+      ]
+    },
+    "executeClientScripts": true
   }
 }
