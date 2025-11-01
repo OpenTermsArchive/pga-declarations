@@ -104,9 +104,11 @@
         "main"
       ],
       "remove": [
-        "[class*=subnav-main]"
+        "[class*=subnav-main]",
+        "input",
+        "nav",
+        "[data-encore-id=formGroup]"
       ]
-    },
-    "executeClientScripts": true
+    }
   }
 }
