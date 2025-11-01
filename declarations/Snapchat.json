@@ -30,6 +30,29 @@
         "[data-testid=\"page\"]"
       ],
       "executeClientScripts": true
+    },
+    "Content Monetisation Policy": {
+      "combine": [
+        {
+          "fetch": "https://www.snap.com/monetization-terms",
+          "select": [
+            "[data-testid=\"page\"]"
+          ],
+          "remove": [
+            "img"
+          ]
+        },
+        {
+          "fetch": "https://www.snap.com/terms/creator-stories",
+          "select": [
+            "[data-testid=\"page\"]"
+          ],
+          "remove": [
+            "img"
+          ]
+        }
+      ],
+      "executeClientScripts": true
     }
   }
 }
