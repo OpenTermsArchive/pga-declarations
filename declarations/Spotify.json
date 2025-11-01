@@ -97,6 +97,18 @@
       "remove": [
         "[class*=subnav-main]"
       ]
+    },
+    "Content Monetisation Policy": {
+      "fetch": "https://support.spotify.com/us/creators/article/spotify-partner-program-monetization-policies/",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        "[class*=subnav-main]",
+        "input",
+        "nav",
+        "[data-encore-id=formGroup]"
+      ]
     }
   }
 }
