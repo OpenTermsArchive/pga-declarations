@@ -118,11 +118,18 @@
       ]
     },
     "Content Monetisation Policy": {
-      "fetch": "https://support.google.com/youtube/answer/1311392?hl=en-GB&sjid=5533023248149146668-EU",
       "select": ".main-content",
       "remove": [
         "#article-survey-container",
         ".need-more-help-container"
+      ],
+      "combine": [
+        {
+          "fetch": "https://support.google.com/youtube/answer/1311392?hl=en"
+        },
+        {
+          "fetch": "https://support.google.com/youtube/answer/6162278?hl=en&sjid=7026834534181460115-EU"
+        }
       ]
     }
   }
