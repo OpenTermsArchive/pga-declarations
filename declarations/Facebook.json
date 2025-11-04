@@ -129,15 +129,11 @@
     },
     "Community Guidelines": {
       "select": [
-        "h1",
-        "#policy-details"
+        "[id=mdc-main-content]"
       ],
       "combine": [
         {
           "fetch": "https://transparency.fb.com/policies/community-standards/",
-          "select": [
-            "._li"
-          ],
           "remove": [
             "#u_0_1_fk",
             "#u_0_3_Da",
@@ -149,8 +145,12 @@
             "img[src*='https://scontent']",
             "img[src*='static.xx.fbcdn.net']",
             "iframe[src*='https://www.facebook.com/cms/video/?id=850337606335586']",
-            "a",
-            ".img"
+            ".img",
+            "img",
+            "video",
+            "a[href*='https://transparency.meta.com/policies/']",
+            "i",
+            "hr"
           ]
         },
         {
@@ -160,7 +160,10 @@
             "h6",
             "[class~=_9p78]",
             "[class~=_9q49]",
-            "button._97fe"
+            "button._97fe",
+            "img",
+            "video",
+            "[href*='https://transparency.meta.com/policies/community-standards']"
           ]
         },
         {
@@ -170,7 +173,10 @@
             "h6",
             "[class~=_9p78]",
             "[class~=_9q49]",
-            "button._97fe"
+            "button._97fe",
+            "img",
+            "video",
+            "[href*='https://transparency.meta.com/policies/community-standards']"
           ]
         },
         {
@@ -180,7 +186,10 @@
             "h6",
             "[class~=_9p78]",
             "[class~=_9q49]",
-            "button._97fe"
+            "button._97fe",
+            "img",
+            "video",
+            "[href*='https://transparency.meta.com/policies/community-standards']"
           ]
         },
         {
@@ -190,7 +199,10 @@
             "h6",
             "[class~=_9p78]",
             "[class~=_9q49]",
-            "button._97fe"
+            "button._97fe",
+            "img",
+            "video",
+            "[href*='https://transparency.meta.com/policies/community-standards']"
           ]
         },
         {
@@ -200,7 +212,10 @@
             "h6",
             "[class~=_9p78]",
             "[class~=_9q49]",
-            "button._97fe"
+            "button._97fe",
+            "img",
+            "video",
+            "[href*='https://transparency.meta.com/policies/community-standards']"
           ]
         },
         {
@@ -210,7 +225,10 @@
             "h6",
             "[class~=_9p78]",
             "[class~=_9q49]",
-            "button._97fe"
+            "button._97fe",
+            "img",
+            "video",
+            "[href*='https://transparency.meta.com/policies/community-standards']"
           ]
         },
         {
@@ -220,7 +238,10 @@
             "h6",
             "[class~=_9p78]",
             "[class~=_9q49]",
-            "button._97fe"
+            "button._97fe",
+            "img",
+            "video",
+            "[href*='https://transparency.meta.com/policies/community-standards']"
           ]
         },
         {
@@ -230,7 +251,10 @@
             "h6",
             "[class~=_9p78]",
             "[class~=_9q49]",
-            "button._97fe"
+            "button._97fe",
+            "img",
+            "video",
+            "[href*='https://transparency.meta.com/policies/community-standards']"
           ]
         },
         {
@@ -240,7 +264,10 @@
             "h6",
             "[class~=_9p78]",
             "[class~=_9q49]",
-            "button._97fe"
+            "button._97fe",
+            "img",
+            "video",
+            "[href*='https://transparency.meta.com/policies/community-standards']"
           ]
         },
         {
@@ -250,7 +277,10 @@
             "h6",
             "[class~=_9p78]",
             "[class~=_9q49]",
-            "button._97fe"
+            "button._97fe",
+            "img",
+            "video",
+            "[href*='https://transparency.meta.com/policies/community-standards']"
           ]
         },
         {
@@ -260,7 +290,10 @@
             "h6",
             "[class~=_9p78]",
             "[class~=_9q49]",
-            "button._97fe"
+            "button._97fe",
+            "img",
+            "video",
+            "[href*='https://transparency.meta.com/policies/community-standards']"
           ]
         },
         {
@@ -270,7 +303,10 @@
             "h6",
             "[class~=_9p78]",
             "[class~=_9q49]",
-            "button._97fe"
+            "button._97fe",
+            "img",
+            "video",
+            "[href*='https://transparency.meta.com/policies/community-standards']"
           ]
         },
         {
@@ -280,7 +316,10 @@
             "h6",
             "[class~=_9p78]",
             "[class~=_9q49]",
-            "button._97fe"
+            "button._97fe",
+            "img",
+            "video",
+            "[href*='https://transparency.meta.com/policies/community-standards']"
           ]
         },
         {
@@ -290,7 +329,10 @@
             "h6",
             "[class~=_9p78]",
             "[class~=_9q49]",
-            "button._97fe"
+            "button._97fe",
+            "img",
+            "video",
+            "[href*='https://transparency.meta.com/policies/community-standards']"
           ]
         },
         {
@@ -300,7 +342,10 @@
             "h6",
             "[class~=_9p78]",
             "[class~=_9q49]",
-            "button._97fe"
+            "button._97fe",
+            "img",
+            "video",
+            "[href*='https://transparency.meta.com/policies/community-standards']"
           ]
         },
         {
@@ -310,7 +355,10 @@
             "h6",
             "[class~=_9p78]",
             "[class~=_9q49]",
-            "button._97fe"
+            "button._97fe",
+            "img",
+            "video",
+            "[href*='https://transparency.meta.com/policies/community-standards']"
           ]
         },
         {
@@ -320,7 +368,10 @@
             "h6",
             "[class~=_9p78]",
             "[class~=_9q49]",
-            "button._97fe"
+            "button._97fe",
+            "img",
+            "video",
+            "[href*='https://transparency.meta.com/policies/community-standards']"
           ]
         },
         {
@@ -330,7 +381,10 @@
             "h6",
             "[class~=_9p78]",
             "[class~=_9q49]",
-            "button._97fe"
+            "button._97fe",
+            "img",
+            "video",
+            "[href*='https://transparency.meta.com/policies/community-standards']"
           ]
         },
         {
@@ -340,7 +394,10 @@
             "h6",
             "[class~=_9p78]",
             "[class~=_9q49]",
-            "button._97fe"
+            "button._97fe",
+            "img",
+            "video",
+            "[href*='https://transparency.meta.com/policies/community-standards']"
           ]
         },
         {
@@ -350,7 +407,10 @@
             "h6",
             "[class~=_9p78]",
             "[class~=_9q49]",
-            "button._97fe"
+            "button._97fe",
+            "img",
+            "video",
+            "[href*='https://transparency.meta.com/policies/community-standards']"
           ]
         },
         {
@@ -360,7 +420,10 @@
             "h6",
             "[class~=_9p78]",
             "[class~=_9q49]",
-            "button._97fe"
+            "button._97fe",
+            "img",
+            "video",
+            "[href*='https://transparency.meta.com/policies/community-standards']"
           ]
         },
         {
@@ -370,7 +433,10 @@
             "h6",
             "[class~=_9p78]",
             "[class~=_9q49]",
-            "button._97fe"
+            "button._97fe",
+            "img",
+            "video",
+            "[href*='https://transparency.meta.com/policies/community-standards']"
           ]
         },
         {
@@ -380,7 +446,10 @@
             "h6",
             "[class~=_9p78]",
             "[class~=_9q49]",
-            "button._97fe"
+            "button._97fe",
+            "img",
+            "video",
+            "[href*='https://transparency.meta.com/policies/community-standards']"
           ]
         },
         {
@@ -390,7 +459,10 @@
             "h6",
             "[class~=_9p78]",
             "[class~=_9q49]",
-            "button._97fe"
+            "button._97fe",
+            "img",
+            "video",
+            "[href*='https://transparency.meta.com/policies/community-standards']"
           ]
         },
         {
@@ -400,10 +472,14 @@
             "h6",
             "[class~=_9p78]",
             "[class~=_9q49]",
-            "button._97fe"
+            "button._97fe",
+            "img",
+            "video",
+            "[href*='https://transparency.meta.com/policies/community-standards']"
           ]
         }
-      ]
+      ],
+      "executeClientScripts": true
     }
   }
 }
