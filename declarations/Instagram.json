@@ -436,13 +436,26 @@
       ]
     },
     "Content Monetisation Policy": {
-      "fetch": "https://www.facebook.com/business/help/2635536099905516",
       "select": [
         "div[role=\"main\"]"
       ],
-      "remove": [
-        "img[alt='Permalink']",
-        "img[alt='Share']"
+      "combine": [
+        {
+          "fetch": "https://www.facebook.com/business/help/2635536099905516",
+          "remove": [
+            "img[alt='Permalink']",
+            "img[alt='Share']"
+          ]
+        },
+        {
+          "fetch": "https://www.facebook.com/business/help/976993102696723",
+          "remove": [
+            "img[alt='Permalink']",
+            "img[alt='Share']",
+            "img._2qnn.img",
+            "div._2ba0"
+          ]
+        }
       ],
       "filter": [
         "removeLinks"
