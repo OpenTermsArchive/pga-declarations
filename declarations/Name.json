@@ -1,0 +1,20 @@
+{
+  "name": "Name",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://nexo.com/terms?id=terms-of-service-v9mgh",
+      "select": [
+        ".s-article"
+      ],
+      "remove": [
+        ".c-body-4 > .c-container",
+        ".SmallButton_button__JsHd0",
+        ".c-interactive-text",
+        ".sm\\:grid",
+        ".sm\\:pt-40",
+        ".pt-80 > .c-container:nth-child(1)"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}
