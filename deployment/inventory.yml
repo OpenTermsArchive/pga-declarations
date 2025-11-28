@@ -1,6 +1,6 @@
 all:
   hosts:
     134.102.58.70:
-      ansible_user: pga
+      ansible_user: ota
       ed25519_fingerprint: AAAAC3NzaC1lZDI1NTE5AAAAIDmKHW4LMOEIxnBHkdNzwvSrzjmfhQkx5n2lFtJdraOy
       ota_source_repository: https://github.com/OpenTermsArchive/pga-declarations.git
