@@ -40,13 +40,15 @@
         {
           "fetch": "https://www.youtube.com/intl/ALL_en/howyoutubeworks/policies/community-guidelines/",
           "select": [
-            ".ytr-hero__details",
-            ".ytr-article__content-wrapper"
+            "#content"
           ],
           "remove": [
             ".ytr-hero__eyebrow",
             ".ytr-link > svg",
-            ".ytr-media"
+            ".ytr-media",
+            "#how-we-support-creators img",
+            "#content .hero-section .lb-grid__cell--span-12",
+            "#our-policies-explore-more > div"
           ]
         },
         {
