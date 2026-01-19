@@ -505,6 +505,18 @@
         }
       ],
       "executeClientScripts": true
+    },
+    "Advertising Content Policy": {
+      "fetch": "https://transparency.meta.com/policies/ad-standards/",
+      "select": [
+        "[class=xg0jo4d]"
+      ],
+      "remove": [
+        "b",
+        "a",
+        "img.xt0psk2"
+      ],
+      "executeClientScripts": true
     }
   }
 }
