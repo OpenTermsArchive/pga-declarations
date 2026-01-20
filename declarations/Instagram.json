@@ -484,7 +484,8 @@
       ],
       "filter": [
         "removeLinks"
-      ]
+      ],
+      "executeClientScripts": true
     }
   }
 }
