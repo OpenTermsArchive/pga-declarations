@@ -469,7 +469,10 @@
           "fetch": "https://www.facebook.com/business/help/2635536099905516",
           "remove": [
             "img[alt='Permalink']",
-            "img[alt='Share']"
+            "img[alt='Share']",
+            "#GBMRelatedLinkContent",
+            "div[role='radiogroup']",
+            "div.x1f6kntn"
           ]
         },
         {
@@ -478,13 +481,17 @@
             "img[alt='Permalink']",
             "img[alt='Share']",
             "img._2qnn.img",
-            "div._2ba0"
+            "div._2ba0",
+            "#GBMRelatedLinkContent",
+            "div[role='radiogroup']",
+            "div.x1f6kntn"
           ]
         }
       ],
       "filter": [
         "removeLinks"
-      ]
+      ],
+      "executeClientScripts": true
     }
   }
 }
