@@ -472,7 +472,9 @@
             "img[alt='Share']",
             "#GBMRelatedLinkContent",
             "div[role='radiogroup']",
-            "div.x1f6kntn"
+            "div.x1f6kntn",
+            "#GBMRelatedLinksSideRoot > div > div",
+            "#GBMBizEdArticleRoot button span"
           ]
         },
         {
@@ -484,7 +486,9 @@
             "div._2ba0",
             "#GBMRelatedLinkContent",
             "div[role='radiogroup']",
-            "div.x1f6kntn"
+            "div.x1f6kntn",
+            "#GBMRelatedLinksSideRoot > div > div",
+            "#GBMBizEdArticleRoot button span"
           ]
         }
       ],
