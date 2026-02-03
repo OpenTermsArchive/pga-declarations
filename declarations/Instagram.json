@@ -473,7 +473,7 @@
             "#GBMRelatedLinkContent",
             "div[role='radiogroup']",
             "div.x1f6kntn",
-            "#GBMRelatedLinksSideRoot > div > div",
+            "[id='GBMRelatedLinksSideRoot']",
             "#GBMBizEdArticleRoot button span"
           ]
         },
@@ -487,7 +487,7 @@
             "#GBMRelatedLinkContent",
             "div[role='radiogroup']",
             "div.x1f6kntn",
-            "#GBMRelatedLinksSideRoot > div > div",
+            "[id='GBMRelatedLinksSideRoot']",
             "#GBMBizEdArticleRoot button span"
           ]
         }
