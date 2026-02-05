@@ -496,6 +496,23 @@
         "removeLinks"
       ],
       "executeClientScripts": true
+    },
+    "Advertising Content Policy": {
+      "fetch": "https://transparency.meta.com/policies/ad-standards/",
+      "select": [
+        "[id=mdc-main-content]"
+      ],
+      "filter": [
+        "removeLinks"
+      ],
+      "remove": [
+        "img",
+        "a",
+        "b",
+        "div.x1c4vz4f",
+        "div[role='list']"
+      ],
+      "executeClientScripts": true
     }
   }
 }
