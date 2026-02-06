@@ -105,11 +105,12 @@
         {
           "fetch": "https://www.tiktok.com/creator-academy/en/article/creator-code-of-conduct",
           "select": [
-            "#html-content",
-            "span"
+            "[id=academyArticleMainBody]"
           ],
           "remove": [
-            "img"
+            "img",
+            ".mt",
+            ".my"
           ]
         },
         {
