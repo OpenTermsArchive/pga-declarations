@@ -110,6 +110,18 @@
           "fetch": "https://www.linkedin.com/help/linkedin/answer/137372"
         }
       ]
+    },
+    "Advertising Content Policy": {
+      "fetch": "https://www.linkedin.com/legal/ads-policy",
+      "select": [
+        "main"
+      ],
+      "filter": [
+        "removeLinks"
+      ],
+      "remove": [
+        "ol"
+      ]
     }
   }
 }
