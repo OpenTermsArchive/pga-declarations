@@ -21,6 +21,13 @@
       "remove": [
         ".chakra-link"
       ]
+    },
+    "Advertising Content Policy": {
+      "fetch": "https://policy.pinterest.com/en-gb/advertising-guidelines",
+      "select": "main",
+      "remove": [
+        ".chakra-link"
+      ]
     }
   }
 }
