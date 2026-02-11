@@ -50,6 +50,17 @@
         ".u07__notification"
       ],
       "validUntil": "2024-06-24T12:12:15.403062Z"
+    },
+    {
+      "fetch": "https://developer.x.com/en/developer-terms/agreement",
+      "select": [
+        "#twtr-main"
+      ],
+      "remove": [
+        ".u07__close:nth-child(2)",
+        ".u07__notification"
+      ],
+      "validUntil": "2026-02-06T12:55:24Z"
     }
   ],
   "Copyright Claims Policy": [
