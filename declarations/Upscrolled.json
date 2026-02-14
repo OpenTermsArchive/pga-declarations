@@ -1,0 +1,28 @@
+{
+  "name": "BeReal",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://bereal.com/terms/",
+      "select": [
+        "main#content"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://bereal.com/privacy-2/",
+      "select": [
+        "main#content"
+      ]
+    },
+    "Community Guidelines": {
+      "fetch": "https://help.bereal.com/hc/en-us/articles/10268394348317-Community-Standards",
+      "select": [
+        "h1",
+        ".article-body"
+      ],
+      "remove": [
+        "[class~=ol]",
+        "[class~=li]"
+      ]
+    }
+  }
+}
