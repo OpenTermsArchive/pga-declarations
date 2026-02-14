@@ -1,27 +1,46 @@
 {
-  "name": "BeReal",
+  "name": "Upscrolled",
   "terms": {
     "Terms of Service": {
-      "fetch": "https://bereal.com/terms/",
-      "select": [
-        "main#content"
+      "fetch": "https://upscrolled.com/en/terms-of-service/",
+      "select": {
+        "startBefore": "h2",
+        "endBefore": "footer"
+      },
+      "remove": [
+        "nav",
+        "img",
+        "header",
+        "footer",
+        "span"
       ]
     },
     "Privacy Policy": {
-      "fetch": "https://bereal.com/privacy-2/",
-      "select": [
-        "main#content"
+      "fetch": "https://upscrolled.com/en/privacy-policy/",
+      "select": {
+        "startBefore": "h2",
+        "endBefore": "footer"
+      },
+      "remove": [
+        "nav",
+        "img",
+        "header",
+        "footer",
+        "span"
       ]
     },
     "Community Guidelines": {
-      "fetch": "https://help.bereal.com/hc/en-us/articles/10268394348317-Community-Standards",
-      "select": [
-        "h1",
-        ".article-body"
-      ],
+      "fetch": "https://upscrolled.com/en/rules-and-policies/",
+      "select": {
+        "startBefore": "h2",
+        "endBefore": "footer"
+      },
       "remove": [
-        "[class~=ol]",
-        "[class~=li]"
+        "nav",
+        "img",
+        "header",
+        "footer",
+        "span"
       ]
     }
   }
