@@ -3,7 +3,7 @@
   "terms": {
     "Terms of Service": {
       "fetch": "https://upscrolled.com/en/terms-of-service/",
-      "select": [ 
+      "select": [
         ".e-con-inner"
       ],
       "remove": [
@@ -15,7 +15,7 @@
     },
     "Privacy Policy": {
       "fetch": "https://upscrolled.com/en/privacy-policy/",
-      "select": [ 
+      "select": [
         ".e-con-inner"
       ],
       "remove": [
@@ -27,7 +27,7 @@
     },
     "Community Guidelines": {
       "fetch": "https://upscrolled.com/en/rules-and-policies/",
-      "select": [ 
+      "select": [
         ".e-con-inner"
       ],
       "remove": [
