@@ -1,0 +1,41 @@
+{
+  "name": "Upscrolled",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://upscrolled.com/en/terms-of-service/",
+      "select": [
+        ".e-con-inner"
+      ],
+      "remove": [
+        "nav",
+        "img",
+        "header",
+        "footer"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://upscrolled.com/en/privacy-policy/",
+      "select": [
+        ".e-con-inner"
+      ],
+      "remove": [
+        "nav",
+        "img",
+        "header",
+        "footer"
+      ]
+    },
+    "Community Guidelines": {
+      "fetch": "https://upscrolled.com/en/rules-and-policies/",
+      "select": [
+        ".e-con-inner"
+      ],
+      "remove": [
+        "nav",
+        "img",
+        "header",
+        "footer"
+      ]
+    }
+  }
+}
