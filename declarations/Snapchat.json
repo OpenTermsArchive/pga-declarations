@@ -53,6 +53,19 @@
         }
       ],
       "executeClientScripts": true
+    },
+    "Advertising Content Policy": {
+      "fetch": "https://www.snap.com/ad-policies?lang=en-GB",
+      "select": [
+        "[data-testid=\"page\"]"
+      ],
+      "remove": [
+        "img",
+        "header",
+        "footer",
+        "li"
+      ],
+      "executeClientScripts": true
     }
   }
 }
