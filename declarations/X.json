@@ -36,7 +36,7 @@
       ]
     },
     "Developer Terms": {
-      "fetch": "https://developer.x.com/en/developer-terms/agreement",
+      "fetch": "https://docs.x.com/developer-terms/agreement",
       "select": [
         "#twtr-main"
       ],
