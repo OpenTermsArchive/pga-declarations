@@ -36,14 +36,39 @@
       ]
     },
     "Developer Terms": {
-      "fetch": "https://developer.x.com/en/developer-terms/agreement",
       "select": [
-        "#twtr-main"
+        "[id='content-area']"
       ],
       "remove": [
-        ".u07__close:nth-child(2)",
-        ".u07__notification"
-      ]
+        "svg",
+        "[id='page-context-menu-button']",
+        "a",
+        "img"
+      ],
+      "combine": [
+        {
+          "fetch": "https://docs.x.com/developer-terms/agreement"
+        },
+        {
+          "fetch": "https://docs.x.com/developer-terms/policy"
+        },
+        {
+          "fetch": "https://docs.x.com/developer-terms/ads-api-agreement"
+        },
+        {
+          "fetch": "https://docs.x.com/developer-terms/ppu-pilot-agreement"
+        },
+        {
+          "fetch": "https://docs.x.com/developer-terms/restricted-use-cases"
+        },
+        {
+          "fetch": "https://docs.x.com/developer-terms/geo-guidelines"
+        },
+        {
+          "fetch": "https://docs.x.com/developer-terms/display-requirements"
+        }
+      ],
+      "executeClientScripts": true
     },
     "Copyright Claims Policy": {
       "fetch": "https://help.x.com/en/rules-and-policies/copyright-policy",
