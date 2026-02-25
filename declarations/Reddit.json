@@ -140,6 +140,95 @@
         }
       ],
       "executeClientScripts": true
+    },
+    "Advertising Content Policy": {
+      "select": [
+        ".article-head",
+        ".article-summary",
+        ".article-body"
+      ],
+      "remove": [
+        "[href='https://business.reddithelp.com/s/article/Reddit-Advertising-Policy-Overview']"
+      ],
+      "combine": [
+        {
+          "fetch": "https://business.reddithelp.com/s/article/Reddit-Advertising-Policy-Overview?",
+          "remove": "li"
+        },
+        {
+          "fetch": "https://business.reddithelp.com/s/article/adult-content"
+        },
+        {
+          "fetch": "https://business.reddithelp.com/s/article/alcohol-policy"
+        },
+        {
+          "fetch": "https://business.reddithelp.com/s/article/counterfeit-goods-policy"
+        },
+        {
+          "fetch": "https://business.reddithelp.com/s/article/dating-services-policy"
+        },
+        {
+          "fetch": "https://business.reddithelp.com/s/article/deceptive-untrue-or-misleading-advertising-policy"
+        },
+        {
+          "fetch": "https://business.reddithelp.com/s/article/dynamic-product-ads-policy"
+        },
+        {
+          "fetch": "https://business.reddithelp.com/s/article/Reddit-Advertising-Policy-Editorial-Requirements"
+        },
+        {
+          "fetch": "https://business.reddithelp.com/s/article/financial-cryptocurrency-products-and-services-policy"
+        },
+        {
+          "fetch": "https://business.reddithelp.com/s/article/gambling-and-gaming-related-services-policy"
+        },
+        {
+          "fetch": "https://business.reddithelp.com/s/article/healthcare-products-and-services-policy"
+        },
+        {
+          "fetch": "https://business.reddithelp.com/s/article/high-fat-salt-sugar-food-and-drinks-policy"
+        },
+        {
+          "fetch": "https://business.reddithelp.com/s/article/inappropriate-content-policy"
+        },
+        {
+          "fetch": "https://business.reddithelp.com/s/article/lead-generation-ads-policy"
+        },
+        {
+          "fetch": "https://business.reddithelp.com/s/article/live-animals-and-animal-products-policy"
+        },
+        {
+          "fetch": "https://business.reddithelp.com/s/article/political-advertisements-policy"
+        },
+        {
+          "fetch": "https://business.reddithelp.com/s/article/products-or-services-in-violation-of-trade-policies-policy"
+        },
+        {
+          "fetch": "https://business.reddithelp.com/s/article/products-or-services-that-facilitate-illegal-fraudulent-or-misleading-activity-policy"
+        },
+        {
+          "fetch": "https://business.reddithelp.com/s/article/recreational-drugs-policy"
+        },
+        {
+          "fetch": "https://business.reddithelp.com/s/article/Reddit-Advertising-Policy-Targeting-Guidelines"
+        },
+        {
+          "fetch": "https://business.reddithelp.com/s/article/third-party-rights-policy"
+        },
+        {
+          "fetch": "https://business.reddithelp.com/s/article/tobacco-policy"
+        },
+        {
+          "fetch": "https://business.reddithelp.com/s/article/unofficial-resale-of-event-tickets-policy"
+        },
+        {
+          "fetch": "https://business.reddithelp.com/s/article/user-data-collection-policy"
+        },
+        {
+          "fetch": "https://business.reddithelp.com/s/article/weapons-and-related-products-policy"
+        }
+      ],
+      "executeClientScripts": true
     }
   }
 }
