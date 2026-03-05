@@ -42,7 +42,6 @@
       "remove": [
         "svg",
         "[id='page-context-menu-button']",
-        "a",
         "img"
       ],
       "combine": [
