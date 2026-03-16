@@ -71,9 +71,23 @@
       ]
     },
     "Law Enforcement Guidelines": {
-      "fetch": "https://www.tiktok.com/legal/law-enforcement?lang=en",
-      "select": [
-        ".content"
+      "combine": [
+        {
+          "fetch": "https://www.tiktok.com/legal/law-enforcement?lang=en",
+          "select": [
+            ".policy-title",
+            ".content"
+          ],
+          "remove": "img"
+        },
+        {
+          "fetch": "https://www.tiktok.com/legal/page/global/shop-law-enforcement-regulatory-disclosure-guidelines/en",
+          "select": [
+            ".policy-title",
+            ".content"
+          ],
+          "remove": "img"
+        }
       ],
       "executeClientScripts": true
     },
