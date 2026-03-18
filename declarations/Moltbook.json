@@ -1,0 +1,17 @@
+{
+  "name": "Moltbook",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.moltbook.com/terms",
+      "select": [
+        ".legal-content"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.moltbook.com/privacy",
+      "select": [
+        ".legal-content"
+      ]
+    }
+  }
+}
