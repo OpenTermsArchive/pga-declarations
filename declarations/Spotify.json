@@ -109,6 +109,20 @@
         "nav",
         "[data-encore-id=formGroup]"
       ]
+    },
+    "Advertising Content Policy": {
+      "fetch": "https://adshelp.spotify.com/s/article/advertising-policies-UK?language=en_GB",
+      "select": [
+        "c-article-detail-container"
+      ],
+      "remove": [
+        "c-article-index",
+        "c-breadcrumbs",
+        "button",
+        "[href='https://adsmanager.spotify.com/campaigns']",
+        "c-article-vote"
+      ],
+      "executeClientScripts": true
     }
   }
 }
