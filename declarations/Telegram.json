@@ -13,6 +13,10 @@
       "fetch": "https://core.telegram.org/api/terms",
       "select": "#dev_page_content_wrap",
       "remove": ".breadcrumb"
+    },
+    "Advertising Content Policy": {
+      "fetch": "https://ads.telegram.org/guidelines",
+      "select": "#dev_page_content_wrap"
     }
   }
 }
