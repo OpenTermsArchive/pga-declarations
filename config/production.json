@@ -42,7 +42,12 @@
       "versionsRepositoryURL": "https://github.com/OpenTermsArchive/pga-versions"
     },
     "logger": {
-      "timestampPrefix": false
+      "timestampPrefix": false,
+      "smtp": {
+        "host": "smtp-relay.brevo.com",
+        "port": 587,
+        "username": "admin@opentermsarchive.org"
+      }
     },
     "collection-api": {
       "port": 3000,
