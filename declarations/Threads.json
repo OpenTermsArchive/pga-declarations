@@ -11,7 +11,8 @@
         "[class*=xrgej4m]",
         "[class*=x4k7w5x]",
         "[role*=navigation]",
-        "img"
+        "img",
+        "[role='button']"
       ],
       "executeClientScripts": true
     },
@@ -25,7 +26,8 @@
         "[class*=xrgej4m]",
         "[class*=x4k7w5x]",
         "[role*=navigation]",
-        "img"
+        "img",
+        "[role='button']"
       ],
       "executeClientScripts": true
     }
