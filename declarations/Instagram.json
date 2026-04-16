@@ -22,7 +22,10 @@
     "Privacy Policy": {
       "fetch": "https://privacycenter.instagram.com/policy",
       "select": [
-        "body"
+        {
+          "StartBefore": "h2",
+          "EndAfter": "[href='/policy/?subpage=1.subpage.4-InformationFromPartnersVendors']"
+        }
       ],
       "remove": [
         "img",
@@ -429,7 +432,8 @@
         "[id='Related Articles']",
         "fieldset",
         "[href*='https://privacycenter.instagram.com/policy/']",
-        "[href*='https://help.instagram.com/519522125107875?helpref=faq_content']"
+        "[href*='https://help.instagram.com/519522125107875?helpref=faq_content']",
+        "[role='button']"
       ],
       "filter": [
         "removeLinks"
