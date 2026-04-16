@@ -107,7 +107,10 @@
         "[class*=subnav-main]",
         "input",
         "nav",
-        "[data-encore-id=formGroup]"
+        "[data-encore-id=formGroup]",
+        "button",
+        "[data-testid='cta-card']",
+        "[role='list']"
       ]
     },
     "Advertising Content Policy": {
