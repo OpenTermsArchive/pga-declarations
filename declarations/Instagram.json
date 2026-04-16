@@ -22,10 +22,7 @@
     "Privacy Policy": {
       "fetch": "https://privacycenter.instagram.com/policy",
       "select": [
-        {
-          "StartBefore": "h2",
-          "EndAfter": "[href='/policy/?subpage=1.subpage.4-InformationFromPartnersVendors']"
-        }
+        "body"
       ],
       "remove": [
         "img",
