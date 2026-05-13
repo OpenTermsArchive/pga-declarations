@@ -34,10 +34,6 @@ governance:
     url: https://www.platformgovernancearchive.org
     logo: https://opentermsarchive.org/images/contributors/pga.png
     roles: [curator, maintainer]
-  Ministry for Europe and Foreign Affairs:
-    url: https://www.diplomatie.gouv.fr/en/
-    logo: https://opentermsarchive.org/images/contributors/meae.png
-    roles: [sponsor]
 
 i18n:
   fr: 
@@ -50,7 +46,3 @@ i18n:
       Cette initiative offre aux chercheurs, journalistes et citoyens des outils pour analyser comment les plateformes structurent et régulent la communication et l’interaction dans nos sociétés.
       
       Elle vise également à promouvoir une transparence accrue et à renforcer la responsabilité de ces puissants services numériques.
-    governance:
-      Ministry for Europe and Foreign Affairs:
-        name: Ministère de l'Europe et des Affaires étrangères
-        url: https://www.diplomatie.gouv.fr
