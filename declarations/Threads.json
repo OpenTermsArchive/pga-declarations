@@ -12,7 +12,8 @@
         "[class*=x4k7w5x]",
         "[role*=navigation]",
         "img",
-        "[role='button']"
+        "[role='button']",
+        "[role='listitem']"
       ],
       "executeClientScripts": true
     },
@@ -27,7 +28,8 @@
         "[class*=x4k7w5x]",
         "[role*=navigation]",
         "img",
-        "[role='button']"
+        "[role='button']",
+        "[role='listitem']"
       ],
       "executeClientScripts": true
     }
