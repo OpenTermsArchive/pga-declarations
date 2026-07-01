@@ -25,12 +25,7 @@
       "executeClientScripts": true
     },
     "Community Guidelines": {
-      "select": "[id=community-guidelines]",
-      "remove": [
-        "nav",
-        ".wp-post-last-updated",
-        ".adapt-mode"
-      ],
+      "select": "main",
       "combine": [
         {
           "fetch": "https://www.tiktok.com/community-guidelines?lang=en"
@@ -68,7 +63,13 @@
         {
           "fetch": "https://www.tiktok.com/community-guidelines/en/enforcement/"
         }
-      ]
+      ],
+      "remove": [
+        "header",
+        "footer",
+        "img"
+      ],
+      "executeClientScripts": true
     },
     "Law Enforcement Guidelines": {
       "combine": [
