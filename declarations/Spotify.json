@@ -99,7 +99,6 @@
       ]
     },
     "Content Monetisation Policy": {
-      "fetch": "https://support.spotify.com/us/creators/article/spotify-partner-program-monetization-policies/",
       "select": [
         "main"
       ],
@@ -111,6 +110,17 @@
         "button",
         "[data-testid='cta-card']",
         "[role='list']"
+      ],
+      "combine": [
+        {
+          "fetch": "https://support.spotify.com/us/creators/article/spotify-partner-program-monetization-policies/"
+        },
+        {
+          "fetch": "https://support.spotify.com/us/creators/article/spotify-partner-program-monetization-policies/"
+        },
+        {
+          "fetch": "https://support.spotify.com/us/creators/article/spotify-partner-program-terms/"
+        }
       ]
     },
     "Advertising Content Policy": {

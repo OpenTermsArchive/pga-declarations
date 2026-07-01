@@ -32,7 +32,8 @@
         "header",
         "footer",
         ".ad-banner",
-        "[data-role=sidebar]"
+        "[data-role=sidebar]",
+        "[role='dialog']"
       ],
       "filter": [
         "removeTrackingIDs"
