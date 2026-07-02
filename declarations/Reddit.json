@@ -8,13 +8,24 @@
     },
     "Privacy Policy": {
       "fetch": "https://www.redditinc.com/policies/privacy-policy",
-      "remove": ".filter-holder",
-      "select": "#main-content"
+      "select": "main",
+      "executeClientScripts": true,
+      "remove": [
+        "faceplate-menu",
+        "policy-page-sidebar",
+        "button"
+      ]
     },
     "Trackers Policy": {
       "fetch": "https://www.reddit.com/policies/cookies",
       "select": [
-        "#main-content"
+        "main"
+      ],
+      "executeClientScripts": true,
+      "remove": [
+        "faceplate-menu",
+        "policy-page-sidebar",
+        "button"
       ]
     },
     "Community Guidelines": {
@@ -199,9 +210,6 @@
         },
         {
           "fetch": "https://business.reddithelp.com/s/article/political-advertisements-policy"
-        },
-        {
-          "fetch": "https://business.reddithelp.com/s/article/products-or-services-in-violation-of-trade-policies-policy"
         },
         {
           "fetch": "https://business.reddithelp.com/s/article/products-or-services-that-facilitate-illegal-fraudulent-or-misleading-activity-policy"
