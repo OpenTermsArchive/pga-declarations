@@ -101,11 +101,30 @@
       "executeClientScripts": true
     },
     "Live Policy": {
-      "fetch": "https://en-gb.facebook.com/policies/live",
-      "select": [
+      "combine": [
         {
-          "startBefore": "div[role=main]",
-          "endBefore": "[role=\"separator\"]:first-child"
+          "fetch": "https://www.facebook.com/policies/live",
+          "select": "div[role=main]",
+          "remove": [
+            "[role='button']",
+            "footer",
+            "[role='navigation']"
+          ]
+        },
+        {
+          "fetch": "https://www.facebook.com/business/help/859112078191288?id=1123223941353904",
+          "select": [
+            "h1",
+            "#faq-page"
+          ],
+          "remove": [
+            "#left-sidenav",
+            "[role=radiogroup]",
+            "button",
+            "#GBMRelatedLinksSideRoot",
+            "img",
+            "[alt=share]"
+          ]
         }
       ],
       "filter": [
