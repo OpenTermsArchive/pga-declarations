@@ -237,6 +237,19 @@
         }
       ],
       "executeClientScripts": true
+    },
+    "Developer Terms": {
+      "fetch": "https://redditinc.com/policies/developer-terms",
+      "select": [
+        "#main-content"
+      ],
+      "remove": [
+        ".side-nav",
+        "img",
+        ".filter-holder",
+        ".lang_switcher_class"
+      ],
+      "executeClientScripts": true
     }
   }
 }
