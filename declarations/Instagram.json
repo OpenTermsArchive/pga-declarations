@@ -477,7 +477,10 @@
             "div[role='radiogroup']",
             "div.x1f6kntn",
             "[id='GBMRelatedLinksSideRoot']",
-            "#GBMBizEdArticleRoot button span"
+            "#GBMBizEdArticleRoot button span",
+            "[role='button']",
+            "img",
+            "#u_0_4k_z8"
           ]
         },
         {
@@ -491,7 +494,8 @@
             "div[role='radiogroup']",
             "div.x1f6kntn",
             "[id='GBMRelatedLinksSideRoot']",
-            "#GBMBizEdArticleRoot button span"
+            "#GBMBizEdArticleRoot button span",
+            "._3ofu"
           ]
         }
       ],
