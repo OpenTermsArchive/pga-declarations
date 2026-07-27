@@ -4,38 +4,23 @@
     "Terms of Service": {
       "fetch": "https://upscrolled.com/en/terms-of-service/",
       "select": [
-        ".e-con-inner"
+        "main"
       ],
-      "remove": [
-        "nav",
-        "img",
-        "header",
-        "footer"
-      ]
+      "executeClientScripts": true
     },
     "Privacy Policy": {
       "fetch": "https://upscrolled.com/en/privacy-policy/",
       "select": [
-        ".e-con-inner"
+        "main"
       ],
-      "remove": [
-        "nav",
-        "img",
-        "header",
-        "footer"
-      ]
+      "executeClientScripts": true
     },
     "Community Guidelines": {
       "fetch": "https://upscrolled.com/en/rules-and-policies/",
       "select": [
-        ".e-con-inner"
+        "main"
       ],
-      "remove": [
-        "nav",
-        "img",
-        "header",
-        "footer"
-      ]
+      "executeClientScripts": true
     }
   }
 }
