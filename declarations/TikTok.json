@@ -9,7 +9,8 @@
     },
     "Privacy Policy": {
       "select": [
-        "[data-testid=\"policy-card\"]"
+        ".policy-title",
+        "section.content"
       ],
       "remove": [
         "img[src*=\"/_assets/icon_arrow_down\"]"
