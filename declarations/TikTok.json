@@ -4,8 +4,9 @@
     "Terms of Service": {
       "fetch": "https://www.tiktok.com/legal/terms-of-use?lang=en",
       "select": [
-        "[data-testid=\"policy-card\"]"
-      ]
+        "#policy-card"
+      ],
+      "executeClientScripts": true
     },
     "Privacy Policy": {
       "select": [
