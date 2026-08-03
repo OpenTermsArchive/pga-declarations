@@ -93,6 +93,17 @@
         "#main-content .xl\\:sticky"
       ],
       "executeClientScripts": true
+    },
+    "Advertising Content Policy": {
+      "fetch": "https://help.twitch.tv/s/article/digital-services-act-ads?language=en_US",
+      "select": [
+        "#article"
+      ],
+      "remove": [
+        ".top",
+        "img"
+      ],
+      "executeClientScripts": true
     }
   }
 }
