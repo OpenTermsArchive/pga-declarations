@@ -323,6 +323,66 @@
         }
       ],
       "executeClientScripts": true
+    },
+    "Advertising Content Policy": {
+      "select": [
+        {
+          "startBefore": "h2",
+          "endBefore": ".b25-csat"
+        }
+      ],
+      "executeClientScripts": true,
+      "combine": [
+        {
+          "fetch": "https://business.x.com/en/help/ads-policies",
+          "select": [
+            "main"
+          ]
+        },
+        {
+          "fetch": "https://business.x.com/en/help/ads-policies/prohibited-content-policies/quality-policy.html"
+        },
+        {
+          "fetch": "https://business.x.com/en/help/ads-policies/ads-content-policies/prohibited-content-for-minors"
+        },
+        {
+          "fetch": "https://business.x.com/en/help/ads-policies/ads-content-policies/unacceptable-content"
+        },
+        {
+          "fetch": "https://business.x.com/en/help/ads-policies/ads-content-policies/weapons-and-weapon-accessories"
+        },
+        {
+          "fetch": "https://business.x.com/en/help/ads-policies/ads-content-policies/adult-or-sexual-products-and-services"
+        },
+        {
+          "fetch": "https://business.x.com/en/help/ads-policies/ads-content-policies/alcohol-content"
+        },
+        {
+          "fetch": "https://business.x.com/en/help/ads-policies/ads-content-policies/drugs-and-drug-paraphernalia"
+        },
+        {
+          "fetch": "https://business.x.com/en/help/ads-policies/ads-content-policies/financial-services"
+        },
+        {
+          "fetch": "https://business.x.com/en/help/ads-policies/ads-content-policies/gambling-content"
+        },
+        {
+          "fetch": "https://business.x.com/en/help/ads-policies/ads-content-policies/healthcare"
+        },
+        {
+          "fetch": "https://business.x.com/en/help/ads-policies/ads-content-policies/political-content"
+        },
+        {
+          "fetch": "https://business.x.com/en/help/ads-policies/ads-content-policies/tobacco-and-tobacco-accessories"
+        }
+      ],
+      "remove": [
+        ".u11__container",
+        ".b03__button",
+        "#u12",
+        "svg",
+        "button"
+      ]
     }
   }
 }
