@@ -1,0 +1,25 @@
+{
+  "name": "Mastodon",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://groups.joinmastodon.org/tos",
+      "select": "[id='main']",
+      "executeClientScripts": true,
+      "remove": [
+        "header",
+        ".powered-by-discourse",
+        "[role='navigation']"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://groups.joinmastodon.org/privacy",
+      "select": "[id='main']",
+      "executeClientScripts": true,
+      "remove": [
+        "header",
+        "powered-by-discourse",
+        "[role='navigation']"
+      ]
+    }
+  }
+}
