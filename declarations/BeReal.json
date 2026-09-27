@@ -14,14 +14,15 @@
       ]
     },
     "Community Guidelines": {
-      "fetch": "https://help.bereal.com/hc/en-us/articles/10268394348317-Community-Standards",
+      "fetch": "https://bereal.com/community-standards",
       "select": [
-        "h1",
-        ".article-body"
+        "#main"
       ],
       "remove": [
-        "[class~=ol]",
-        "[class~=li]"
+        ".framer-sv075k",
+        "[data-framer-name='Buttons']",
+        ".framer-2d10wf-container",
+        ".framer-gjuypi"
       ]
     }
   }
