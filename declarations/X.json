@@ -78,15 +78,13 @@
     "Copyright Claims Policy": {
       "fetch": "https://help.x.com/en/rules-and-policies/copyright-policy",
       "select": [
-        ".ct01__wrapper"
+        "main"
       ],
       "remove": [
-        ".b24__wrapper",
-        ".inherit",
-        ".twtr-type--roman-100r",
-        ".u11__breadcrumbs-list:nth-child(2)",
-        ".IconButton",
-        ".b04-image"
+        "footer",
+        "nav",
+        "button",
+        "img"
       ],
       "filter": [
         "useXHelpCenterBaseURL"
@@ -96,17 +94,13 @@
     "Law Enforcement Guidelines": {
       "fetch": "https://help.x.com/en/rules-and-policies/twitter-law-enforcement-support",
       "select": [
-        ".aem-Grid"
+        "main"
       ],
       "remove": [
-        ".twtr-type--roman-100r",
-        ".u11__breadcrumbs-list:nth-child(2)",
-        ".twtr-type--headline-md",
-        ".b24__wrapper",
-        ".b17",
-        ".u11__mobile-header",
-        ".twtr-component--first > .b02-v2 > ul",
-        ".twtr-component--first b"
+        "footer",
+        "nav",
+        "button",
+        "img"
       ],
       "filter": [
         "useXHelpCenterBaseURL"
@@ -133,14 +127,13 @@
     "Data Processor Agreement": {
       "fetch": "https://help.x.com/en/rules-and-policies/data-processing-legal-bases",
       "select": [
-        ".aem-Grid"
+        "main"
       ],
       "remove": [
-        ".u11__breadcrumbs-mobile-modal",
-        ".twtr-type--roman-100r",
-        ".twtr-type--headline-md",
-        ".b24__wrapper",
-        ".b17"
+        "footer",
+        "nav",
+        "button",
+        "img"
       ],
       "filter": [
         "useXHelpCenterBaseURL"
@@ -152,9 +145,10 @@
         "main"
       ],
       "remove": [
-        "[class^=u11__]",
-        "h4.b01__headline",
-        "button.b24--jumbo"
+        "footer",
+        "nav",
+        "button",
+        "img"
       ],
       "filter": [
         "useXHelpCenterBaseURL"
@@ -258,12 +252,6 @@
         },
         {
           "fetch": "https://help.x.com/en/rules-and-policies/copyright-policy",
-          "select": [
-            {
-              "startBefore": "h1",
-              "endBefore": "[class*=\"share-tweet\"]"
-            }
-          ],
           "remove": [
             "[class*=\"twtr-type--headline-md\"]"
           ]
@@ -277,10 +265,13 @@
     "Deceased Users": {
       "fetch": "https://help.x.com/en/rules-and-policies/contact-x-about-a-deceased-family-members-account",
       "select": [
-        {
-          "startBefore": "h1",
-          "endAfter": "[class*=\"rich-text-v\"]"
-        }
+        "main"
+      ],
+      "remove": [
+        "nav",
+        "button",
+        "footer",
+        "img"
       ],
       "filter": [
         "useXHelpCenterBaseURL"
@@ -290,10 +281,13 @@
     "Data Controller Agreement": {
       "fetch": "https://help.x.com/en/rules-and-policies/data-processing-legal-bases",
       "select": [
-        {
-          "startBefore": "h1",
-          "endBefore": "[class*=b24-share-tweet]"
-        }
+        "main"
+      ],
+      "remove": [
+        "footer",
+        "nav",
+        "button",
+        "img"
       ],
       "filter": [
         "useXHelpCenterBaseURL"
@@ -305,20 +299,23 @@
         {
           "fetch": "https://help.x.com/en/rules-and-policies/content-monetization-standards",
           "select": [
-            "[id=twtr-main]"
+            "main"
           ],
           "remove": [
-            "img"
+            "img",
+            "nav",
+            "button",
+            "footer"
           ]
         },
         {
           "fetch": "https://legal.x.com/en/creator-revenue-sharing-terms",
           "select": [
-            "h1",
-            "p"
+            "main"
           ],
           "remove": [
-            "img"
+            "img",
+            ".p05-chapter-navigation"
           ]
         }
       ],
@@ -326,10 +323,7 @@
     },
     "Advertising Content Policy": {
       "select": [
-        {
-          "startBefore": "h2",
-          "endBefore": ".b25-csat"
-        }
+        "main"
       ],
       "executeClientScripts": true,
       "combine": [
@@ -377,10 +371,9 @@
         }
       ],
       "remove": [
-        ".u11__container",
-        ".b03__button",
-        "#u12",
-        "svg",
+        "nav",
+        "footer",
+        "img",
         "button"
       ]
     }
