@@ -110,14 +110,13 @@
     "Trackers Policy": {
       "fetch": "https://help.x.com/en/rules-and-policies/twitter-cookies",
       "select": [
-        ".aem-Grid"
+        "main"
       ],
       "remove": [
-        ".u11__breadcrumbs-mobile-modal",
-        ".twtr-type--roman-100r",
-        ".twtr-type--headline-md",
-        ".b24__wrapper",
-        ".b17"
+        "footer",
+        "nav",
+        "button",
+        "img"
       ],
       "filter": [
         "useXHelpCenterBaseURL"
