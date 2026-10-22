@@ -40,7 +40,7 @@
         {
           "fetch": "https://www.youtube.com/intl/ALL_en/howyoutubeworks/policies/community-guidelines/",
           "select": [
-            "#content"
+            "main"
           ],
           "remove": [
             ".ytr-hero__eyebrow",
@@ -48,7 +48,10 @@
             ".ytr-media",
             "#how-we-support-creators img",
             "#content .hero-section .lb-grid__cell--span-12",
-            "#our-policies-explore-more > div"
+            "#our-policies-explore-more > div",
+            "img",
+            ".glue-grid",
+            ".glue-footer__upper"
           ]
         },
         {
