@@ -31,15 +31,6 @@
     "fetcher": {
       "language": "en-IE, en-GB, en"
     },
-    "reporter": {
-      "githubIssues": {
-        "repositories": {
-          "declarations": "OpenTermsArchive/pga-declarations",
-          "versions": "OpenTermsArchive/pga-versions",
-          "snapshots": "OpenTermsArchive/pga-snapshots"
-        }
-      }
-    },
     "dataset": {
       "title": "pga",
       "versionsRepositoryURL": "https://github.com/OpenTermsArchive/pga-versions"
