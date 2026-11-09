@@ -50,5 +50,19 @@
         "versionUrlTemplate": "https://github.com/OpenTermsArchive/pga-versions/commit/%VERSION_ID"
       }
     }
+  },
+  "@opentermsarchive/issue-reporter": {
+    "type": "github",
+    "repositories": {
+      "declarations": "OpenTermsArchive/pga-declarations",
+      "versions": "OpenTermsArchive/pga-versions",
+      "snapshots": "OpenTermsArchive/pga-snapshots"
+    },
+    "collectionApi": {
+      "url": "http://127.0.0.1:3000/collection-api/v1"
+    },
+    "logger": {
+      "timestampPrefix": false
+    }
   }
 }
